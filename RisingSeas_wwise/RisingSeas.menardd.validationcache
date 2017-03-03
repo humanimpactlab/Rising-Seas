@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="72">
+	<ValidationCacheItem File="C:\Workspace\GitRepos\risingseas\RisingSeas_wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2052043390" DateHigh="30577506"/>
+	<ValidationCacheItem File="C:\Workspace\GitRepos\risingseas\RisingSeas_wwise\Attenuations\Default Work Unit.wwu" DateLow="489112956" DateHigh="30577506"/>
+	<ValidationCacheItem File="C:\Workspace\GitRepos\risingseas\RisingSeas_wwise\Audio Devices\Default Work Unit.wwu" DateLow="489167947" DateHigh="30577506"/>
+	<ValidationCacheItem File="C:\Workspace\GitRepos\risingseas\RisingSeas_wwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="489227943" DateHigh="30577506"/>
+	<ValidationCacheItem File="C:\Workspace\GitRepos\risingseas\RisingSeas_wwise\Conversion Settings\Default Work Unit.wwu" DateLow="489287943" DateHigh="30577506"/>
+	<ValidationCacheItem File="C:\Workspace\GitRepos\risingseas\RisingSeas_wwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="489377943" DateHigh="30577506"/>
+	<ValidationCacheItem File="C:\Workspace\GitRepos\risingseas\RisingSeas_wwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="489437939" DateHigh="30577506"/>
+	<ValidationCacheItem File="C:\Workspace\GitRepos\risingseas\RisingSeas_wwise\Effects\Default Work Unit.wwu" DateLow="489492961" DateHigh="30577506"/>
+	<ValidationCacheItem File="C:\Workspace\GitRepos\risingseas\RisingSeas_wwise\Effects\Factory Effects.wwu" DateLow="489582938" DateHigh="30577506"/>
+	<ValidationCacheItem File="C:\Workspace\GitRepos\risingseas\RisingSeas_wwise\Events\Default Work Unit.wwu" DateLow="1042459649" DateHigh="30577506"/>
+	<ValidationCacheItem File="C:\Workspace\GitRepos\risingseas\RisingSeas_wwise\Game Parameters\Default Work Unit.wwu" DateLow="489707923" DateHigh="30577506"/>
+	<ValidationCacheItem File="C:\Workspace\GitRepos\risingseas\RisingSeas_wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="489887939" DateHigh="30577506"/>
+	<ValidationCacheItem File="C:\Workspace\GitRepos\risingseas\RisingSeas_wwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="489952920" DateHigh="30577506"/>
+	<ValidationCacheItem File="C:\Workspace\GitRepos\risingseas\RisingSeas_wwise\Mixing Sessions\Default Work Unit.wwu" DateLow="490017957" DateHigh="30577506"/>
+	<ValidationCacheItem File="C:\Workspace\GitRepos\risingseas\RisingSeas_wwise\Modulators\Default Work Unit.wwu" DateLow="490067974" DateHigh="30577506"/>
+	<ValidationCacheItem File="C:\Workspace\GitRepos\risingseas\RisingSeas_wwise\Presets\Default Work Unit.wwu" DateLow="515912207" DateHigh="30577506"/>
+	<ValidationCacheItem File="C:\Workspace\GitRepos\risingseas\RisingSeas_wwise\Queries\Default Work Unit.wwu" DateLow="515997249" DateHigh="30577506"/>
+	<ValidationCacheItem File="C:\Workspace\GitRepos\risingseas\RisingSeas_wwise\Queries\Factory Queries.wwu" DateLow="516092108" DateHigh="30577506"/>
+	<ValidationCacheItem File="C:\Workspace\GitRepos\risingseas\RisingSeas_wwise\RisingSeas.menardd.wsettings" DateLow="2124590046" DateHigh="30577506"/>
+	<ValidationCacheItem File="C:\Workspace\GitRepos\risingseas\RisingSeas_wwise\RisingSeas.wproj" DateLow="517112060" DateHigh="30577506"/>
+	<ValidationCacheItem File="C:\Workspace\GitRepos\risingseas\RisingSeas_wwise\SoundBanks\Default Work Unit.wwu" DateLow="517207053" DateHigh="30577506"/>
+	<ValidationCacheItem File="C:\Workspace\GitRepos\risingseas\RisingSeas_wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="517347050" DateHigh="30577506"/>
+	<ValidationCacheItem File="C:\Workspace\GitRepos\risingseas\RisingSeas_wwise\States\Default Work Unit.wwu" DateLow="517437050" DateHigh="30577506"/>
+	<ValidationCacheItem File="C:\Workspace\GitRepos\risingseas\RisingSeas_wwise\Switches\Default Work Unit.wwu" DateLow="517532079" DateHigh="30577506"/>
+	<ValidationCacheItem File="C:\Workspace\GitRepos\risingseas\RisingSeas_wwise\Triggers\Default Work Unit.wwu" DateLow="517622150" DateHigh="30577506"/>
+</ValidationCache>

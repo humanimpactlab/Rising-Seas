@@ -1,0 +1,15 @@
+
+parent_material = "content/levels/BayOrg/buildings/materials/VegetationTransparentMaster"
+textures = {
+	Diffuse_Map = "content/levels/BayOrg/buildings/textures/leaf_hawthorn_mask"
+}
+variables = {
+	leaf_tint = {
+		type = "vector3"
+		value = [
+			0.768951124840288
+			1
+			0.325
+		]
+	}
+}

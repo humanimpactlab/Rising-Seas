@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>C:\Workspace\GitRepos\risingseas\RisingSeas_wwise\</ProjectRoot>
+		<SourceFilesRoot>C:\Workspace\GitRepos\risingseas\RisingSeas_wwise\.cache\Android\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Workspace\GitRepos\risingseas\RisingSeas_wwise\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Workspace\GitRepos\risingseas\RisingSeas_wwise\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="782826392" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\default</ObjectPath>
+			<ShortName>default</ShortName>
+			<Path>default.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

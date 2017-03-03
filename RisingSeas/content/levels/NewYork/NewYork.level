@@ -1,0 +1,655 @@
+
+editor_metadata = {
+	Entities = [
+		{
+			components = {
+				"06b6df02-a5d5-4621-8d3b-0ae8ef3772a0" = {
+					"$component" = {
+						"$resource_name" = "components/fade"
+						"$resource_type" = "component"
+					}
+					fade_value = 0
+				}
+			}
+			id = "8abe8c98-66ea-41e9-a31c-6edfd2a3e4fc"
+			inherit = {
+				"$resource_name" = "core/stingray_renderer/environments/midday/midday_shading_environment"
+				"$resource_type" = "entity"
+			}
+			layer = "Default"
+			name = "Default Shading Environment"
+		}
+	]
+	Flow = {
+		Connections = [
+			{
+				Class = "Stingray.Foundation.Flow.VariableConnection"
+				FromItem = "Unit"
+				FromNode = "56efa3e4-83bd-4295-993f-5c47790cc07b"
+				ToItem = "Unit"
+				ToNode = "674cc2ad-699f-449a-b26c-85eff5c1c898"
+				Type = "Unit"
+			}
+			{
+				Class = "Stingray.Foundation.Flow.EventConnection"
+				FromItem = "Out"
+				FromNode = "c5f6f5f8-1e52-470c-a212-915192995810"
+				Priority = 0
+				ToItem = "In"
+				ToNode = "674cc2ad-699f-449a-b26c-85eff5c1c898"
+			}
+		]
+		Groups = [
+		]
+		Nodes = [
+			{
+				Brief = "References a unit constant"
+				Class = "Stingray.Foundation.Flow.LevelUnit"
+				Id = "56efa3e4-83bd-4295-993f-5c47790cc07b"
+				InEvents = [
+				]
+				InVariableNames = [
+				]
+				InVariables = [
+				]
+				NodeLocation = {
+					X = 40
+					Y = -60
+				}
+				OutEvents = [
+				]
+				OutVariableNames = [
+				]
+				OutVariables = [
+				]
+				SetUnit = {
+					Id = "ca5df9e9-d0de-4fa4-969c-737704de2521"
+				}
+				Title = "Level Unit"
+				Type = "core/units/camera"
+				Unit = {
+				}
+				Width = 160
+			}
+			{
+				Brief = "Passes an event when the level has been loaded into the world."
+				Category = "Event"
+				Class = "Stingray.Foundation.Flow.DataDrivenFlowNode"
+				ExportTypeName = "level_loaded"
+				Id = "c5f6f5f8-1e52-470c-a212-915192995810"
+				NodeLocation = {
+					X = 40
+					Y = 0
+				}
+				Outputs = [
+					{
+						Class = "Stingray.Foundation.Flow.DataDrivenFlowNode+Output"
+						Hidden = false
+						RawName = "out"
+						Type = "event"
+						UIName = "Out"
+					}
+				]
+				Title = "Level Loaded"
+				Width = 160
+			}
+			{
+				Arguments = [
+					{
+						RawName = "Camera"
+						Type = "camera"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.InVariableCamera"
+						}
+					}
+					{
+						RawName = "Unit"
+						Type = "unit"
+						Variable = {
+							Class = "Stingray.Foundation.Flow.InVariableUnit"
+							UseMyUnit = false
+						}
+					}
+				]
+				Brief = "Sets the active camera for the engine."
+				Class = "Stingray.Foundation.Flow.CustomScriptNode"
+				FlowNodesResource = "core/appkit/appkit"
+				FlowNodesResourceKey = "flow_nodes_resource"
+				Id = "674cc2ad-699f-449a-b26c-85eff5c1c898"
+				InEvents = [
+					"In"
+				]
+				IsQuery = false
+				Name = "Set Active Camera"
+				NodeLocation = {
+					X = 320
+					Y = -60
+				}
+				OutEvents = [
+					"Out"
+				]
+				ReturnValues = [
+				]
+				Width = 160
+			}
+		]
+	}
+	Groups = [
+	]
+	Layers = [
+		"Default"
+		"Background"
+	]
+	LevelObjectSets = {
+		NestedSetNamesBySetName = {
+		}
+		ObjectIdsBySetName = {
+		}
+		VisibleSetNames = [
+		]
+	}
+	LevelReferences = [
+	]
+	LightBakeSettings = {
+		Baker = "Beast"
+		ExcludedObjectSets = [
+		]
+		FilterGain = 20
+		FilterType = "Both"
+		IlluminationType = "Both"
+		Layers = [
+		]
+		LightmapType = "Standard"
+		MaxSamples = 96
+		MinSamples = 32
+		QualityPreset = "Low"
+		SkylightIntensityRGB = {
+			X = 1
+			Y = 1
+			Z = 1
+		}
+		TexelScale = 10
+		TotalPasses = 256
+		Variance = 0.5
+	}
+	LuaPluginObjects = [
+	]
+	Navmeshes = [
+	]
+	Notes = [
+	]
+	ParticleEffects = [
+	]
+	PositionMarkers = [
+	]
+	Prototypes = [
+	]
+	Scatter = {
+		PoolSettings = {
+		}
+		ScatterData = {
+		}
+	}
+	Settings = {
+		FrozenLayers = [
+			"Background"
+		]
+		HiddenLayers = [
+		]
+		HiddenObjects = [
+		]
+		LastHiddenObjects = [
+		]
+		SoundEnvironment = ""
+		TimpaniSoundEnvironment = "default"
+	}
+	Sounds = [
+	]
+	Splines = [
+	]
+	Stories = [
+	]
+	Triggers = [
+	]
+	Units = [
+		{
+			Cameras = {
+			}
+			Id = "66aaafbf-aaa3-486e-9aae-cd17c1a8ada7"
+			Layer = "Default"
+			Lights = {
+				light = {
+					Baked = false
+					BoxMax = {
+						X = 10
+						Y = 10
+						Z = 10
+					}
+					BoxMin = {
+						X = -10
+						Y = 0
+						Z = -10
+					}
+					CastShadows = true
+					Color = {
+						A = 255
+						B = 255
+						G = 255
+						R = 255
+					}
+					Enabled = true
+					FalloffEnd = 8
+					FalloffStart = 0
+					Intensity = 4
+					Material = ""
+					MaterialResource = ""
+					ShadowDepthBias = 0.4
+					SpotAngleEnd = 60
+					SpotAngleStart = 0
+					Type = "directional"
+				}
+			}
+			Material = "core/units/light_source"
+			Materials = {
+			}
+			Name = "Sun Light"
+			OverridePoses = {
+			}
+			Pivot = {
+				X = 0
+				Y = 0
+				Z = 0
+			}
+			Pos = {
+				X = 0
+				Y = 0
+				Z = 5
+			}
+			Rot = {
+				W = 0.5
+				X = -0.707106781186547
+				Y = -2.77555756156289E-17
+				Z = 0.5
+			}
+			Scl = {
+				X = 1
+				Y = 1
+				Z = 1
+			}
+			ScriptData = {
+			}
+			Type = "core/units/light_source"
+		}
+		{
+			Cameras = {
+			}
+			Id = "378abdc2-4d3b-4509-887a-f7b2b2923d03"
+			Layer = "Background"
+			Lights = {
+			}
+			Materials = {
+			}
+			Name = "Skydome"
+			OverridePoses = {
+			}
+			Pivot = {
+				X = 0
+				Y = 0
+				Z = 0
+			}
+			Pos = {
+				X = 0
+				Y = 0
+				Z = 0
+			}
+			Rot = {
+				W = 1
+				X = 0
+				Y = 0
+				Z = 0
+			}
+			Scl = {
+				X = 1
+				Y = 1
+				Z = 1
+			}
+			ScriptData = {
+			}
+			Type = "core/editor_slave/units/skydome/skydome"
+		}
+		{
+			Cameras = {
+			}
+			Id = "687e6ee1-5b0b-49f7-8a4c-4d8e8fa642ad"
+			Layer = "Default"
+			Lights = {
+			}
+			Materials = {
+			}
+			Name = "manhattan_opt"
+			OverridePoses = {
+			}
+			Pivot = {
+				X = 0
+				Y = 0
+				Z = 0
+			}
+			Pos = {
+				X = 14.462992
+				Y = 20.394835
+				Z = 0
+			}
+			Rot = {
+				W = -1
+				X = 0
+				Y = 0
+				Z = 0
+			}
+			Scl = {
+				X = 1
+				Y = 1
+				Z = 1
+			}
+			ScriptData = {
+			}
+			Type = "content/levels/NewYork/Models/manhattan_opt"
+		}
+		{
+			Cameras = {
+			}
+			Id = "0b4df0dd-bf89-4a55-9b1b-72a6ac27f984"
+			Layer = "Default"
+			Lights = {
+			}
+			Materials = {
+				material = "content/water/Water"
+			}
+			Name = "water"
+			OverridePoses = {
+			}
+			Pivot = {
+				X = 0
+				Y = 0
+				Z = 0
+			}
+			Pos = {
+				X = 0
+				Y = 0
+				Z = -0.1
+			}
+			Rot = {
+				W = -1
+				X = 0
+				Y = 0
+				Z = 0
+			}
+			Scl = {
+				X = 1000
+				Y = 1000
+				Z = 1
+			}
+			ScriptData = {
+			}
+			Type = "core/units/primitives/plane_primitive"
+		}
+		{
+			Cameras = {
+			}
+			Id = "ca5df9e9-d0de-4fa4-969c-737704de2521"
+			Layer = "Default"
+			Lights = {
+			}
+			Materials = {
+			}
+			Name = "camera"
+			OverridePoses = {
+			}
+			Pivot = {
+				X = 0
+				Y = 0
+				Z = 0
+			}
+			Pos = {
+				X = 10.547919
+				Y = 24.116594
+				Z = 5.235512
+			}
+			Rot = {
+				W = 0.355319
+				X = -0.007786
+				Y = -0.10897
+				Z = 0.928339
+			}
+			Scl = {
+				X = 1
+				Y = 1
+				Z = 1
+			}
+			ScriptData = {
+			}
+			Type = "core/units/camera"
+		}
+	]
+	Volumes = [
+	]
+}
+entities = [
+	{
+		components = {
+			"06b6df02-a5d5-4621-8d3b-0ae8ef3772a0" = {
+				"$component" = {
+					"$resource_name" = "components/fade"
+					"$resource_type" = "component"
+				}
+				fade_value = 0
+			}
+		}
+		id = "8abe8c98-66ea-41e9-a31c-6edfd2a3e4fc"
+		inherit = {
+			"$resource_name" = "core/stingray_renderer/environments/midday/midday_shading_environment"
+			"$resource_type" = "entity"
+		}
+		name = "Default Shading Environment"
+	}
+]
+entity_version = "0.2.0"
+flow = {
+	nodes = [
+		{
+			id = "56efa3e4-83bd-4295-993f-5c47790cc07b"
+			in_event_index = [
+			]
+			out_event_index = [
+			]
+			out_variables = {
+				unit = {
+					type = "unit"
+				}
+			}
+			type = "level_unit"
+			variable_values = {
+				set_unit = {
+					id = "ca5df9e9-d0de-4fa4-969c-737704de2521"
+				}
+				unit = null
+			}
+		}
+		{
+			id = "c5f6f5f8-1e52-470c-a212-915192995810"
+			out_events = {
+				out = [
+					{
+						event = 0
+						id = "674cc2ad-699f-449a-b26c-85eff5c1c898:0"
+						node = "674cc2ad-699f-449a-b26c-85eff5c1c898"
+					}
+				]
+			}
+			type = "level_loaded"
+		}
+		{
+			flow_nodes_resource = "core/appkit/appkit"
+			id = "674cc2ad-699f-449a-b26c-85eff5c1c898"
+			in_variables = {
+				Camera = {
+					type = "camera"
+				}
+				Unit = {
+					node = "56efa3e4-83bd-4295-993f-5c47790cc07b"
+					type = "unit"
+					variable = "unit"
+				}
+			}
+			name = "Set Active Camera"
+			query = false
+			return_values = [
+			]
+			type = "custom_script_node"
+			variable_values = {
+				Camera = null
+				Unit = null
+			}
+			variables = [
+				{
+					name = "Camera"
+					type = "camera"
+				}
+				{
+					name = "Unit"
+					type = "unit"
+				}
+			]
+		}
+	]
+}
+level_references = [
+]
+level_settings = {
+	num_background_units = 0
+	sound_environment = ""
+	timpani_sound_environment = "default"
+}
+navmeshes = [
+]
+object_sets = {
+}
+particle_effects = [
+]
+prototypes = [
+]
+scatter = [
+]
+sounds = [
+]
+splines = [
+]
+stories = [
+]
+triggers = [
+]
+units = [
+	{
+		cameras = {
+		}
+		data = {
+		}
+		id = "66aaafbf-aaa3-486e-9aae-cd17c1a8ada7"
+		lights = {
+			light = {
+				baked = false
+				box_max = [10 10 10]
+				box_min = [-10 0 -10]
+				cast_shadows = true
+				color = [1 1 1]
+				enabled = true
+				falloff_end = 8
+				falloff_start = 0
+				intensity = 4
+				material = ""
+				shadow_depth_bias = 0.4
+				spot_angle_end = 1.0471975511966
+				spot_angle_start = 0
+				type = "directional"
+			}
+		}
+		material = "core/units/light_source"
+		materials = {
+		}
+		name = "Sun Light"
+		pos = [0 0 5]
+		rot = [-0.707106781186547 -2.77555756156289E-17 0.5 0.5]
+		scl = [1 1 1]
+		type = "core/units/light_source"
+	}
+	{
+		cameras = {
+		}
+		data = {
+		}
+		id = "378abdc2-4d3b-4509-887a-f7b2b2923d03"
+		lights = {
+		}
+		material = ""
+		materials = {
+		}
+		name = "Skydome"
+		pos = [0 0 0]
+		rot = [0 0 0 1]
+		scl = [1 1 1]
+		type = "core/editor_slave/units/skydome/skydome"
+	}
+	{
+		cameras = {
+		}
+		data = {
+		}
+		id = "687e6ee1-5b0b-49f7-8a4c-4d8e8fa642ad"
+		lights = {
+		}
+		material = ""
+		materials = {
+		}
+		name = "manhattan_opt"
+		pos = [14.462992 20.394835 0]
+		rot = [0 0 0 -1]
+		scl = [1 1 1]
+		type = "content/levels/NewYork/Models/manhattan_opt"
+	}
+	{
+		cameras = {
+		}
+		data = {
+		}
+		id = "0b4df0dd-bf89-4a55-9b1b-72a6ac27f984"
+		lights = {
+		}
+		material = ""
+		materials = {
+			material = "content/water/Water"
+		}
+		name = "water"
+		pos = [0 0 -0.1]
+		rot = [0 0 0 -1]
+		scl = [1000 1000 1]
+		type = "core/units/primitives/plane_primitive"
+	}
+	{
+		cameras = {
+		}
+		data = {
+		}
+		id = "ca5df9e9-d0de-4fa4-969c-737704de2521"
+		lights = {
+		}
+		material = ""
+		materials = {
+		}
+		name = "camera"
+		pos = [10.547919 24.116594 5.235512]
+		rot = [-0.007786 -0.10897 0.928339 0.355319]
+		scl = [1 1 1]
+		type = "core/units/camera"
+	}
+]
+volumes = [
+]

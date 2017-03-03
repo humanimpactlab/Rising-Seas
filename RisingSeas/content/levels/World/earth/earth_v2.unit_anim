@@ -1,0 +1,20 @@
+
+_data_root_version = 1
+_id = "3161d44a-bebb-4d8a-8f02-37a83b04c5a9"
+_name = "content/levels/World/earth/earth_v2"
+anim_controller_ref = {
+	_id = "0066c9f8-d8e3-4bdc-9920-4fa6a234cbff"
+	ref_filename = null
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "a3a58e5b-2118-4850-bd11-508a0796dd3b"
+	ref_filename = "content/levels/World/earth/earth_v2.anim_skeleton"
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "eae2bf28-f184-434b-bf6d-2b409197ebcd"
+	ref_filename = "content/levels/World/earth/earth_v2.dcc_asset"
+	ref_id = null
+}
+old_unit_name = "content/levels/World/earth/earth_v2"

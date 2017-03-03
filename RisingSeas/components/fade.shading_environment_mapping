@@ -1,0 +1,3 @@
+shading_component_mapping = {
+	fade_value = { type="scalar" path=["fade_value"] }
+}

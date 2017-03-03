@@ -1,0 +1,20 @@
+
+_data_root_version = 1
+_id = "533a400c-4f48-40a4-91ee-f209da01bbd1"
+_name = "content/levels/BayOrg/buildings/silhouette/laron"
+anim_controller_ref = {
+	_id = "71cb9066-45f1-49f3-b53a-e7b6992f35c4"
+	ref_filename = "content/levels/BayOrg/buildings/silhouette/animations/laron.anim_controller"
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "9c11add2-acd5-45e9-836a-9b3a58b02496"
+	ref_filename = "content/levels/BayOrg/buildings/silhouette/live_model.anim_skeleton"
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "3ac4f1f8-b6f5-476a-b3f1-c2439a7a611e"
+	ref_filename = "content/levels/BayOrg/buildings/silhouette/laron.dcc_asset"
+	ref_id = null
+}
+old_unit_name = "common/units/entourage/live_model/laron"

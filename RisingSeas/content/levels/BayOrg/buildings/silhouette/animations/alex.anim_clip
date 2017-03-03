@@ -1,0 +1,48 @@
+
+_data_root_version = 3
+_id = "98086219-d0bd-4439-8cd9-8f1137c261ef"
+_name = "content/levels/BayOrg/buildings/silhouette/animations/alex"
+additive_offset_computation_mode = "First Frame"
+anim_skeleton_ref = {
+	_id = "4dd058e9-05ff-4078-a933-6f38dbd63fc8"
+	ref_filename = "content/levels/BayOrg/buildings/silhouette/live_model.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "6f07aed1-2c98-424a-9c5e-de4cb63f926d"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "5480f05c-073b-43f3-9350-7c6d7c60b878"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "75c6a929-0a0a-4bdc-8572-f180ad50631d"
+	ref_filename = "content/levels/BayOrg/buildings/silhouette/alex.dcc_asset"
+	ref_id = null
+}
+flow_events = [
+]
+global_compression_settings = {
+	_id = "e3c986ac-e5fd-45d6-ba91-7e6ee3d0a121"
+	do_pack_positions = false
+	do_pack_rotations = false
+	do_pack_scales = false
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+offset_animation = false
+offset_pose_animation_clip_ref = {
+	_id = "343ab693-b715-4633-a035-4f4ce8f8e2d3"
+	ref_filename = null
+	ref_id = null
+}
+take_name = "Take 001"

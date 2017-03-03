@@ -1,0 +1,20 @@
+
+_data_root_version = 1
+_id = "54a88526-ddbf-4c59-9661-f5ec695fc686"
+_name = "content/levels/BayOrg/buildings/silhouette/alex"
+anim_controller_ref = {
+	_id = "788e4df9-2f1b-45d8-ba76-5576dbd70563"
+	ref_filename = "content/levels/BayOrg/buildings/silhouette/animations/alex.anim_controller"
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "71721362-3636-4986-bad4-f4959b49c382"
+	ref_filename = "content/levels/BayOrg/buildings/silhouette/live_model.anim_skeleton"
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "d79b6544-9788-4d0f-914a-c34e28ea627b"
+	ref_filename = "content/levels/BayOrg/buildings/silhouette/alex.dcc_asset"
+	ref_id = null
+}
+old_unit_name = "common/units/entourage/live_model/alex"

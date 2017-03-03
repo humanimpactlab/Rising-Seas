@@ -1,0 +1,156 @@
+
+particle_system = {
+	CameraDistance = 10
+	clouds = [
+		{
+			controllers = [
+				{
+					Name = "Emitter: Rate"
+					RateMax = 2
+					RateMin = 1
+					Scale = [
+						[
+							0
+							1
+						]
+						[
+							1
+							1
+						]
+					]
+					type = "rate_emitter"
+				}
+				{
+					CustomHeight = true
+					InitialMax = 20
+					InitialMaxHeight = 8
+					InitialMin = 10
+					InitialMinHeight = 4
+					Name = "Size"
+					Scale = [
+						[
+							0
+							1
+						]
+						[
+							1
+							1
+						]
+					]
+					ScaleHeight = [
+						[
+							0
+							1
+						]
+						[
+							1
+							1
+						]
+					]
+					type = "size"
+					UseSystemLifetime = false
+					UseSystemLifetimeHeight = false
+				}
+				{
+					Gradient = [
+						[
+							0.00513870320855615
+							[
+								255
+								255
+								255
+							]
+						]
+						[
+							0.5
+							[
+								255
+								255
+								255
+							]
+						]
+						[
+							0.999958221925134
+							[
+								255
+								255
+								255
+							]
+						]
+					]
+					LuminanceMax = 1
+					LuminanceMin = 1
+					Name = "Color"
+					Opacity = [
+						[
+							0
+							0
+						]
+						[
+							0.2065
+							0.2034
+						]
+						[
+							0.7876
+							0.2373
+						]
+						[
+							1
+							0
+						]
+					]
+					type = "color_controller"
+				}
+				{
+					MaterialName = "content/levels/BayOrg/particles/Cloud_particle"
+					Name = "Billboard Visualizer"
+					type = "billboard_visualizer"
+				}
+				{
+					MaxX = 2.5
+					MaxY = 0
+					MaxZ = 1
+					MinX = 1
+					MinY = 0
+					MinZ = -1
+					Name = "Velocity: Box"
+					type = "velocity_box"
+				}
+				{
+					MaxX = 10
+					MaxY = 10
+					MaxZ = 0
+					MinX = -10
+					MinY = -10
+					MinZ = 0
+					Name = "Position: Box"
+					type = "position_box"
+				}
+				{
+					Name = "Sort: Billboard"
+					type = "billboard_sort"
+				}
+			]
+			Id = "01b08df5-048b-4769-bce1-ca5111411c20"
+			max_particle_life = 10
+			min_particle_life = 10
+			Mute = false
+			name = "System 1"
+			OffsetX = 0
+			OffsetY = 0
+			OffsetZ = 0
+			Spin = 0
+			Tilt = 0
+			total = 1000
+		}
+	]
+	Level = "core/editor_slave/resources/levels/animation_preview"
+	life_time = 10000000000
+	ShowRuler = true
+	SpawnHeight = 1
+	UseRandomSeed = false
+	Variables = {
+		Variables = [
+		]
+	}
+}

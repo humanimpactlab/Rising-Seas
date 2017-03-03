@@ -1,0 +1,41 @@
+
+data_directory = "../RisingSeas_data"
+description = null
+migrations = {
+	"asset-browser" = {
+		patches = {
+			"replace-fbxasc" = [
+				"successfully applied"
+			]
+		}
+		version = "1.1.1"
+	}
+	navigation = {
+		patches = {
+			"ensure-gwnav-in-project-boot.package" = [
+				"nothing to apply since `gwnav/` already referenced in project: E:\\Github\\RisingSeas\\RisingSeas\\core\\appkit\\lua\\app.lua"
+			]
+			"from-1.0.0-to-1.0.1" = [
+				"successfully applied"
+			]
+			"from-C#-module-to-1.0.0" = [
+				"successfully applied"
+			]
+		}
+		version = "1.0.1"
+	}
+	wwise = {
+		patches = {
+			"wwise2014.1.6_to_wwise2016.1.3" = [
+				[
+					"WwiseCLI.exe executed..."
+				]
+			]
+		}
+		version = "1.7.0"
+	}
+}
+name = "RisingSeas"
+source_directory = "./"
+thumbnail = "thumbnail.png"
+version = "1.7.0.0"

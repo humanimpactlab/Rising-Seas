@@ -1,0 +1,70 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 3.347606
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			2.456192
+			1.900373
+			1.698822
+		]
+		projection_type = "perspective"
+		rotation = [
+			-0.081489
+			-0.16627
+			0.882426
+			0.43248
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+lod = [
+	{
+		bounding_volume = "oleander_01"
+		name = "lod"
+		orientation = "oleander_01"
+		steps = [
+			{
+				renderables = [
+					"oleander_01"
+				]
+				visible_height_range = [
+					1
+					0.01
+				]
+			}
+			{
+				renderables = [
+				]
+				visible_height_range = [
+					0.01
+					0
+				]
+			}
+		]
+	}
+]
+materials = {
+	"Oleander Bark" = "content/levels/BayOrg/buildings/materials/HawthornBark"
+	"Oleander Branch" = "content/levels/BayOrg/buildings/materials/OleanderBranch"
+	"Oleander Flower" = "content/levels/BayOrg/buildings/materials/OleanderFlower"
+}
+renderables = {
+	oleander_01 = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

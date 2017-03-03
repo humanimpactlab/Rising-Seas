@@ -1,0 +1,48 @@
+
+_data_root_version = 3
+_id = "f6af1526-5423-4959-8e82-85cc5b672924"
+_name = "content/levels/BayOrg/buildings/silhouette/animations/laron"
+additive_offset_computation_mode = "First Frame"
+anim_skeleton_ref = {
+	_id = "de7633c9-fd46-43b5-bc48-e68d0e70ff6d"
+	ref_filename = "content/levels/BayOrg/buildings/silhouette/live_model.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "b5f83421-8ae2-44ce-81ba-b70ea72d5366"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "dd5802f3-0f68-4f47-a559-df604ee86931"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "0f199d5b-50e5-4821-abd5-5550a3703f78"
+	ref_filename = "content/levels/BayOrg/buildings/silhouette/laron.dcc_asset"
+	ref_id = null
+}
+flow_events = [
+]
+global_compression_settings = {
+	_id = "b512a73d-e43f-4bd4-8c52-fc88d52261f6"
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+offset_animation = false
+offset_pose_animation_clip_ref = {
+	_id = "c02aef6b-c784-4e5a-91c9-3f59eb3e8196"
+	ref_filename = null
+	ref_id = null
+}
+take_name = "Take 001"

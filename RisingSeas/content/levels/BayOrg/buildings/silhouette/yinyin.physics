@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "H_DDS_MidRes"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "H_DDS_MidRes"
+				template = "default"
+				type = "capsule"
+			}
+		]
+		template = "static"
+	}
+]

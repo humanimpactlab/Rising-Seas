@@ -1,0 +1,35 @@
+
+parent_material = "core/stingray_renderer/shader_import/standard"
+textures = {
+	color_map = "content/levels/BayOrg/buildings/materials/textures/45 cyan"
+}
+variables = {
+	base_color = {
+		type = "vector3"
+		value = [
+			0.175
+			0.139582030770199
+			0.083125
+		]
+	}
+	emissive = {
+		type = "vector3"
+		value = [
+			0
+			0
+			0
+		]
+	}
+	emissive_intensity = {
+		type = "scalar"
+		value = 0
+	}
+	roughness = {
+		type = "scalar"
+		value = 0.8999997
+	}
+	use_color_map = {
+		type = "scalar"
+		value = 0
+	}
+}

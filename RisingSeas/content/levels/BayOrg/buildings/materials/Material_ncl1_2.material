@@ -1,0 +1,42 @@
+
+parent_material = "core/stingray_renderer/shader_import/standard"
+textures = {
+	color_map = "content/levels/BayOrg/buildings/materials/textures/Roofing_Shingles_Composition_Brown"
+}
+variables = {
+	base_color = {
+		type = "vector3"
+		value = [
+			1
+			1
+			1
+		]
+	}
+	emissive = {
+		type = "vector3"
+		value = [
+			0
+			0
+			0
+		]
+	}
+	emissive_intensity = {
+		type = "scalar"
+		value = 0
+	}
+	roughness = {
+		type = "scalar"
+		value = 0.5678057
+	}
+	use_color_map = {
+		type = "scalar"
+		value = 1
+	}
+	uv_scale = {
+		type = "vector2"
+		value = [
+			1
+			-1
+		]
+	}
+}

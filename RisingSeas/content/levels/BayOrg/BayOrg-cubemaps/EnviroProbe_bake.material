@@ -1,0 +1,7 @@
+
+parent_material = "core/stingray_renderer/shaders/deferred_reflection_box"
+textures = {
+	reflection_map = "content/levels/BayOrg/BayOrg-cubemaps/EnviroProbe_specular_bake"
+}
+variables = {
+}

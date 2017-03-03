@@ -1,0 +1,117 @@
+
+shader = {
+	connections = [
+		{
+			destination = {
+				connector_id = "db6bac1d-3931-42bd-bd08-829bfbcbad47"
+				instance_id = "8108ce4c-858f-44da-b52b-94e195762434"
+			}
+			source = {
+				instance_id = "76a189bd-a709-418b-8247-51e248b10d01"
+			}
+		}
+		{
+			destination = {
+				connector_id = "34259752-b962-4b65-92c3-903a57338519"
+				instance_id = "7acb956c-75cf-4d9c-b859-0d5edeff2c60"
+			}
+			source = {
+				instance_id = "8108ce4c-858f-44da-b52b-94e195762434"
+			}
+		}
+	]
+	constants = [
+		{
+			connector_id = "aca690cb-6305-4a2f-bf3d-69183a493db3"
+			id = "e9ad7bce-be13-41f7-a8cd-fbe53e7b3cfb"
+			instance_id = "7acb956c-75cf-4d9c-b859-0d5edeff2c60"
+			value = [
+				100
+				100
+				200
+			]
+		}
+	]
+	groups = [
+	]
+	nodes = [
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "7acb956c-75cf-4d9c-b859-0d5edeff2c60"
+			options = [
+				"435e14e4-556d-4ac1-af14-8dafe63aff8f"
+				"52c7ce01-ee57-4770-914e-727fc1966962"
+			]
+			position = [
+				-40
+				60
+			]
+			samplers = {
+			}
+			type = "core/stingray_renderer/output_nodes/unlit_base"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+				material_variable = {
+					display_name = "Selected"
+					name = "Selected"
+					type = "float"
+					ui = {
+						max = 1
+						min = 0
+						step = 0.001
+						ui_type = "Checkbox"
+					}
+					value = 0
+				}
+			}
+			id = "76a189bd-a709-418b-8247-51e248b10d01"
+			options = [
+			]
+			position = [
+				-460
+				60
+			]
+			samplers = {
+			}
+			title = "Selected"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "8108ce4c-858f-44da-b52b-94e195762434"
+			options = [
+			]
+			position = [
+				-260
+				120
+			]
+			samplers = {
+			}
+			type = "core/shader_nodes/invert"
+		}
+	]
+	version = 3
+}
+textures = {
+}
+variables = {
+	Selected = {
+		type = "scalar"
+		value = 0
+	}
+}

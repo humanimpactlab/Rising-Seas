@@ -1,0 +1,69 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 3.557046
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			1.997728
+			1.976853
+			2.595648
+		]
+		projection_type = "perspective"
+		rotation = [
+			-0.115917
+			-0.279848
+			0.880476
+			0.364705
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+lod = [
+	{
+		bounding_volume = "Line007"
+		name = "lod"
+		orientation = "Line007"
+		steps = [
+			{
+				renderables = [
+					"Line007"
+				]
+				visible_height_range = [
+					1
+					0.01
+				]
+			}
+			{
+				renderables = [
+				]
+				visible_height_range = [
+					0.01
+					0
+				]
+			}
+		]
+	}
+]
+materials = {
+	"Material #57" = "content/levels/BayOrg/buildings/materials/Material #57"
+	"Material #91" = "content/levels/BayOrg/buildings/materials/Material #91"
+}
+renderables = {
+	Line007 = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

@@ -1,0 +1,39 @@
+
+parent_material = "content/levels/BayOrg/buildings/materials/grass"
+textures = {
+	color_map = "content/levels/BayOrg/buildings/textures/sidewalk"
+}
+variables = {
+	base_color = {
+		type = "vector3"
+		value = [
+			0.588
+			0.588
+			0.588
+		]
+	}
+	emissive = {
+		type = "vector3"
+		value = [
+			0
+			0
+			0
+		]
+	}
+	emissive_intensity = {
+		type = "scalar"
+		value = 0
+	}
+	roughness = {
+		type = "scalar"
+		value = 0.8999997
+	}
+	Tiling = {
+		type = "scalar"
+		value = 3
+	}
+	use_color_map = {
+		type = "scalar"
+		value = 1
+	}
+}

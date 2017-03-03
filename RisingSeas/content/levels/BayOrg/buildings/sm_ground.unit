@@ -1,0 +1,30 @@
+
+materials = {
+	Asphalt = "content/levels/BayOrg/buildings/materials/Asphalt"
+	grass = "content/levels/BayOrg/buildings/materials/grass"
+	Ground = "content/levels/BayOrg/Models/ground"
+	"Material #8051" = "content/levels/BayOrg/buildings/materials/Material #8051"
+	ParkFloor = "content/levels/BayOrg/buildings/materials/ParkFloor"
+	Sand = "content/levels/BayOrg/buildings/materials/Sand"
+	Sidewalk = "content/levels/BayOrg/buildings/materials/Sidewalk"
+}
+renderables = {
+	Line002 = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	Plane002 = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

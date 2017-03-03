@@ -1,0 +1,37 @@
+
+aux_buses = [
+]
+banks = {
+	default = {
+		events = [
+		]
+	}
+	Init = {
+		events = [
+		]
+	}
+	New_SoundBank = {
+		events = [
+		]
+	}
+}
+buses = [
+	"Master Audio Bus"
+	"Master Secondary Bus"
+	"MUSIC"
+	"SFX"
+	"VO"
+]
+events = {
+}
+parameters = [
+	"CODE_Volume_Music"
+	"CODE_Volume_SFX"
+	"CODE_Volume_VO"
+]
+state_groups = {
+}
+switch_groups = {
+}
+triggers = [
+]

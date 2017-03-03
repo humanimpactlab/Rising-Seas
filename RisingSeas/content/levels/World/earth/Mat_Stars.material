@@ -1,0 +1,274 @@
+
+shader = {
+	connections = [
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "48303708-45ad-471d-87f1-a772cea4e0bd"
+			}
+			source = {
+				instance_id = "cf9e259e-6f99-4802-9bda-1ccac8898220"
+			}
+		}
+		{
+			destination = {
+				connector_id = "aca690cb-6305-4a2f-bf3d-69183a493db3"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "48303708-45ad-471d-87f1-a772cea4e0bd"
+			}
+		}
+		{
+			destination = {
+				connector_id = "242d1648-a626-445b-9534-bccec094112f"
+				instance_id = "77abefaa-73b3-4da7-8b05-1ccb75d3b6d7"
+			}
+			source = {
+				instance_id = "c8798435-0fb7-45ef-add0-766b638e6e10"
+			}
+		}
+		{
+			destination = {
+				connector_id = "c5823c75-4ae5-4c71-b070-315fa4d03e8e"
+				instance_id = "77abefaa-73b3-4da7-8b05-1ccb75d3b6d7"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "48303708-45ad-471d-87f1-a772cea4e0bd"
+			}
+		}
+		{
+			destination = {
+				connector_id = "c5823c75-4ae5-4c71-b070-315fa4d03e8e"
+				instance_id = "27b5257d-96fe-4d65-b5ff-6935dd1404ad"
+			}
+			source = {
+				instance_id = "77abefaa-73b3-4da7-8b05-1ccb75d3b6d7"
+			}
+		}
+		{
+			destination = {
+				connector_id = "242d1648-a626-445b-9534-bccec094112f"
+				instance_id = "27b5257d-96fe-4d65-b5ff-6935dd1404ad"
+			}
+			source = {
+				instance_id = "1f352d37-36b4-4db8-8159-f41cbb54cb5f"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1164a5ef-4563-4795-b3b5-42825d6df037"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			}
+			source = {
+				instance_id = "27b5257d-96fe-4d65-b5ff-6935dd1404ad"
+			}
+		}
+	]
+	constants = [
+	]
+	groups = [
+	]
+	nodes = [
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			options = [
+			]
+			position = [
+				80
+				60
+			]
+			samplers = {
+			}
+			type = "core/stingray_renderer/output_nodes/standard_base"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "48303708-45ad-471d-87f1-a772cea4e0bd"
+			options = [
+				"fb3f709b-a54a-4e93-ac9f-e9fc76fb8bcd"
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+				"1e067464-12d8-4826-9b72-cfd5765003e3"
+			]
+			position = [
+				-270
+				-11
+			]
+			samplers = {
+				texture_map = {
+					display_name = "Texture"
+					slot_name = "texture_map_cea4e0bd"
+					ui = {
+					}
+				}
+			}
+			type = "core/shader_nodes/sample_texture"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "cf9e259e-6f99-4802-9bda-1ccac8898220"
+			options = [
+			]
+			position = [
+				-460
+				0
+			]
+			samplers = {
+			}
+			type = "core/shader_nodes/texture_coordinate0"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "77abefaa-73b3-4da7-8b05-1ccb75d3b6d7"
+			options = [
+			]
+			position = [
+				-218
+				152
+			]
+			samplers = {
+			}
+			type = "core/shader_nodes/mul"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+				material_variable = {
+					display_name = "Emissive Color"
+					name = "EmissiveColor"
+					type = "float3"
+					ui = {
+						max = [
+							1
+							1
+							1
+						]
+						min = [
+							0
+							0
+							0
+						]
+						step = [
+							0.001
+							0.001
+							0.001
+						]
+						ui_type = "Color"
+					}
+					value = [
+						0
+						0
+						0
+					]
+				}
+			}
+			id = "c8798435-0fb7-45ef-add0-766b638e6e10"
+			options = [
+			]
+			position = [
+				-420
+				180
+			]
+			samplers = {
+			}
+			title = "Emissive Color"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "27b5257d-96fe-4d65-b5ff-6935dd1404ad"
+			options = [
+			]
+			position = [
+				-160
+				280
+			]
+			samplers = {
+			}
+			type = "core/shader_nodes/mul"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+				material_variable = {
+					display_name = "Emissive Power"
+					name = "EmissivePower"
+					type = "float"
+					ui = {
+						max = 100
+						min = 0
+						step = 0.001
+					}
+					value = 0
+				}
+			}
+			id = "1f352d37-36b4-4db8-8159-f41cbb54cb5f"
+			options = [
+			]
+			position = [
+				-340
+				280
+			]
+			samplers = {
+			}
+			title = "Emissive Power"
+			type = "core/shader_nodes/material_variable"
+		}
+	]
+	version = 3
+}
+textures = {
+	texture_map_cea4e0bd = "content/levels/World/earth/textures/tx_stars"
+}
+variables = {
+	EmissiveColor = {
+		type = "vector3"
+		value = [
+			0.588
+			0.588
+			0.588
+		]
+	}
+	EmissivePower = {
+		type = "scalar"
+		value = 1.3
+	}
+}

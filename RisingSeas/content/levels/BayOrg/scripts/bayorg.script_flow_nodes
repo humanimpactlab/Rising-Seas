@@ -1,0 +1,71 @@
+nodes = [
+    {
+        name = "AdjustWaterLevel"
+        args = {
+            water_plane = "unit"
+            value = "string"
+        }
+        function = "BayOrgFlowCallbacks.adjust_water_level"
+        category = "BayOrg"
+    }
+	{
+		name = "SetAlexView"
+		args = {
+			value = "bool"
+		}
+		function = "BayOrgFlowCallbacks.set_alex_view"
+		category = "BayOrg"
+	}
+	{
+		name = "SetLaronView"
+		args = {
+			value = "bool"
+		}
+		function = "BayOrgFlowCallbacks.set_laron_view"
+		category = "BayOrg"
+	}
+	{
+		name = "SetYinYinView"
+		args = {
+			value = "bool"
+		}
+		function = "BayOrgFlowCallbacks.set_yinyin_view"
+		category = "BayOrg"
+	}
+	{
+		name = "SetCityView"
+		args = {
+			value = "bool"
+		}
+		function = "BayOrgFlowCallbacks.set_city_view"
+		category = "BayOrg"
+	}
+	{
+		name = "SetParkView"
+		args = {
+			value = "bool"
+		}
+		function = "BayOrgFlowCallbacks.set_park_view"
+		category = "BayOrg"
+	}
+	{
+		name = "GetBayOrgState"
+		returns = {
+			city = "bool"
+			park = "bool"
+			alex = "bool"
+			laron = "bool"
+			yinyin = "bool"
+		}		
+		function = "BayOrgFlowCallbacks.get_view_state"
+		category = "BayOrg"
+	}
+    {
+        name = "CheckCallToAction"
+        args = {
+            value = "string"
+        }
+        function = "ProjectFlowCallbacks.check_call_to_action"
+        category = "BayOrg"
+    }
+]

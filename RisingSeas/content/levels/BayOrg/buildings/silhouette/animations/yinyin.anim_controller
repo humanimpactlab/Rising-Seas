@@ -1,0 +1,178 @@
+
+_data_root_version = 7
+_id = "851f4af0-d7b1-4ac5-842d-1a003b338169"
+_name = "content/levels/BayOrg/buildings/silhouette/animations/yinyin"
+anim_event_root_folder_name = "Events"
+anim_skeleton_ref = {
+	_id = "a6041b27-6b36-4512-8edb-19e202ab11cd"
+	ref_filename = "content/levels/BayOrg/buildings/silhouette/live_model.anim_skeleton"
+	ref_id = null
+}
+clip_mappings = [
+]
+compiler_data = {
+	bones = "content/levels/BayOrg/buildings/silhouette/live_model"
+	events = {
+		"Anim End" = {
+		}
+	}
+	layers = [
+		{
+			default_state = "yinyin"
+			states = [
+				{
+					animations = [
+						"content/levels/BayOrg/buildings/silhouette/animations/yinyin"
+					]
+					loop_animation = true
+					name = "yinyin"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					transitions = [
+					]
+					weights = [
+						"1.0"
+					]
+				}
+			]
+		}
+	]
+}
+constraint_root_folder_name = "Constraints"
+constraint_target_root_folder_name = "Constraint Targets"
+constraint_targets = {
+	_id = "ea687975-d05c-49ba-8f8c-f1361693188c"
+	_name = "Constraint Targets"
+	data_list = [
+	]
+	sub_folders = [
+	]
+}
+constraints = {
+	_id = "d7f709e3-7ada-4337-a03b-e26045efa5ee"
+	_name = "Constraints"
+	data_list = [
+	]
+	sub_folders = [
+	]
+}
+events = {
+	_id = "70104ff8-ec6e-4ece-bded-742d6d119d15"
+	_name = "Events"
+	data_list = [
+		{
+			_id = "0e65984b-08ad-42f3-87c1-fa86027d9e67"
+			_name = "Anim End"
+		}
+	]
+	sub_folders = [
+	]
+}
+layers = [
+	{
+		_id = "a9de077e-ea6a-4c48-a404-67059db72ebf"
+		_name = "Base"
+		anim_blend_set_ref = {
+			_id = "bb850fa7-a198-4218-9a58-32b655c72ed1"
+			ref_filename = null
+			ref_id = null
+		}
+		blend_states = [
+		]
+		constraints = [
+		]
+		default_state_ref = {
+			_id = "cf88b1c4-fb82-466d-8744-cf3f5e2bce30"
+			ref_filename = null
+			ref_id = "1f624b40-7c37-4c09-8c85-c3e9dcef4296"
+		}
+		empty_states = [
+		]
+		group_states = [
+		]
+		notes = [
+		]
+		ragdoll_states = [
+		]
+		shortcut_states = [
+		]
+		states = [
+			{
+				_id = "1f624b40-7c37-4c09-8c85-c3e9dcef4296"
+				_name = "yinyin"
+				anim_blend_set_ref = {
+					_id = "79d765a0-f4d2-42aa-b463-6952a464e2a4"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "78534b24-92ca-4a3e-a0ab-f7473d508b34"
+						ref_filename = "content/levels/BayOrg/buildings/silhouette/animations/yinyin.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "e1e3ae2d-f561-415f-86c0-538c3a7ac379"
+					ref_filename = null
+					ref_id = "0e65984b-08ad-42f3-87c1-fa86027d9e67"
+				}
+				group_transitions = [
+				]
+				inherit_anim_blend_set = true
+				inherit_constraints = true
+				inherit_muted_layers = true
+				loop_animation = true
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				transitions = [
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = 175
+				y = 175
+			}
+		]
+		time_states = [
+		]
+	}
+]
+ragdoll_root_folder_name = "Ragdolls"
+ragdolls = {
+	_id = "3d334ea1-5187-4812-9fe7-aab43a3783b4"
+	_name = "Ragdolls"
+	data_list = [
+	]
+	sub_folders = [
+	]
+}
+setup = {
+	_id = "e1f092a0-ec48-4e02-bb8f-5877bac953f8"
+	level = ""
+	unit_ref = {
+		_id = "72261023-1e06-42bc-9b6e-c6b62b4f3835"
+		ref_filename = null
+		ref_id = null
+	}
+}
+variable_root_folder_name = "Variables"
+variables = {
+	_id = "a424e364-d3b9-4a0d-b018-131f2fe7712e"
+	_name = "Variables"
+	data_list = [
+	]
+	sub_folders = [
+	]
+}

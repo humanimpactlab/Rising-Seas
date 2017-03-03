@@ -1,0 +1,37 @@
+
+parent_material = "content/levels/BayOrg/buildings/materials/VegetationTransparentMaster"
+textures = {
+}
+variables = {
+	branch_tint = {
+		type = "vector3"
+		value = [
+			0.621357142857143
+			1
+			0.487
+		]
+	}
+	leaf_tint = {
+		type = "vector3"
+		value = [
+			1
+			0.976470588235294
+			0.211764705882353
+		]
+	}
+	subsurface_power = {
+		type = "vector3"
+		value = [
+			1
+			1
+			1
+		]
+	}
+	wind_amp_freq = {
+		type = "vector2"
+		value = [
+			0.03
+			0.26
+		]
+	}
+}

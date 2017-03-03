@@ -1,0 +1,70 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 2.7997
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			1.67632
+			1.639016
+			2.107323
+		]
+		projection_type = "perspective"
+		rotation = [
+			-0.115917
+			-0.279848
+			0.880476
+			0.364705
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+lod = [
+	{
+		bounding_volume = "hibiscus_01"
+		name = "lod"
+		orientation = "hibiscus_01"
+		steps = [
+			{
+				renderables = [
+					"hibiscus_01"
+				]
+				visible_height_range = [
+					1
+					0.01
+				]
+			}
+			{
+				renderables = [
+				]
+				visible_height_range = [
+					0.01
+					0
+				]
+			}
+		]
+	}
+]
+materials = {
+	"Hibiscus Bark" = "content/levels/BayOrg/buildings/materials/OleanderBark"
+	"Hibiscus Branch" = "content/levels/BayOrg/buildings/materials/HibiscusBranch"
+	"Hibiscus Flower" = "content/levels/BayOrg/buildings/materials/HibiscusFlower"
+}
+renderables = {
+	hibiscus_01 = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}
