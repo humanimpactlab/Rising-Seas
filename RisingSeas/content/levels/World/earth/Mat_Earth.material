@@ -1,0 +1,479 @@
+
+shader = {
+	connections = [
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "d1bf6fec-ec79-4ed7-9f61-986a13379c3f"
+			}
+			source = {
+				instance_id = "5a98b2bb-9a37-41c8-a9aa-94f7d8c8e873"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "308474d8-961d-4c2c-9106-056c573ea92b"
+			}
+			source = {
+				instance_id = "5a98b2bb-9a37-41c8-a9aa-94f7d8c8e873"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "d05b4fbb-843e-4e61-84ed-3e89a58ace0a"
+			}
+			source = {
+				instance_id = "5a98b2bb-9a37-41c8-a9aa-94f7d8c8e873"
+			}
+		}
+		{
+			destination = {
+				connector_id = "b1c86408-aacb-4466-b754-ddcf37a3a2c8"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "308474d8-961d-4c2c-9106-056c573ea92b"
+			}
+		}
+		{
+			destination = {
+				connector_id = "aca690cb-6305-4a2f-bf3d-69183a493db3"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "d1bf6fec-ec79-4ed7-9f61-986a13379c3f"
+			}
+		}
+		{
+			destination = {
+				connector_id = "36ba46d2-f6ea-4e60-a428-fdc17c75bc62"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			}
+			select = [
+				"r"
+			]
+			source = {
+				instance_id = "d05b4fbb-843e-4e61-84ed-3e89a58ace0a"
+			}
+		}
+		{
+			destination = {
+				connector_id = "242d1648-a626-445b-9534-bccec094112f"
+				instance_id = "079b37e9-c873-4691-bbd9-10221903b3da"
+			}
+			source = {
+				instance_id = "464027c9-ce70-47c3-bdb5-adef9ddca552"
+			}
+		}
+		{
+			destination = {
+				connector_id = "c5823c75-4ae5-4c71-b070-315fa4d03e8e"
+				instance_id = "079b37e9-c873-4691-bbd9-10221903b3da"
+			}
+			source = {
+				instance_id = "61350dc6-9fcc-4bdc-abe8-ad1cafbc67d2"
+			}
+		}
+		{
+			destination = {
+				connector_id = "b89878f6-57bc-4491-9825-e28d1a96a519"
+				instance_id = "464027c9-ce70-47c3-bdb5-adef9ddca552"
+			}
+			source = {
+				instance_id = "f61a655c-5fb8-411b-8111-1527f8c2e7c7"
+			}
+		}
+		{
+			destination = {
+				connector_id = "904b4365-2955-4899-b615-62a05f0d5726"
+				instance_id = "464027c9-ce70-47c3-bdb5-adef9ddca552"
+			}
+			source = {
+				instance_id = "be83b322-b3fb-47c5-9c77-2c3b3a87269d"
+			}
+		}
+		{
+			destination = {
+				connector_id = "c5823c75-4ae5-4c71-b070-315fa4d03e8e"
+				instance_id = "a646cca2-5b26-416b-81d7-21b056857f2f"
+			}
+			source = {
+				instance_id = "079b37e9-c873-4691-bbd9-10221903b3da"
+			}
+		}
+		{
+			destination = {
+				connector_id = "242d1648-a626-445b-9534-bccec094112f"
+				instance_id = "a646cca2-5b26-416b-81d7-21b056857f2f"
+			}
+			source = {
+				instance_id = "c2388828-3c33-475c-8345-487b1238ccd4"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1164a5ef-4563-4795-b3b5-42825d6df037"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			}
+			source = {
+				instance_id = "a646cca2-5b26-416b-81d7-21b056857f2f"
+			}
+		}
+	]
+	constants = [
+	]
+	groups = [
+	]
+	nodes = [
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			options = [
+			]
+			position = [
+				0
+				0
+			]
+			samplers = {
+			}
+			type = "core/stingray_renderer/output_nodes/standard_base"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "d1bf6fec-ec79-4ed7-9f61-986a13379c3f"
+			options = [
+				"fb3f709b-a54a-4e93-ac9f-e9fc76fb8bcd"
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+				"1e067464-12d8-4826-9b72-cfd5765003e3"
+			]
+			position = [
+				-560
+				-160
+			]
+			samplers = {
+				texture_map = {
+					display_name = "Base Map"
+					slot_name = "texture_map_13379c3f"
+					ui = {
+					}
+				}
+			}
+			title = "Base Map"
+			type = "core/shader_nodes/sample_texture"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "308474d8-961d-4c2c-9106-056c573ea92b"
+			options = [
+				"fb3f709b-a54a-4e93-ac9f-e9fc76fb8bcd"
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+				"1e067464-12d8-4826-9b72-cfd5765003e3"
+			]
+			position = [
+				-560
+				40
+			]
+			samplers = {
+				texture_map = {
+					display_name = "Normal Map"
+					slot_name = "texture_map_573ea92b"
+					ui = {
+					}
+				}
+			}
+			title = "Normal Map"
+			type = "core/shader_nodes/sample_texture"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "d05b4fbb-843e-4e61-84ed-3e89a58ace0a"
+			options = [
+				"fb3f709b-a54a-4e93-ac9f-e9fc76fb8bcd"
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+				"1e067464-12d8-4826-9b72-cfd5765003e3"
+			]
+			position = [
+				-560
+				220
+			]
+			samplers = {
+				texture_map = {
+					display_name = "Water Map"
+					slot_name = "texture_map_a58ace0a"
+					ui = {
+					}
+				}
+			}
+			title = "Water Map"
+			type = "core/shader_nodes/sample_texture"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "5a98b2bb-9a37-41c8-a9aa-94f7d8c8e873"
+			options = [
+			]
+			position = [
+				-980
+				80
+			]
+			samplers = {
+			}
+			type = "core/shader_nodes/texture_coordinate0"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "464027c9-ce70-47c3-bdb5-adef9ddca552"
+			options = [
+				"8e67341f-137f-4555-9e8c-fae0e41d3d0d"
+			]
+			position = [
+				-300
+				300
+			]
+			samplers = {
+			}
+			type = "core/shader_nodes/fresnel"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "079b37e9-c873-4691-bbd9-10221903b3da"
+			options = [
+			]
+			position = [
+				-60
+				346
+			]
+			samplers = {
+			}
+			type = "core/shader_nodes/mul"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+				material_variable = {
+					display_name = "Stratosphere Color"
+					name = "StratosphereColor"
+					type = "float3"
+					ui = {
+						max = [
+							1
+							1
+							1
+						]
+						min = [
+							0
+							0
+							0
+						]
+						step = [
+							0.001
+							0.001
+							0.001
+						]
+						ui_type = "Color"
+					}
+					value = [
+						0
+						0
+						0
+					]
+				}
+			}
+			id = "61350dc6-9fcc-4bdc-abe8-ad1cafbc67d2"
+			options = [
+			]
+			position = [
+				-280
+				260
+			]
+			samplers = {
+			}
+			title = "Stratosphere Color"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+				material_variable = {
+					display_name = "Fresnel Min"
+					name = "FresnelMin"
+					type = "float"
+					ui = {
+						max = 1
+						min = 0
+						step = 0.001
+						ui_type = "NumberSlider"
+					}
+					value = 0
+				}
+			}
+			id = "be83b322-b3fb-47c5-9c77-2c3b3a87269d"
+			options = [
+			]
+			position = [
+				-560
+				340
+			]
+			samplers = {
+			}
+			title = "Fresnel Min"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+				material_variable = {
+					display_name = "Fresnel Max"
+					name = "FresnelMax"
+					type = "float"
+					ui = {
+						max = 1
+						min = 0
+						step = 0.001
+						ui_type = "NumberSlider"
+					}
+					value = 0
+				}
+			}
+			id = "f61a655c-5fb8-411b-8111-1527f8c2e7c7"
+			options = [
+			]
+			position = [
+				-560
+				380
+			]
+			samplers = {
+			}
+			title = "Fresnel Max"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "a646cca2-5b26-416b-81d7-21b056857f2f"
+			options = [
+			]
+			position = [
+				120
+				340
+			]
+			samplers = {
+			}
+			type = "core/shader_nodes/mul"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+				material_variable = {
+					display_name = "Strato Power"
+					name = "StratoPower"
+					type = "float"
+					ui = {
+						max = 100
+						min = 0
+						step = 0.001
+					}
+					value = 0
+				}
+			}
+			id = "c2388828-3c33-475c-8345-487b1238ccd4"
+			options = [
+			]
+			position = [
+				-260
+				440
+			]
+			samplers = {
+			}
+			title = "Strato Power"
+			type = "core/shader_nodes/material_variable"
+		}
+	]
+	version = 3
+}
+textures = {
+	texture_map_13379c3f = "content/levels/World/earth/textures/TX_earth_d2"
+	texture_map_573ea92b = "content/levels/World/earth/textures/TX_Earth_N"
+	texture_map_a58ace0a = "content/levels/World/earth/textures/TX_Earth_Water"
+}
+variables = {
+	FresnelMax = {
+		type = "scalar"
+		value = 1
+	}
+	FresnelMin = {
+		type = "scalar"
+		value = 0.747
+	}
+	StratoPower = {
+		type = "scalar"
+		value = 0.5
+	}
+	StratosphereColor = {
+		type = "vector3"
+		value = [
+			0.137
+			0.365235473352174
+			1
+		]
+	}
+}

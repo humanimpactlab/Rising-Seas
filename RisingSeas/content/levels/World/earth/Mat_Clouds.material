@@ -1,0 +1,272 @@
+
+shader = {
+	connections = [
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "e3367f0d-0c59-47b2-85f5-99b61e0d6898"
+			}
+			source = {
+				instance_id = "d53a47a5-2584-4b47-8e83-3b0a72fb3701"
+			}
+		}
+		{
+			destination = {
+				connector_id = "aca690cb-6305-4a2f-bf3d-69183a493db3"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			}
+			source = {
+				instance_id = "e65984ce-c2c7-4875-9809-4ed80c838932"
+			}
+		}
+		{
+			destination = {
+				connector_id = "242d1648-a626-445b-9534-bccec094112f"
+				instance_id = "4094bf58-af0f-483c-9cc5-4c743f22d34c"
+			}
+			source = {
+				instance_id = "4f4c9979-b991-4aeb-b878-3501cc7293ed"
+			}
+		}
+		{
+			destination = {
+				connector_id = "c5823c75-4ae5-4c71-b070-315fa4d03e8e"
+				instance_id = "4094bf58-af0f-483c-9cc5-4c743f22d34c"
+			}
+			source = {
+				instance_id = "e3367f0d-0c59-47b2-85f5-99b61e0d6898"
+			}
+		}
+		{
+			destination = {
+				connector_id = "34259752-b962-4b65-92c3-903a57338519"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			}
+			select = [
+				"r"
+			]
+			source = {
+				instance_id = "4094bf58-af0f-483c-9cc5-4c743f22d34c"
+			}
+		}
+		{
+			destination = {
+				connector_id = "36ba46d2-f6ea-4e60-a428-fdc17c75bc62"
+				instance_id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			}
+			source = {
+				instance_id = "0504e334-fd73-4d23-9ff8-da3c2182436d"
+			}
+		}
+	]
+	constants = [
+		{
+			connector_id = "c4d6bc08-c489-430f-a836-ed490e59c3f9"
+			id = "d6f25640-751e-4fd6-9048-f875cb4e9370"
+			instance_id = "0504e334-fd73-4d23-9ff8-da3c2182436d"
+			value = [
+				10
+			]
+		}
+	]
+	groups = [
+	]
+	nodes = [
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "abbaabba-abba-abba-abba-abbaabbaabba"
+			options = [
+				"dd7fcf97-0627-48ab-b29a-95b5685bb123"
+			]
+			position = [
+				0
+				0
+			]
+			samplers = {
+			}
+			type = "core/stingray_renderer/output_nodes/standard_base"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "e3367f0d-0c59-47b2-85f5-99b61e0d6898"
+			options = [
+				"fb3f709b-a54a-4e93-ac9f-e9fc76fb8bcd"
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+				"1e067464-12d8-4826-9b72-cfd5765003e3"
+			]
+			position = [
+				-380
+				0
+			]
+			samplers = {
+				texture_map = {
+					display_name = "CloudMap"
+					slot_name = "texture_map_1e0d6898"
+					ui = {
+					}
+				}
+			}
+			title = "CloudMap"
+			type = "core/shader_nodes/sample_texture"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "d53a47a5-2584-4b47-8e83-3b0a72fb3701"
+			options = [
+			]
+			position = [
+				-600
+				60
+			]
+			samplers = {
+			}
+			type = "core/shader_nodes/texture_coordinate0"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+				material_variable = {
+					display_name = "CloudColor"
+					name = "cloudcolor"
+					type = "float3"
+					ui = {
+						max = [
+							1
+							1
+							1
+						]
+						min = [
+							0
+							0
+							0
+						]
+						step = [
+							0.001
+							0.001
+							0.001
+						]
+						ui_type = "Color"
+					}
+					value = [
+						0
+						0
+						0
+					]
+				}
+			}
+			id = "e65984ce-c2c7-4875-9809-4ed80c838932"
+			options = [
+			]
+			position = [
+				-380
+				-40
+			]
+			samplers = {
+			}
+			title = "CloudColor"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+				material_variable = {
+					display_name = "Cloud Opacity"
+					name = "CloudOpacity"
+					type = "float"
+					ui = {
+						max = 1
+						min = 0
+						step = 0.001
+					}
+					value = 0
+				}
+			}
+			id = "4f4c9979-b991-4aeb-b878-3501cc7293ed"
+			options = [
+			]
+			position = [
+				-520
+				180
+			]
+			samplers = {
+			}
+			title = "Cloud Opacity"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "4094bf58-af0f-483c-9cc5-4c743f22d34c"
+			options = [
+			]
+			position = [
+				-273
+				124
+			]
+			samplers = {
+			}
+			type = "core/shader_nodes/mul"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "0504e334-fd73-4d23-9ff8-da3c2182436d"
+			options = [
+			]
+			position = [
+				-200
+				220
+			]
+			samplers = {
+			}
+			type = "core/shader_nodes/constant_scalar"
+		}
+	]
+	version = 3
+}
+textures = {
+	texture_map_1e0d6898 = "content/levels/World/earth/textures/TX_Earth_CloudMap"
+}
+variables = {
+	cloudcolor = {
+		type = "vector3"
+		value = [
+			0.888
+			0.888
+			0.888
+		]
+	}
+	CloudOpacity = {
+		type = "scalar"
+		value = 0.84
+	}
+}

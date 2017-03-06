@@ -1,0 +1,7 @@
+
+parent_material = "content/levels/BayOrg/buildings/materials/VegetationTransparentMaster"
+textures = {
+	Diffuse_Map = "content/levels/BayOrg/buildings/textures/branch_thin_mask"
+}
+variables = {
+}

@@ -1,0 +1,44 @@
+
+_data_root_version = 1
+_id = "c4fd2c4c-545c-44e3-94c9-e784bf9b95ea"
+_name = "content/levels/World/earth/earth_v2"
+anim_blend_sets = [
+]
+anim_bones = [
+	{
+		_id = "8a7ef510-165d-4569-937e-3b7291f63cf5"
+		_name = "StingrayEntityRoot"
+		lod_level = 5
+	}
+	{
+		_id = "983fa18e-f9da-4a34-b9aa-7aeb03547606"
+		_name = "FbxAxisSystem_ConvertNode"
+		lod_level = 5
+	}
+	{
+		_id = "39031ccf-fc6f-4ab4-a41f-cdf3d6d6b95f"
+		_name = "Bone001"
+		lod_level = 5
+	}
+	{
+		_id = "111efcec-9c35-45ed-92ad-d76792afc49d"
+		_name = "SM_Clouds"
+		lod_level = 5
+	}
+	{
+		_id = "06ae625a-08e0-44b1-8400-4c14c2c03e3b"
+		_name = "Sphere001"
+		lod_level = 5
+	}
+]
+dcc_asset_ref = {
+	_id = "6f42d39f-2bb7-468d-921a-ac360486df23"
+	ref_filename = "content/levels/World/earth/earth_v2.dcc_asset"
+	ref_id = null
+}
+default_bonelod_and_maxlod_count = 5
+locomotion_root_bone_ref = {
+	_id = "d804b2ca-7e7d-458e-84ce-0e9d325ff90a"
+	ref_filename = null
+	ref_id = null
+}

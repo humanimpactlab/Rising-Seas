@@ -1,0 +1,70 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 1.894929
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			1.066558
+			1.080193
+			1.605706
+		]
+		projection_type = "perspective"
+		rotation = [
+			-0.115917
+			-0.279848
+			0.880476
+			0.364705
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+lod = [
+	{
+		bounding_volume = "prototype_env_tree_02"
+		name = "lod"
+		orientation = "prototype_env_tree_02"
+		steps = [
+			{
+				renderables = [
+					"prototype_env_tree_02"
+				]
+				visible_height_range = [
+					1
+					0.01
+				]
+			}
+			{
+				renderables = [
+				]
+				visible_height_range = [
+					0.01
+					0
+				]
+			}
+		]
+	}
+]
+materials = {
+	M_MapleBark_01 = "content/levels/BayOrg/buildings/materials/HawthornBark"
+	M_MapleBranch_01 = "content/levels/BayOrg/buildings/materials/HawthornBranch"
+	M_MapleLeaf_01 = "content/levels/BayOrg/buildings/materials/HawthornLeaf"
+}
+renderables = {
+	prototype_env_tree_02 = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

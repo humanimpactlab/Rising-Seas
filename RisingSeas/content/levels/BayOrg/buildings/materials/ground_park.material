@@ -1,0 +1,11 @@
+
+parent_material = "content/levels/BayOrg/buildings/materials/grass"
+textures = {
+	color_map = "content/levels/BayOrg/buildings/textures/ground"
+}
+variables = {
+	Tiling = {
+		type = "scalar"
+		value = 7
+	}
+}

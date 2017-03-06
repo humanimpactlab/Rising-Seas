@@ -1,0 +1,20 @@
+
+_data_root_version = 1
+_id = "0cf1c779-f83a-4664-99f7-cc87983ed1a4"
+_name = "content/levels/World/location_pin/pin"
+anim_controller_ref = {
+	_id = "c2e53614-fcb5-48c8-97d8-9902fdc0d5f8"
+	ref_filename = null
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "da42c665-5cce-44fe-9e48-c18af091b4ed"
+	ref_filename = "content/levels/World/location_pin/pin.anim_skeleton"
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "013c3dd6-3e95-4063-a37c-134729ffee39"
+	ref_filename = "content/levels/World/location_pin/pin.dcc_asset"
+	ref_id = null
+}
+old_unit_name = "content/levels/World/location_pin/pin"

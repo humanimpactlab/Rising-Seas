@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "Sphere001"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "Sphere001"
+				template = "default"
+				type = "capsule"
+			}
+		]
+		template = "keyframed"
+	}
+]

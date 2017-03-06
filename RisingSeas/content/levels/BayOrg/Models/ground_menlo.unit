@@ -1,0 +1,15 @@
+
+materials = {
+	menlo_ground = "content/levels/BayOrg/materials/menlo_ground"
+}
+renderables = {
+	ground_menlo_01 = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

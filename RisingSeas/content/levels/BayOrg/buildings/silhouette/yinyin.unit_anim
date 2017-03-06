@@ -1,0 +1,20 @@
+
+_data_root_version = 1
+_id = "f010ebbc-44b4-455f-8013-937f7d322a1b"
+_name = "content/levels/BayOrg/buildings/silhouette/yinyin"
+anim_controller_ref = {
+	_id = "89215b44-67d9-4c96-9083-19a016dac011"
+	ref_filename = "content/levels/BayOrg/buildings/silhouette/animations/yinyin.anim_controller"
+	ref_id = null
+}
+anim_skeleton_ref = {
+	_id = "d1b078a1-dfd7-4253-8519-fa1b3067f5db"
+	ref_filename = "content/levels/BayOrg/buildings/silhouette/live_model.anim_skeleton"
+	ref_id = null
+}
+dcc_asset_ref = {
+	_id = "6257f449-62ad-42fd-8ba4-580c5be8136e"
+	ref_filename = "content/levels/BayOrg/buildings/silhouette/yinyin.dcc_asset"
+	ref_id = null
+}
+old_unit_name = "common/units/entourage/live_model/yinyin"

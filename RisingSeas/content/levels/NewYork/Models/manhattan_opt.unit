@@ -1,0 +1,585 @@
+
+materials = {
+	Material = "content/levels/NewYork/Models/Material"
+	"Material #25" = "content/levels/NewYork/Models/Material #25"
+	Material_ncl1_1 = "content/levels/NewYork/Models/Material_ncl1_1"
+	Material_ncl1_10 = "content/levels/NewYork/Models/Material_ncl1_10"
+	Material_ncl1_11 = "content/levels/NewYork/Models/Material_ncl1_11"
+	Material_ncl1_12 = "content/levels/NewYork/Models/Material_ncl1_12"
+	Material_ncl1_13 = "content/levels/NewYork/Models/Material_ncl1_13"
+	Material_ncl1_14 = "content/levels/NewYork/Models/Material_ncl1_14"
+	Material_ncl1_15 = "content/levels/NewYork/Models/Material_ncl1_15"
+	Material_ncl1_16 = "content/levels/NewYork/Models/Material_ncl1_16"
+	Material_ncl1_17 = "content/levels/NewYork/Models/Material_ncl1_17"
+	Material_ncl1_18 = "content/levels/NewYork/Models/Material_ncl1_18"
+	Material_ncl1_19 = "content/levels/NewYork/Models/Material_ncl1_19"
+	Material_ncl1_2 = "content/levels/NewYork/Models/Material_ncl1_2"
+	Material_ncl1_20 = "content/levels/NewYork/Models/Material_ncl1_20"
+	Material_ncl1_21 = "content/levels/NewYork/Models/Material_ncl1_21"
+	Material_ncl1_22 = "content/levels/NewYork/Models/Material_ncl1_22"
+	Material_ncl1_23 = "content/levels/NewYork/Models/Material_ncl1_23"
+	Material_ncl1_24 = "content/levels/NewYork/Models/Material_ncl1_24"
+	Material_ncl1_25 = "content/levels/NewYork/Models/Material_ncl1_25"
+	Material_ncl1_26 = "content/levels/NewYork/Models/Material_ncl1_26"
+	Material_ncl1_27 = "content/levels/NewYork/Models/Material_ncl1_27"
+	Material_ncl1_28 = "content/levels/NewYork/Models/Material_ncl1_28"
+	Material_ncl1_29 = "content/levels/NewYork/Models/Material_ncl1_29"
+	Material_ncl1_3 = "content/levels/NewYork/Models/Material_ncl1_3"
+	Material_ncl1_30 = "content/levels/NewYork/Models/Material_ncl1_30"
+	Material_ncl1_31 = "content/levels/NewYork/Models/Material_ncl1_31"
+	Material_ncl1_32 = "content/levels/NewYork/Models/Material_ncl1_32"
+	Material_ncl1_33 = "content/levels/NewYork/Models/Material_ncl1_33"
+	Material_ncl1_34 = "content/levels/NewYork/Models/Material_ncl1_34"
+	Material_ncl1_35 = "content/levels/NewYork/Models/Material_ncl1_35"
+	Material_ncl1_36 = "content/levels/NewYork/Models/Material_ncl1_36"
+	Material_ncl1_37 = "content/levels/NewYork/Models/Material_ncl1_37"
+	Material_ncl1_38 = "content/levels/NewYork/Models/Material_ncl1_38"
+	Material_ncl1_39 = "content/levels/NewYork/Models/Material_ncl1_39"
+	Material_ncl1_4 = "content/levels/NewYork/Models/Material_ncl1_4"
+	Material_ncl1_40 = "content/levels/NewYork/Models/Material_ncl1_40"
+	Material_ncl1_41 = "content/levels/NewYork/Models/Material_ncl1_41"
+	Material_ncl1_42 = "content/levels/NewYork/Models/Material_ncl1_42"
+	Material_ncl1_43 = "content/levels/NewYork/Models/Material_ncl1_43"
+	Material_ncl1_44 = "content/levels/NewYork/Models/Material_ncl1_44"
+	Material_ncl1_45 = "content/levels/NewYork/Models/Material_ncl1_45"
+	Material_ncl1_46 = "content/levels/NewYork/Models/Material_ncl1_46"
+	Material_ncl1_47 = "content/levels/NewYork/Models/Material_ncl1_47"
+	Material_ncl1_48 = "content/levels/NewYork/Models/Material_ncl1_48"
+	Material_ncl1_49 = "content/levels/NewYork/Models/Material_ncl1_49"
+	Material_ncl1_5 = "content/levels/NewYork/Models/Material_ncl1_5"
+	Material_ncl1_50 = "content/levels/NewYork/Models/Material_ncl1_50"
+	Material_ncl1_51 = "content/levels/NewYork/Models/Material_ncl1_51"
+	Material_ncl1_52 = "content/levels/NewYork/Models/Material_ncl1_52"
+	Material_ncl1_53 = "content/levels/NewYork/Models/Material_ncl1_53"
+	Material_ncl1_54 = "content/levels/NewYork/Models/Material_ncl1_54"
+	Material_ncl1_55 = "content/levels/NewYork/Models/Material_ncl1_55"
+	Material_ncl1_6 = "content/levels/NewYork/Models/Material_ncl1_6"
+	Material_ncl1_7 = "content/levels/NewYork/Models/Material_ncl1_7"
+	Material_ncl1_8 = "content/levels/NewYork/Models/Material_ncl1_8"
+	Material_ncl1_9 = "content/levels/NewYork/Models/Material_ncl1_9"
+	SideMap = "content/levels/NewYork/Models/SideMap"
+}
+renderables = {
+	"Mesh 1" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_1" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_10" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_11" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_12" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_13" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_14" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_15" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_16" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_17" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_18" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_19" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_2" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_20" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_21" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_22" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_23" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_24" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_25" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_26" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_27" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_28" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_29" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_3" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_30" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_31" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_32" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_33" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_34" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_35" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_36" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_37" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_38" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_39" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_4" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_40" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_41" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_42" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_43" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_44" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_45" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_46" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_47" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_48" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_49" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_5" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_50" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_51" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_52" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_53" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_54" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_55" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_56" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_57" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_6" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_7" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_8" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+	"Mesh 1_ncl1_9" = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

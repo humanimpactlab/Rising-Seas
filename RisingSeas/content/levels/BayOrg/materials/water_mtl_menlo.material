@@ -1,0 +1,888 @@
+
+shader = {
+	connections = [
+		{
+			destination = {
+				connector_id = "aca690cb-6305-4a2f-bf3d-69183a493db3"
+				instance_id = "727f5999-a590-4e5c-a21c-9f1d7ea990ee"
+			}
+			source = {
+				instance_id = "9288c0b7-85a0-4e2b-afad-b54c4f71edda"
+			}
+		}
+		{
+			destination = {
+				connector_id = "36ba46d2-f6ea-4e60-a428-fdc17c75bc62"
+				instance_id = "727f5999-a590-4e5c-a21c-9f1d7ea990ee"
+			}
+			select = [
+				"r"
+			]
+			source = {
+				instance_id = "49a027bc-4b1a-4914-87ea-48d357ebf22d"
+			}
+		}
+		{
+			destination = {
+				connector_id = "ad5e052f-d316-4a0f-8b79-53c38204d61b"
+				instance_id = "727f5999-a590-4e5c-a21c-9f1d7ea990ee"
+			}
+			source = {
+				instance_id = "86793ba0-ed8f-41eb-9b47-3f27d90ae9eb"
+			}
+		}
+		{
+			destination = {
+				connector_id = "34259752-b962-4b65-92c3-903a57338519"
+				instance_id = "727f5999-a590-4e5c-a21c-9f1d7ea990ee"
+			}
+			source = {
+				instance_id = "7e6b0932-52cd-4a14-b662-f1823c8fc7b9"
+			}
+		}
+		{
+			destination = {
+				connector_id = "c5823c75-4ae5-4c71-b070-315fa4d03e8e"
+				instance_id = "615d3880-c041-437f-9dbd-6c58fa7800a1"
+			}
+			source = {
+				instance_id = "a65cd748-7f4c-4306-930c-99685425a506"
+			}
+		}
+		{
+			destination = {
+				connector_id = "242d1648-a626-445b-9534-bccec094112f"
+				instance_id = "615d3880-c041-437f-9dbd-6c58fa7800a1"
+			}
+			source = {
+				instance_id = "837d06e0-e9e1-4efb-8e32-1b0b874d1fbd"
+			}
+		}
+		{
+			destination = {
+				connector_id = "40a76949-e7db-47fb-9aec-3fa98dd3fa2e"
+				instance_id = "b73bdcf3-a7f1-4b13-b8c3-58fbff2cb92e"
+			}
+			select = [
+				"rg"
+			]
+			source = {
+				instance_id = "615d3880-c041-437f-9dbd-6c58fa7800a1"
+			}
+		}
+		{
+			destination = {
+				connector_id = "0ce9ad0a-0b3f-43b1-9139-12176f3aad8e"
+				instance_id = "b73bdcf3-a7f1-4b13-b8c3-58fbff2cb92e"
+			}
+			source = {
+				instance_id = "274d84fd-9858-4a6d-8fd6-470f10462ea7"
+			}
+		}
+		{
+			destination = {
+				connector_id = "9a282471-a2d2-4591-a57e-c70179bb1962"
+				instance_id = "b73bdcf3-a7f1-4b13-b8c3-58fbff2cb92e"
+			}
+			source = {
+				instance_id = "2e272504-04ae-4dc6-9dfb-3398faa9c158"
+			}
+		}
+		{
+			destination = {
+				connector_id = "e3419eb2-3635-4586-b58c-89ffd88d20d5"
+				instance_id = "b73bdcf3-a7f1-4b13-b8c3-58fbff2cb92e"
+			}
+			source = {
+				instance_id = "dd6ec7fb-650e-4fc5-988e-cd6fea3447c2"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "12302535-b226-4fa6-bc8a-e4fde0edb3d4"
+			}
+			source = {
+				instance_id = "b73bdcf3-a7f1-4b13-b8c3-58fbff2cb92e"
+			}
+		}
+		{
+			destination = {
+				connector_id = "c5823c75-4ae5-4c71-b070-315fa4d03e8e"
+				instance_id = "8c6f09ff-1526-4d11-9142-93d555170d58"
+			}
+			source = {
+				instance_id = "f93c4900-67d4-49c6-bf02-2c83b3ce8e50"
+			}
+		}
+		{
+			destination = {
+				connector_id = "40a76949-e7db-47fb-9aec-3fa98dd3fa2e"
+				instance_id = "45ed19fa-21a2-4c11-8a97-616960c5a2eb"
+			}
+			select = [
+				"rg"
+			]
+			source = {
+				instance_id = "8c6f09ff-1526-4d11-9142-93d555170d58"
+			}
+		}
+		{
+			destination = {
+				connector_id = "0ce9ad0a-0b3f-43b1-9139-12176f3aad8e"
+				instance_id = "45ed19fa-21a2-4c11-8a97-616960c5a2eb"
+			}
+			source = {
+				instance_id = "b03b5fbe-92c2-4b9e-ab23-c8c32fde3f76"
+			}
+		}
+		{
+			destination = {
+				connector_id = "9a282471-a2d2-4591-a57e-c70179bb1962"
+				instance_id = "45ed19fa-21a2-4c11-8a97-616960c5a2eb"
+			}
+			source = {
+				instance_id = "7eeaf787-b626-47cb-9f8a-0a739804612c"
+			}
+		}
+		{
+			destination = {
+				connector_id = "e3419eb2-3635-4586-b58c-89ffd88d20d5"
+				instance_id = "45ed19fa-21a2-4c11-8a97-616960c5a2eb"
+			}
+			source = {
+				instance_id = "8f59ee1a-3bd9-4c64-8aaf-2bb62c174214"
+			}
+		}
+		{
+			destination = {
+				connector_id = "1ee9af1f-65f2-4739-ad28-5ea6a0e68fc3"
+				instance_id = "1f9e8067-7a15-4810-922e-0e0c6efb99d8"
+			}
+			source = {
+				instance_id = "45ed19fa-21a2-4c11-8a97-616960c5a2eb"
+			}
+		}
+		{
+			destination = {
+				connector_id = "22ed0f5a-9b5c-4e06-80d6-46eec7c75e34"
+				instance_id = "dae21ccc-54ab-4d31-9d05-48d3e3de1983"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "12302535-b226-4fa6-bc8a-e4fde0edb3d4"
+			}
+		}
+		{
+			destination = {
+				connector_id = "67493629-fffe-4fe8-bf7c-0c6467b09013"
+				instance_id = "dae21ccc-54ab-4d31-9d05-48d3e3de1983"
+			}
+			select = [
+				"rgb"
+			]
+			source = {
+				instance_id = "1f9e8067-7a15-4810-922e-0e0c6efb99d8"
+			}
+		}
+		{
+			destination = {
+				connector_id = "b1c86408-aacb-4466-b754-ddcf37a3a2c8"
+				instance_id = "727f5999-a590-4e5c-a21c-9f1d7ea990ee"
+			}
+			source = {
+				instance_id = "dae21ccc-54ab-4d31-9d05-48d3e3de1983"
+			}
+		}
+		{
+			destination = {
+				connector_id = "cc5a1773-27a2-430b-96d2-d81815d97feb"
+				instance_id = "727f5999-a590-4e5c-a21c-9f1d7ea990ee"
+			}
+			source = {
+				instance_id = "515548aa-1fa0-4671-96d1-54a57da06a9b"
+			}
+		}
+		{
+			destination = {
+				connector_id = "20346ea6-ecb0-41c1-bdcc-35bbe3ce1a5c"
+				instance_id = "727f5999-a590-4e5c-a21c-9f1d7ea990ee"
+			}
+			source = {
+				instance_id = "d0792a03-b0a0-4509-b21f-eb5f1ec4848a"
+			}
+		}
+		{
+			destination = {
+				connector_id = "242d1648-a626-445b-9534-bccec094112f"
+				instance_id = "8c6f09ff-1526-4d11-9142-93d555170d58"
+			}
+			source = {
+				instance_id = "837d06e0-e9e1-4efb-8e32-1b0b874d1fbd"
+			}
+		}
+	]
+	constants = [
+	]
+	groups = [
+	]
+	nodes = [
+		{
+			content_size = [
+				140
+				0
+			]
+			export = {
+			}
+			id = "727f5999-a590-4e5c-a21c-9f1d7ea990ee"
+			options = [
+				"3b55d6c6-4398-4dbc-b9ef-570aff8696ae"
+			]
+			position = [
+				-1890
+				802
+			]
+			samplers = {
+			}
+			type = "core/stingray_renderer/output_nodes/standard_base"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+				material_variable = {
+					display_name = "Refraction"
+					name = "material_variable"
+					type = "float"
+					ui = {
+						max = 10
+						min = -10
+						step = 0.001
+					}
+					value = 0
+				}
+			}
+			id = "515548aa-1fa0-4671-96d1-54a57da06a9b"
+			options = [
+			]
+			position = [
+				-2170
+				1022
+			]
+			samplers = {
+			}
+			title = "Refraction"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+				material_variable = {
+					display_name = "water_color"
+					name = "material_variable_6f201d1e"
+					type = "float3"
+					ui = {
+						max = [
+							1
+							1
+							1
+						]
+						min = [
+							0
+							0
+							0
+						]
+						step = [
+							0.001
+							0.001
+							0.001
+						]
+						ui_type = "Color"
+					}
+					value = [
+						0
+						0
+						0
+					]
+				}
+			}
+			id = "9288c0b7-85a0-4e2b-afad-b54c4f71edda"
+			options = [
+			]
+			position = [
+				-2170
+				762
+			]
+			samplers = {
+			}
+			title = "Water Color"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+				material_variable = {
+					display_name = "Roughness"
+					name = "material_variable_292da437"
+					type = "float"
+					ui = {
+						max = 1
+						min = 0
+						step = 0.001
+					}
+					value = 0
+				}
+			}
+			id = "49a027bc-4b1a-4914-87ea-48d357ebf22d"
+			options = [
+			]
+			position = [
+				-2170
+				822
+			]
+			samplers = {
+			}
+			title = "Roughness"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+				material_variable = {
+					display_name = "Metal"
+					name = "material_variable_ffcca426"
+					type = "float"
+					ui = {
+						max = 1
+						min = 0
+						step = 0.001
+					}
+					value = 0
+				}
+			}
+			id = "86793ba0-ed8f-41eb-9b47-3f27d90ae9eb"
+			options = [
+			]
+			position = [
+				-2170
+				882
+			]
+			samplers = {
+			}
+			title = "Metal"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+				material_variable = {
+					display_name = "Opacity"
+					name = "material_variable_ffcca426_71edde66"
+					type = "float"
+					ui = {
+						max = 1
+						min = 0
+						step = 0.001
+					}
+					value = 0
+				}
+			}
+			id = "7e6b0932-52cd-4a14-b662-f1823c8fc7b9"
+			options = [
+			]
+			position = [
+				-2170
+				962
+			]
+			samplers = {
+			}
+			title = "Opacity"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "b73bdcf3-a7f1-4b13-b8c3-58fbff2cb92e"
+			options = [
+			]
+			position = [
+				-2650
+				842
+			]
+			samplers = {
+			}
+			type = "core/shader_nodes/panner"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "12302535-b226-4fa6-bc8a-e4fde0edb3d4"
+			options = [
+				"fb3f709b-a54a-4e93-ac9f-e9fc76fb8bcd"
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+				"1e067464-12d8-4826-9b72-cfd5765003e3"
+			]
+			position = [
+				-2410
+				842
+			]
+			samplers = {
+				texture_map = {
+					display_name = "Water_Normal"
+					slot_name = "texture_map_21021500"
+					ui = {
+					}
+				}
+			}
+			title = "Water_Normal"
+			type = "core/shader_nodes/sample_texture"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "615d3880-c041-437f-9dbd-6c58fa7800a1"
+			options = [
+			]
+			position = [
+				-2910
+				862
+			]
+			samplers = {
+			}
+			type = "core/shader_nodes/mul"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "a65cd748-7f4c-4306-930c-99685425a506"
+			options = [
+			]
+			position = [
+				-3170
+				842
+			]
+			samplers = {
+			}
+			type = "core/shader_nodes/texture_coordinate0"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+				material_variable = {
+					display_name = "UV Tile"
+					name = "material_variable_6c7e8d59"
+					type = "float2"
+					ui = {
+						max = [
+							500
+							500
+						]
+						min = [
+							0
+							0
+						]
+						step = [
+							0.001
+							0.001
+						]
+					}
+					value = [
+						0
+						0
+					]
+				}
+			}
+			id = "837d06e0-e9e1-4efb-8e32-1b0b874d1fbd"
+			options = [
+			]
+			position = [
+				-3170
+				922
+			]
+			samplers = {
+			}
+			title = "UV Tile"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "274d84fd-9858-4a6d-8fd6-470f10462ea7"
+			options = [
+			]
+			position = [
+				-2910
+				982
+			]
+			samplers = {
+			}
+			type = "core/shader_nodes/current_time"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+				material_variable = {
+					display_name = "Speed_U"
+					name = "material_variable_3c947342"
+					type = "float"
+					ui = {
+						max = 1
+						min = 0
+						step = 0.001
+					}
+					value = 0
+				}
+			}
+			id = "2e272504-04ae-4dc6-9dfb-3398faa9c158"
+			options = [
+			]
+			position = [
+				-2910
+				1062
+			]
+			samplers = {
+			}
+			title = "Speed_U"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+				material_variable = {
+					display_name = "Speed_V"
+					name = "material_variable_3c947342_4f5f1443"
+					type = "float"
+					ui = {
+						max = 1
+						min = 0
+						step = 0.001
+					}
+					value = 0
+				}
+			}
+			id = "dd6ec7fb-650e-4fc5-988e-cd6fea3447c2"
+			options = [
+			]
+			position = [
+				-2910
+				1122
+			]
+			samplers = {
+			}
+			title = "Speed_V"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "45ed19fa-21a2-4c11-8a97-616960c5a2eb"
+			options = [
+			]
+			position = [
+				-2650
+				502
+			]
+			samplers = {
+			}
+			type = "core/shader_nodes/panner"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "1f9e8067-7a15-4810-922e-0e0c6efb99d8"
+			options = [
+				"fb3f709b-a54a-4e93-ac9f-e9fc76fb8bcd"
+				"5dd59b3d-1762-4a14-9930-7500230ef3db"
+				"1e067464-12d8-4826-9b72-cfd5765003e3"
+			]
+			position = [
+				-2410
+				502
+			]
+			samplers = {
+				texture_map = {
+					display_name = "Water_Normal2"
+					slot_name = "texture_map_bbc36937"
+					ui = {
+					}
+				}
+			}
+			title = "Water_Normal2"
+			type = "core/shader_nodes/sample_texture"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "8c6f09ff-1526-4d11-9142-93d555170d58"
+			options = [
+			]
+			position = [
+				-2910
+				522
+			]
+			samplers = {
+			}
+			type = "core/shader_nodes/mul"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "f93c4900-67d4-49c6-bf02-2c83b3ce8e50"
+			options = [
+			]
+			position = [
+				-3170
+				502
+			]
+			samplers = {
+			}
+			type = "core/shader_nodes/texture_coordinate0"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "b03b5fbe-92c2-4b9e-ab23-c8c32fde3f76"
+			options = [
+			]
+			position = [
+				-2910
+				642
+			]
+			samplers = {
+			}
+			type = "core/shader_nodes/current_time"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+				material_variable = {
+					display_name = "Speed_U2"
+					name = "material_variable_3c947342_d0fc476b"
+					type = "float"
+					ui = {
+						max = 1
+						min = 0
+						step = 0.001
+					}
+					value = 0
+				}
+			}
+			id = "7eeaf787-b626-47cb-9f8a-0a739804612c"
+			options = [
+			]
+			position = [
+				-2910
+				722
+			]
+			samplers = {
+			}
+			title = "Speed_U2"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+				material_variable = {
+					display_name = "Speed_V2"
+					name = "material_variable_3c947342_4f5f1443_5b66c249"
+					type = "float"
+					ui = {
+						max = 1
+						min = 0
+						step = 0.001
+					}
+					value = 0
+				}
+			}
+			id = "8f59ee1a-3bd9-4c64-8aaf-2bb62c174214"
+			options = [
+			]
+			position = [
+				-2910
+				782
+			]
+			samplers = {
+			}
+			title = "Speed_V2"
+			type = "core/shader_nodes/material_variable"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+			}
+			id = "dae21ccc-54ab-4d31-9d05-48d3e3de1983"
+			options = [
+				"8ad8224b-0141-4598-8240-c9d6fbbd2508"
+			]
+			position = [
+				-2256
+				656
+			]
+			samplers = {
+			}
+			type = "core/shader_nodes/blend_normals"
+		}
+		{
+			content_size = [
+				160
+				0
+			]
+			export = {
+				material_variable = {
+					display_name = "Density"
+					name = "material_variable_f33cc7e1"
+					type = "float"
+					ui = {
+						max = 10
+						min = -10
+						step = 0.001
+					}
+					value = 0
+				}
+			}
+			id = "d0792a03-b0a0-4509-b21f-eb5f1ec4848a"
+			options = [
+			]
+			position = [
+				-2170
+				1082
+			]
+			samplers = {
+			}
+			title = "Density"
+			type = "core/shader_nodes/material_variable"
+		}
+	]
+	version = 3
+}
+textures = {
+	texture_map_21021500 = "content/levels/BayOrg/materials/textures/ocean_normal"
+	texture_map_bbc36937 = "content/levels/BayOrg/materials/textures/ocean_normal"
+}
+variables = {
+	material_variable = {
+		type = "scalar"
+		value = 1.1
+	}
+	material_variable_292da437 = {
+		type = "scalar"
+		value = 0
+	}
+	material_variable_3c947342 = {
+		type = "scalar"
+		value = 0.01
+	}
+	material_variable_3c947342_4f5f1443 = {
+		type = "scalar"
+		value = 0.01
+	}
+	material_variable_3c947342_4f5f1443_5b66c249 = {
+		type = "scalar"
+		value = 0.005
+	}
+	material_variable_3c947342_d0fc476b = {
+		type = "scalar"
+		value = 0.01
+	}
+	material_variable_6c7e8d59 = {
+		type = "vector2"
+		value = [
+			500
+			500
+		]
+	}
+	material_variable_6f201d1e = {
+		type = "vector3"
+		value = [
+			0.192156862745098
+			0.294117647058824
+			0.4
+		]
+	}
+	material_variable_f33cc7e1 = {
+		type = "scalar"
+		value = 0
+	}
+	material_variable_ffcca426 = {
+		type = "scalar"
+		value = 0.8989
+	}
+	material_variable_ffcca426_71edde66 = {
+		type = "scalar"
+		value = 0.8402
+	}
+}

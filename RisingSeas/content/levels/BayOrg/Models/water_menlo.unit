@@ -1,0 +1,15 @@
+
+materials = {
+	water_menlo = "content/levels/BayOrg/materials/water_menlo"
+}
+renderables = {
+	water_menlo = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

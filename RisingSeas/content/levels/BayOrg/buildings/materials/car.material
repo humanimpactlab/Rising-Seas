@@ -1,0 +1,11 @@
+
+parent_material = "core/stingray_renderer/shader_import/standard"
+textures = {
+	color_map = "content/levels/BayOrg/buildings/textures/red"
+}
+variables = {
+	use_color_map = {
+		type = "scalar"
+		value = 1
+	}
+}

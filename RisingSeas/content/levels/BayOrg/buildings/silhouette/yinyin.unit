@@ -1,0 +1,42 @@
+
+editor_metadata = {
+	camera_settings = {
+		far_range = 1000
+		interest_point_distance = 1.60754
+		orthographic_plane = [
+			0
+			0
+			1
+			0
+		]
+		orthographic_zoom = 10
+		position = [
+			-0.338616
+			1.385931
+			1.254819
+		]
+		projection_type = "perspective"
+		rotation = [
+			0.028904
+			-0.239108
+			0.963548
+			-0.116478
+		]
+		rotation_speed = 0.003
+		translation_speed = 0.05
+	}
+}
+materials = {
+	_Body_Mid = "content/levels/BayOrg/buildings/materials/yinyin"
+}
+renderables = {
+	H_DDS_MidRes = {
+		always_keep = false
+		culling = "bounding_volume"
+		generate_uv_unwrap = false
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

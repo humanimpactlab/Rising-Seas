@@ -1,0 +1,7 @@
+
+parent_material = "content/levels/BayOrg/buildings/materials/VegetationFlowerMaster"
+textures = {
+	Diffuse_Map = "content/levels/BayOrg/buildings/textures/oleander_flower_d"
+}
+variables = {
+}

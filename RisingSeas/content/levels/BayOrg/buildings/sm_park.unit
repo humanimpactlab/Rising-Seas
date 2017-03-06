@@ -1,0 +1,20 @@
+
+materials = {
+	"blue paint" = "content/levels/BayOrg/buildings/materials/blue paint"
+	lambert1 = "content/levels/BayOrg/buildings/materials/lambert1"
+	"red paint" = "content/levels/BayOrg/buildings/materials/red paint"
+	"yellow 0" = "content/levels/BayOrg/buildings/materials/yellow 0"
+	"yellow paint" = "content/levels/BayOrg/buildings/materials/yellow paint"
+	"yellow X" = "content/levels/BayOrg/buildings/materials/yellow X"
+}
+renderables = {
+	3DA_PLAYGROUND_PlayscapeD = {
+		always_keep = false
+		culling = "bounding_volume"
+		light_baking = "none"
+		occluder = false
+		shadow_caster = true
+		surface_queries = false
+		viewport_visible = true
+	}
+}

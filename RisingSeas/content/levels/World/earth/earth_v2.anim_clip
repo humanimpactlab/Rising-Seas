@@ -1,0 +1,51 @@
+
+_data_root_version = 3
+_id = "6902695c-016a-4fc4-9e6d-e14ca05df293"
+_name = "content/levels/World/earth/earth_v2"
+additive_offset_computation_mode = "First Frame"
+anim_skeleton_ref = {
+	_id = "525d93ac-938d-4173-8c3b-abdf43da9a9a"
+	ref_filename = "content/levels/World/earth/earth_v2.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "b671a99a-389b-425f-bd15-c29167a021d5"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "c5812096-325f-48e7-9106-a257526a6b45"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "bbcf3fac-064a-4c02-bee4-35587c867294"
+	ref_filename = "content/levels/World/earth/earth_v2.dcc_asset"
+	ref_id = null
+}
+flow_events = [
+]
+global_compression_settings = {
+	_id = "73069330-77b1-42cc-8a65-13dbb069bdbf"
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+import_blend_shape_channel_curves = true
+import_extra_curves = true
+import_transform_curves = true
+offset_animation = false
+offset_pose_animation_clip_ref = {
+	_id = "b98b474b-7af8-466b-a2c2-4eedc09553da"
+	ref_filename = null
+	ref_id = null
+}
+take_name = "Take 001"

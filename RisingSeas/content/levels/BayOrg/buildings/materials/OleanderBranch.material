@@ -1,0 +1,23 @@
+
+parent_material = "content/levels/BayOrg/buildings/materials/VegetationTransparentMaster"
+textures = {
+	Diffuse_Map = "content/levels/BayOrg/buildings/textures/leaf_beech_mask"
+}
+variables = {
+	branch_tint = {
+		type = "vector3"
+		value = [
+			0
+			0
+			0
+		]
+	}
+	leaf_tint = {
+		type = "vector3"
+		value = [
+			0.501571586698604
+			0.725
+			0.10875
+		]
+	}
+}

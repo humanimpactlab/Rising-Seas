@@ -1,0 +1,11 @@
+
+parent_material = "content/levels/BayOrg/buildings/materials/alex"
+textures = {
+	color_map = "content/levels/BayOrg/buildings/textures/Amy_Bay_color"
+}
+variables = {
+	roughness = {
+		type = "scalar"
+		value = 0.8
+	}
+}

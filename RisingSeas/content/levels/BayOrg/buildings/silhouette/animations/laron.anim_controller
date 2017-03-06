@@ -1,0 +1,178 @@
+
+_data_root_version = 7
+_id = "9d3dec90-a5cb-427e-adf6-885d59979674"
+_name = "content/levels/BayOrg/buildings/silhouette/animations/laron"
+anim_event_root_folder_name = "Events"
+anim_skeleton_ref = {
+	_id = "e9ece9e1-00c8-4899-9485-dafc89772343"
+	ref_filename = "content/levels/BayOrg/buildings/silhouette/live_model.anim_skeleton"
+	ref_id = null
+}
+clip_mappings = [
+]
+compiler_data = {
+	bones = "content/levels/BayOrg/buildings/silhouette/live_model"
+	events = {
+		"Anim End" = {
+		}
+	}
+	layers = [
+		{
+			default_state = "laron"
+			states = [
+				{
+					animations = [
+						"content/levels/BayOrg/buildings/silhouette/animations/laron"
+					]
+					loop_animation = true
+					name = "laron"
+					randomization_type = "every_loop"
+					root_driving = "ignore"
+					speed = "1"
+					state_type = "regular"
+					transitions = [
+					]
+					weights = [
+						"1.0"
+					]
+				}
+			]
+		}
+	]
+}
+constraint_root_folder_name = "Constraints"
+constraint_target_root_folder_name = "Constraint Targets"
+constraint_targets = {
+	_id = "ffeaaee3-abe9-4121-85b3-0fa936c0fb29"
+	_name = "Constraint Targets"
+	data_list = [
+	]
+	sub_folders = [
+	]
+}
+constraints = {
+	_id = "cab209c1-f347-41a6-8141-da1d7eba87a1"
+	_name = "Constraints"
+	data_list = [
+	]
+	sub_folders = [
+	]
+}
+events = {
+	_id = "45bf35c6-1395-46af-a941-10dcf47305c5"
+	_name = "Events"
+	data_list = [
+		{
+			_id = "840f1f3d-7016-404e-82b2-2d28d8de28a6"
+			_name = "Anim End"
+		}
+	]
+	sub_folders = [
+	]
+}
+layers = [
+	{
+		_id = "a7bdf9c5-8faf-4a35-8a4b-1bb5ca1cd84d"
+		_name = "Base"
+		anim_blend_set_ref = {
+			_id = "25b13dc6-b6ca-4b72-ae52-a1923a00063d"
+			ref_filename = null
+			ref_id = null
+		}
+		blend_states = [
+		]
+		constraints = [
+		]
+		default_state_ref = {
+			_id = "272d690a-d8d9-4ce1-b3fd-50669198bd21"
+			ref_filename = null
+			ref_id = "b50ef7da-75e4-4c6d-838f-bfbdc13d9a65"
+		}
+		empty_states = [
+		]
+		group_states = [
+		]
+		notes = [
+		]
+		ragdoll_states = [
+		]
+		shortcut_states = [
+		]
+		states = [
+			{
+				_id = "b50ef7da-75e4-4c6d-838f-bfbdc13d9a65"
+				_name = "laron"
+				anim_blend_set_ref = {
+					_id = "3b194351-596c-41b4-9169-6b683f97fa19"
+					ref_filename = null
+					ref_id = null
+				}
+				animations = [
+					{
+						_id = "5c6f08ae-2020-4970-a6c0-81f17b764b7b"
+						ref_filename = "content/levels/BayOrg/buildings/silhouette/animations/laron.anim_clip"
+						ref_id = null
+					}
+				]
+				constraints = [
+				]
+				exit_event_ref = {
+					_id = "98b465b4-7462-4e27-b507-04abe6564530"
+					ref_filename = null
+					ref_id = "840f1f3d-7016-404e-82b2-2d28d8de28a6"
+				}
+				group_transitions = [
+				]
+				inherit_anim_blend_set = true
+				inherit_constraints = true
+				inherit_muted_layers = true
+				loop_animation = true
+				markers = [
+				]
+				muted_layers = [
+				]
+				offset_state = false
+				randomization_type = "every_loop"
+				root_driving = "ignore"
+				speed = "1"
+				transitions = [
+				]
+				weights = [
+					"1.0"
+				]
+				width = 150
+				x = 175
+				y = 175
+			}
+		]
+		time_states = [
+		]
+	}
+]
+ragdoll_root_folder_name = "Ragdolls"
+ragdolls = {
+	_id = "a8fa214a-6d6c-4f4d-b900-6e7f2d91565a"
+	_name = "Ragdolls"
+	data_list = [
+	]
+	sub_folders = [
+	]
+}
+setup = {
+	_id = "dc4729e1-ac9e-4f89-bd4d-59cb0818c2af"
+	level = ""
+	unit_ref = {
+		_id = "758ef730-d677-4c00-8ae6-faf0458c5103"
+		ref_filename = null
+		ref_id = null
+	}
+}
+variable_root_folder_name = "Variables"
+variables = {
+	_id = "fc630b55-7f74-4b7d-a170-d5b4c3b12d97"
+	_name = "Variables"
+	data_list = [
+	]
+	sub_folders = [
+	]
+}

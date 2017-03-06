@@ -1,0 +1,6617 @@
+{
+    "@objects": [
+		{
+			"Id": "5607051276852340541",
+			"DynamicProperties": {},
+			"Owner": null,
+			"Name": "BayOrg",
+			"Transform": {
+				"Position": {
+					"x": 0.000000,
+					"y": 0.000000,
+					"z": 0.000000
+				},
+				"Scale": {
+					"x": 1.000000,
+					"y": 1.000000,
+					"z": 1.000000
+				},
+				"Rotation": {
+					"x": 0.000000,
+					"y": 0.000000,
+					"z": 0.000000
+				},
+				"Pivot": {
+					"x": 0.000000,
+					"y": 0.000000,
+					"z": 0.000000
+				},
+				"Shear": {
+					"x": 0.000000,
+					"y": 0.000000
+				},
+				"XZShear": 0.000000,
+				"YZShear": 0.000000,
+				"Tolerance": 0.000001,
+				"AngleTolerance": 0.001091
+			},
+			"Cxform": {
+				"Mode": 0,
+				"R": 255.000000,
+				"G": 0.000000,
+				"B": 0.000000,
+				"Ao": 0.000000,
+				"Ro": 0.000000,
+				"Go": 0.000000,
+				"Bo": 0.000000,
+				"Am": 1.000000,
+				"Rm": 1.000000,
+				"Gm": 1.000000,
+				"Bm": 1.000000,
+				"Alpha": 0.500000,
+				"Brightness": -0.500000,
+				"Tint": 0.500000
+			},
+			"Components": [
+				{
+					"Id": "15325117525059128017",
+					"DynamicProperties": {},
+					"Owner": {
+						"@meta": {
+							"@ref": 2986227066
+						}
+					},
+					"Name": "Animation",
+					"Enabled": true,
+					"Layers": [
+						{
+							"Id": "7738587347942173753",
+							"DynamicProperties": {},
+							"Owner": {
+								"@meta": {
+									"@ref": 928390354
+								}
+							},
+							"ChildLayers": [],
+							"Visible": true,
+							"Locked": false,
+							"ParentLayerId": "0",
+							"Expanded": true,
+							"Guide": false,
+							"pActor": {
+								"Id": "16133114484639259677",
+								"DynamicProperties": {},
+								"Owner": {
+									"@meta": {
+										"@ref": 3871101981
+									}
+								},
+								"Name": "Slider",
+								"Transform": {
+									"Position": {
+										"x": 390.000031,
+										"y": 643.500030,
+										"z": 0.000000
+									},
+									"Scale": {
+										"x": 1.000000,
+										"y": 1.000000,
+										"z": 1.000000
+									},
+									"Rotation": {
+										"x": 0.000000,
+										"y": 0.000000,
+										"z": 0.000000
+									},
+									"Pivot": {
+										"x": 0.000000,
+										"y": 0.000000,
+										"z": 0.000000
+									},
+									"Shear": {
+										"x": 0.000000,
+										"y": 0.000000
+									},
+									"XZShear": 0.000000,
+									"YZShear": 0.000000,
+									"Tolerance": 0.000001,
+									"AngleTolerance": 0.001091
+								},
+								"Cxform": {
+									"Mode": 0,
+									"R": 255.000000,
+									"G": 0.000000,
+									"B": 0.000000,
+									"Ao": 0.000000,
+									"Ro": 0.000000,
+									"Go": 0.000000,
+									"Bo": 0.000000,
+									"Am": 1.000000,
+									"Rm": 1.000000,
+									"Gm": 1.000000,
+									"Bm": 1.000000,
+									"Alpha": 0.500000,
+									"Brightness": -0.500000,
+									"Tint": 0.500000
+								},
+								"Components": [
+									{
+										"Id": "1277936709240851337",
+										"DynamicProperties": {},
+										"Owner": {
+											"@meta": {
+												"@ref": 2512215329
+											}
+										},
+										"Name": "Animation",
+										"Enabled": true,
+										"Layers": [
+											{
+												"Id": "575781567332711025",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 3295053152
+													}
+												},
+												"ChildLayers": [],
+												"Visible": true,
+												"Locked": false,
+												"ParentLayerId": "0",
+												"Expanded": true,
+												"Guide": false,
+												"pActor": {
+													"Id": "6248384296891072553",
+													"DynamicProperties": {},
+													"Owner": {
+														"@meta": {
+															"@ref": 1900389015
+														}
+													},
+													"Name": "background",
+													"Transform": {
+														"Position": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Scale": {
+															"x": 1.000000,
+															"y": 1.000000,
+															"z": 1.000000
+														},
+														"Rotation": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Shear": {
+															"x": 0.000000,
+															"y": 0.000000
+														},
+														"XZShear": 0.000000,
+														"YZShear": 0.000000,
+														"Tolerance": 0.000001,
+														"AngleTolerance": 0.001091
+													},
+													"Cxform": {
+														"Mode": 4,
+														"R": 255.000000,
+														"G": 0.000000,
+														"B": 0.000000,
+														"Ao": 0.000000,
+														"Ro": 255.000000,
+														"Go": 255.000000,
+														"Bo": 255.000000,
+														"Am": 0.250000,
+														"Rm": 1.000000,
+														"Gm": 1.000000,
+														"Bm": 1.000000,
+														"Alpha": 0.500000,
+														"Brightness": -0.500000,
+														"Tint": 0.500000
+													},
+													"Components": [
+														{
+															"Id": "4116121633998614713",
+															"DynamicProperties": {},
+															"Owner": {
+																"@meta": {
+																	"@ref": 1528325661
+																}
+															},
+															"Name": "Shape",
+															"Enabled": true,
+															"SVG": "common/assets/Slider_BG.svg",
+															"Bitmaps": [],
+															"@meta": {
+																"@id": 3126563684,
+																"@typeid": 40850532
+															}
+														}
+													],
+													"Pivot": {
+														"x": 0.000000,
+														"y": 0.000000,
+														"z": 0.000000
+													},
+													"BlendMode": 0,
+													"Scale9Enabled": false,
+													"Scale9Grid": {
+														"x1": 0.000000,
+														"y1": 0.000000,
+														"x2": 0.000000,
+														"y2": 0.000000
+													},
+													"Filters": [],
+													"Visible": true,
+													"@meta": {
+														"@id": 1528325661,
+														"@typeid": 150545074
+													}
+												},
+												"Masking": false,
+												"MaskDisabled": false,
+												"KeyFrames": [
+													{
+														"Id": "12323157032688148953",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 1900389015
+															}
+														},
+														"Transform": {
+															"Position": {
+																"x": 0.000000,
+																"y": 14.500000,
+																"z": 0.000000
+															},
+															"Scale": {
+																"x": 0.689180,
+																"y": 0.991736,
+																"z": 1.000000
+															},
+															"Rotation": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Pivot": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Shear": {
+																"x": 0.000000,
+																"y": 0.000000
+															},
+															"XZShear": 0.000000,
+															"YZShear": 0.000000,
+															"Tolerance": 0.000001,
+															"AngleTolerance": 0.001091
+														},
+														"Cxform": {
+															"Mode": 4,
+															"R": 255.000000,
+															"G": 0.000000,
+															"B": 0.000000,
+															"Ao": 0.000000,
+															"Ro": 255.000000,
+															"Go": 255.000000,
+															"Bo": 255.000000,
+															"Am": 0.250000,
+															"Rm": 1.000000,
+															"Gm": 1.000000,
+															"Bm": 1.000000,
+															"Alpha": 0.500000,
+															"Brightness": -0.500000,
+															"Tint": 0.500000
+														},
+														"FrameStart": 0,
+														"FrameLength": 20,
+														"TweenTransition": 0,
+														"TweenEasing": 0,
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"HasTween": false,
+														"@meta": {
+															"@id": 3724244115,
+															"@typeid": 210448581
+														}
+													}
+												],
+												"@meta": {
+													"@id": 1900389015,
+													"@typeid": 199425826
+												}
+											},
+											{
+												"Id": "3555018232150593361",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 3295053152
+													}
+												},
+												"ChildLayers": [
+													{
+														"Id": "9817160737567619705",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 3295053152
+															}
+														},
+														"ChildLayers": [],
+														"Visible": true,
+														"Locked": false,
+														"ParentLayerId": "3555018232150593361",
+														"Expanded": true,
+														"Guide": false,
+														"pActor": {
+															"Id": "6626436354485046093",
+															"DynamicProperties": {},
+															"Owner": {
+																"@meta": {
+																	"@ref": 150513997
+																}
+															},
+															"Name": "filled_background",
+															"Transform": {
+																"Position": {
+																	"x": 0.000000,
+																	"y": 0.000000,
+																	"z": 0.000000
+																},
+																"Scale": {
+																	"x": 1.000000,
+																	"y": 1.000000,
+																	"z": 1.000000
+																},
+																"Rotation": {
+																	"x": 0.000000,
+																	"y": 0.000000,
+																	"z": 0.000000
+																},
+																"Pivot": {
+																	"x": 0.000000,
+																	"y": 0.000000,
+																	"z": 0.000000
+																},
+																"Shear": {
+																	"x": 0.000000,
+																	"y": 0.000000
+																},
+																"XZShear": 0.000000,
+																"YZShear": 0.000000,
+																"Tolerance": 0.000001,
+																"AngleTolerance": 0.001091
+															},
+															"Cxform": {
+																"Mode": 0,
+																"R": 255.000000,
+																"G": 0.000000,
+																"B": 0.000000,
+																"Ao": 0.000000,
+																"Ro": 0.000000,
+																"Go": 0.000000,
+																"Bo": 0.000000,
+																"Am": 1.000000,
+																"Rm": 1.000000,
+																"Gm": 1.000000,
+																"Bm": 1.000000,
+																"Alpha": 0.500000,
+																"Brightness": -0.500000,
+																"Tint": 0.500000
+															},
+															"Components": [
+																{
+																	"Id": "4494173657135794605",
+																	"DynamicProperties": {},
+																	"Owner": {
+																		"@meta": {
+																			"@ref": 525852796
+																		}
+																	},
+																	"Name": "Shape",
+																	"Enabled": true,
+																	"SVG": "common/assets/Slider_Mask.svg",
+																	"Bitmaps": [],
+																	"@meta": {
+																		"@id": 2142674016,
+																		"@typeid": 40850532
+																	}
+																}
+															],
+															"Pivot": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"BlendMode": 0,
+															"Scale9Enabled": false,
+															"Scale9Grid": {
+																"x1": 0.000000,
+																"y1": 0.000000,
+																"x2": 0.000000,
+																"y2": 0.000000
+															},
+															"Filters": [],
+															"Visible": true,
+															"@meta": {
+																"@id": 525852796,
+																"@typeid": 150545074
+															}
+														},
+														"Masking": false,
+														"MaskDisabled": false,
+														"KeyFrames": [
+															{
+																"Id": "15995357856153637509",
+																"DynamicProperties": {},
+																"Owner": {
+																	"@meta": {
+																		"@ref": 150513997
+																	}
+																},
+																"Transform": {
+																	"Position": {
+																		"x": 0.000000,
+																		"y": 14.500000,
+																		"z": 0.000000
+																	},
+																	"Scale": {
+																		"x": 0.689180,
+																		"y": 0.991736,
+																		"z": 1.000000
+																	},
+																	"Rotation": {
+																		"x": 0.000000,
+																		"y": 0.000000,
+																		"z": 0.000000
+																	},
+																	"Pivot": {
+																		"x": 0.000000,
+																		"y": 0.000000,
+																		"z": 0.000000
+																	},
+																	"Shear": {
+																		"x": 0.000000,
+																		"y": 0.000000
+																	},
+																	"XZShear": 0.000000,
+																	"YZShear": 0.000000,
+																	"Tolerance": 0.000001,
+																	"AngleTolerance": 0.001091
+																},
+																"Cxform": {
+																	"Mode": 0,
+																	"R": 255.000000,
+																	"G": 0.000000,
+																	"B": 0.000000,
+																	"Ao": 0.000000,
+																	"Ro": 0.000000,
+																	"Go": 0.000000,
+																	"Bo": 0.000000,
+																	"Am": 1.000000,
+																	"Rm": 1.000000,
+																	"Gm": 1.000000,
+																	"Bm": 1.000000,
+																	"Alpha": 0.500000,
+																	"Brightness": -0.500000,
+																	"Tint": 0.500000
+																},
+																"FrameStart": 0,
+																"FrameLength": 20,
+																"TweenTransition": 0,
+																"TweenEasing": 0,
+																"Pivot": {
+																	"x": 0.000000,
+																	"y": 0.000000,
+																	"z": 0.000000
+																},
+																"HasTween": false,
+																"@meta": {
+																	"@id": 2758937644,
+																	"@typeid": 210448581
+																}
+															}
+														],
+														"@meta": {
+															"@id": 150513997,
+															"@typeid": 199425826
+														}
+													}
+												],
+												"Visible": true,
+												"Locked": false,
+												"ParentLayerId": "0",
+												"Expanded": true,
+												"Guide": false,
+												"pActor": {
+													"Id": "4992336082969714337",
+													"DynamicProperties": {},
+													"Owner": {
+														"@meta": {
+															"@ref": 2907862734
+														}
+													},
+													"Name": "filled_mask",
+													"Transform": {
+														"Position": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Scale": {
+															"x": 1.000000,
+															"y": 1.000000,
+															"z": 1.000000
+														},
+														"Rotation": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Shear": {
+															"x": 0.000000,
+															"y": 0.000000
+														},
+														"XZShear": 0.000000,
+														"YZShear": 0.000000,
+														"Tolerance": 0.000001,
+														"AngleTolerance": 0.001091
+													},
+													"Cxform": {
+														"Mode": 0,
+														"R": 255.000000,
+														"G": 0.000000,
+														"B": 0.000000,
+														"Ao": 0.000000,
+														"Ro": 0.000000,
+														"Go": 0.000000,
+														"Bo": 0.000000,
+														"Am": 1.000000,
+														"Rm": 1.000000,
+														"Gm": 1.000000,
+														"Bm": 1.000000,
+														"Alpha": 0.500000,
+														"Brightness": -0.500000,
+														"Tint": 0.500000
+													},
+													"Components": [
+														{
+															"Id": "4872225680269826769",
+															"DynamicProperties": {},
+															"Owner": {
+																"@meta": {
+																	"@ref": 3218343937
+																}
+															},
+															"Name": "Shape",
+															"Enabled": true,
+															"SVG": "common/assets/Slider_Mask.svg",
+															"Bitmaps": [],
+															"@meta": {
+																"@id": 1195021284,
+																"@typeid": 40850532
+															}
+														}
+													],
+													"Pivot": {
+														"x": 0.000000,
+														"y": 0.000000,
+														"z": 0.000000
+													},
+													"BlendMode": 0,
+													"Scale9Enabled": false,
+													"Scale9Grid": {
+														"x1": 0.000000,
+														"y1": 0.000000,
+														"x2": 0.000000,
+														"y2": 0.000000
+													},
+													"Filters": [],
+													"Visible": true,
+													"@meta": {
+														"@id": 3218343937,
+														"@typeid": 150545074
+													}
+												},
+												"Masking": true,
+												"MaskDisabled": false,
+												"KeyFrames": [
+													{
+														"Id": "16373410034227521637",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 2907862734
+															}
+														},
+														"Transform": {
+															"Position": {
+																"x": 0.000000,
+																"y": 14.500000,
+																"z": 0.000000
+															},
+															"Scale": {
+																"x": 0.050999,
+																"y": 0.991735,
+																"z": 1.000000
+															},
+															"Rotation": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Pivot": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Shear": {
+																"x": 0.000000,
+																"y": 0.000000
+															},
+															"XZShear": 0.000000,
+															"YZShear": 0.000000,
+															"Tolerance": 0.000001,
+															"AngleTolerance": 0.001091
+														},
+														"Cxform": {
+															"Mode": 0,
+															"R": 255.000000,
+															"G": 0.000000,
+															"B": 0.000000,
+															"Ao": 0.000000,
+															"Ro": 0.000000,
+															"Go": 0.000000,
+															"Bo": 0.000000,
+															"Am": 1.000000,
+															"Rm": 1.000000,
+															"Gm": 1.000000,
+															"Bm": 1.000000,
+															"Alpha": 0.500000,
+															"Brightness": -0.500000,
+															"Tint": 0.500000
+														},
+														"FrameStart": 0,
+														"FrameLength": 20,
+														"TweenTransition": 0,
+														"TweenEasing": 0,
+														"Pivot": {
+															"x": 0.000000,
+															"y": -0.000000,
+															"z": 0.000000
+														},
+														"HasTween": false,
+														"@meta": {
+															"@id": 153988624,
+															"@typeid": 210448581
+														}
+													}
+												],
+												"@meta": {
+													"@id": 2907862734,
+													"@typeid": 199425826
+												}
+											},
+											{
+												"Id": "8272217847194313713",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 3295053152
+													}
+												},
+												"ChildLayers": [
+													{
+														"Id": "9592583036790485197",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 3295053152
+															}
+														},
+														"ChildLayers": [],
+														"Visible": true,
+														"Locked": false,
+														"ParentLayerId": "8272217847194313713",
+														"Expanded": true,
+														"Guide": false,
+														"pActor": {
+															"Id": "10010850559971379333",
+															"DynamicProperties": {},
+															"Owner": {
+																"@meta": {
+																	"@ref": 462754519
+																}
+															},
+															"Name": "grip_press_background",
+															"Transform": {
+																"Position": {
+																	"x": 0.000000,
+																	"y": 0.000000,
+																	"z": 0.000000
+																},
+																"Scale": {
+																	"x": 1.000000,
+																	"y": 1.000000,
+																	"z": 1.000000
+																},
+																"Rotation": {
+																	"x": 0.000000,
+																	"y": 0.000000,
+																	"z": 0.000000
+																},
+																"Pivot": {
+																	"x": 0.000000,
+																	"y": 0.000000,
+																	"z": 0.000000
+																},
+																"Shear": {
+																	"x": 0.000000,
+																	"y": 0.000000
+																},
+																"XZShear": 0.000000,
+																"YZShear": 0.000000,
+																"Tolerance": 0.000001,
+																"AngleTolerance": 0.001091
+															},
+															"Cxform": {
+																"Mode": 0,
+																"R": 255.000000,
+																"G": 0.000000,
+																"B": 0.000000,
+																"Ao": 0.000000,
+																"Ro": 255.000000,
+																"Go": 255.000000,
+																"Bo": 255.000000,
+																"Am": 1.000000,
+																"Rm": 1.000000,
+																"Gm": 1.000000,
+																"Bm": 1.000000,
+																"Alpha": 0.500000,
+																"Brightness": -0.500000,
+																"Tint": 0.500000
+															},
+															"Components": [
+																{
+																	"Id": "16454197524649610993",
+																	"DynamicProperties": {},
+																	"Owner": {
+																		"@meta": {
+																			"@ref": 1250564601
+																		}
+																	},
+																	"Name": "Shape",
+																	"Enabled": true,
+																	"SVG": "common/assets/Slider_Mask.svg",
+																	"Bitmaps": [],
+																	"@meta": {
+																		"@id": 523372138,
+																		"@typeid": 40850532
+																	}
+																}
+															],
+															"Pivot": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"BlendMode": 0,
+															"Scale9Enabled": false,
+															"Scale9Grid": {
+																"x1": 0.000000,
+																"y1": 0.000000,
+																"x2": 0.000000,
+																"y2": 0.000000
+															},
+															"Filters": [],
+															"Visible": true,
+															"@meta": {
+																"@id": 1250564601,
+																"@typeid": 150545074
+															}
+														},
+														"Masking": false,
+														"MaskDisabled": false,
+														"KeyFrames": [
+															{
+																"Id": "14450413760900670065",
+																"DynamicProperties": {},
+																"Owner": {
+																	"@meta": {
+																		"@ref": 462754519
+																	}
+																},
+																"Transform": {
+																	"Position": {
+																		"x": -20.500000,
+																		"y": 0.000000,
+																		"z": 0.000000
+																	},
+																	"Scale": {
+																		"x": 0.745693,
+																		"y": 3.388430,
+																		"z": 1.000000
+																	},
+																	"Rotation": {
+																		"x": 0.000000,
+																		"y": 0.000000,
+																		"z": 0.000000
+																	},
+																	"Pivot": {
+																		"x": 0.000000,
+																		"y": 0.000000,
+																		"z": 0.000000
+																	},
+																	"Shear": {
+																		"x": 0.000000,
+																		"y": 0.000000
+																	},
+																	"XZShear": 0.000000,
+																	"YZShear": 0.000000,
+																	"Tolerance": 0.000001,
+																	"AngleTolerance": 0.001091
+																},
+																"Cxform": {
+																	"Mode": 0,
+																	"R": 255.000000,
+																	"G": 0.000000,
+																	"B": 0.000000,
+																	"Ao": 0.000000,
+																	"Ro": 255.000000,
+																	"Go": 255.000000,
+																	"Bo": 255.000000,
+																	"Am": 1.000000,
+																	"Rm": 1.000000,
+																	"Gm": 1.000000,
+																	"Bm": 1.000000,
+																	"Alpha": 0.500000,
+																	"Brightness": -0.500000,
+																	"Tint": 0.500000
+																},
+																"FrameStart": 0,
+																"FrameLength": 20,
+																"TweenTransition": 0,
+																"TweenEasing": 0,
+																"Pivot": {
+																	"x": 27.491220,
+																	"y": 0.000000,
+																	"z": 0.000000
+																},
+																"HasTween": false,
+																"@meta": {
+																	"@id": 2841232213,
+																	"@typeid": 210448581
+																}
+															}
+														],
+														"@meta": {
+															"@id": 462754519,
+															"@typeid": 199425826
+														}
+													}
+												],
+												"Visible": true,
+												"Locked": true,
+												"ParentLayerId": "0",
+												"Expanded": false,
+												"Guide": false,
+												"pActor": {
+													"Id": "10702637699423899669",
+													"DynamicProperties": {},
+													"Owner": {
+														"@meta": {
+															"@ref": 2454117906
+														}
+													},
+													"Name": "grip_press_mask",
+													"Transform": {
+														"Position": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Scale": {
+															"x": 1.000000,
+															"y": 1.000000,
+															"z": 1.000000
+														},
+														"Rotation": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Shear": {
+															"x": 0.000000,
+															"y": 0.000000
+														},
+														"XZShear": 0.000000,
+														"YZShear": 0.000000,
+														"Tolerance": 0.000001,
+														"AngleTolerance": 0.001091
+													},
+													"Cxform": {
+														"Mode": 1,
+														"R": 255.000000,
+														"G": 0.000000,
+														"B": 0.000000,
+														"Ao": 0.000000,
+														"Ro": 255.000000,
+														"Go": 255.000000,
+														"Bo": 255.000000,
+														"Am": 1.000000,
+														"Rm": 1.000000,
+														"Gm": 1.000000,
+														"Bm": 1.000000,
+														"Alpha": 0.000000,
+														"Brightness": -0.500000,
+														"Tint": 0.500000
+													},
+													"Components": [
+														{
+															"Id": "17433702114780132737",
+															"DynamicProperties": {},
+															"Owner": {
+																"@meta": {
+																	"@ref": 3937808190
+																}
+															},
+															"Name": "Shape",
+															"Enabled": true,
+															"SVG": "common/assets/Slider_Handle.svg",
+															"Bitmaps": [],
+															"@meta": {
+																"@id": 151310629,
+																"@typeid": 40850532
+															}
+														}
+													],
+													"Pivot": {
+														"x": 0.000000,
+														"y": 0.000000,
+														"z": 0.000000
+													},
+													"BlendMode": 0,
+													"Scale9Enabled": false,
+													"Scale9Grid": {
+														"x1": 0.000000,
+														"y1": 0.000000,
+														"x2": 0.000000,
+														"y2": 0.000000
+													},
+													"Filters": [],
+													"Visible": true,
+													"@meta": {
+														"@id": 3937808190,
+														"@typeid": 150545074
+													}
+												},
+												"Masking": true,
+												"MaskDisabled": false,
+												"KeyFrames": [
+													{
+														"Id": "5546365113594417441",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 2454117906
+															}
+														},
+														"Transform": {
+															"Position": {
+																"x": 15.499969,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Scale": {
+																"x": 1.000000,
+																"y": 1.000000,
+																"z": 1.000000
+															},
+															"Rotation": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Pivot": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Shear": {
+																"x": 0.000000,
+																"y": 0.000000
+															},
+															"XZShear": 0.000000,
+															"YZShear": 0.000000,
+															"Tolerance": 0.000001,
+															"AngleTolerance": 0.001091
+														},
+														"Cxform": {
+															"Mode": 1,
+															"R": 255.000000,
+															"G": 0.000000,
+															"B": 0.000000,
+															"Ao": 0.000000,
+															"Ro": 255.000000,
+															"Go": 255.000000,
+															"Bo": 255.000000,
+															"Am": 1.000000,
+															"Rm": 1.000000,
+															"Gm": 1.000000,
+															"Bm": 1.000000,
+															"Alpha": 0.000000,
+															"Brightness": -0.500000,
+															"Tint": 0.500000
+														},
+														"FrameStart": 0,
+														"FrameLength": 20,
+														"TweenTransition": 0,
+														"TweenEasing": 0,
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"HasTween": false,
+														"@meta": {
+															"@id": 873452877,
+															"@typeid": 210448581
+														}
+													}
+												],
+												"@meta": {
+													"@id": 2454117906,
+													"@typeid": 199425826
+												}
+											},
+											{
+												"Id": "2688265069953275617",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 3295053152
+													}
+												},
+												"ChildLayers": [],
+												"Visible": true,
+												"Locked": false,
+												"ParentLayerId": "0",
+												"Expanded": true,
+												"Guide": false,
+												"pActor": {
+													"Id": "16623919605373439501",
+													"DynamicProperties": {},
+													"Owner": {
+														"@meta": {
+															"@ref": 3878170059
+														}
+													},
+													"Name": "grip_over",
+													"Transform": {
+														"Position": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Scale": {
+															"x": 1.000000,
+															"y": 1.000000,
+															"z": 1.000000
+														},
+														"Rotation": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Shear": {
+															"x": 0.000000,
+															"y": 0.000000
+														},
+														"XZShear": 0.000000,
+														"YZShear": 0.000000,
+														"Tolerance": 0.000001,
+														"AngleTolerance": 0.001091
+													},
+													"Cxform": {
+														"Mode": 4,
+														"R": 255.000000,
+														"G": 0.000000,
+														"B": 0.000000,
+														"Ao": 0.000000,
+														"Ro": 255.000000,
+														"Go": 255.000000,
+														"Bo": 255.000000,
+														"Am": 0.500000,
+														"Rm": 1.000000,
+														"Gm": 1.000000,
+														"Bm": 1.000000,
+														"Alpha": 0.600000,
+														"Brightness": -0.500000,
+														"Tint": 0.500000
+													},
+													"Components": [
+														{
+															"Id": "18113068999869747981",
+															"DynamicProperties": {},
+															"Owner": {
+																"@meta": {
+																	"@ref": 1061892193
+																}
+															},
+															"Name": "Shape",
+															"Enabled": true,
+															"SVG": "common/assets/Slider_Handle.svg",
+															"Bitmaps": [],
+															"@meta": {
+																"@id": 3834449766,
+																"@typeid": 40850532
+															}
+														}
+													],
+													"Pivot": {
+														"x": 0.000000,
+														"y": 0.000000,
+														"z": 0.000000
+													},
+													"BlendMode": 0,
+													"Scale9Enabled": false,
+													"Scale9Grid": {
+														"x1": 0.000000,
+														"y1": 0.000000,
+														"x2": 0.000000,
+														"y2": 0.000000
+													},
+													"Filters": [],
+													"Visible": true,
+													"@meta": {
+														"@id": 1061892193,
+														"@typeid": 150545074
+													}
+												},
+												"Masking": false,
+												"MaskDisabled": false,
+												"KeyFrames": [
+													{
+														"Id": "11167509314501475885",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 3878170059
+															}
+														},
+														"Transform": {
+															"Position": {
+																"x": 15.499969,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Scale": {
+																"x": 1.000000,
+																"y": 1.000000,
+																"z": 1.000000
+															},
+															"Rotation": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Pivot": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Shear": {
+																"x": 0.000000,
+																"y": 0.000000
+															},
+															"XZShear": 0.000000,
+															"YZShear": 0.000000,
+															"Tolerance": 0.000001,
+															"AngleTolerance": 0.001091
+														},
+														"Cxform": {
+															"Mode": 4,
+															"R": 255.000000,
+															"G": 0.000000,
+															"B": 0.000000,
+															"Ao": 0.000000,
+															"Ro": 255.000000,
+															"Go": 255.000000,
+															"Bo": 255.000000,
+															"Am": 0.500000,
+															"Rm": 1.000000,
+															"Gm": 1.000000,
+															"Bm": 1.000000,
+															"Alpha": 0.600000,
+															"Brightness": -0.500000,
+															"Tint": 0.500000
+														},
+														"FrameStart": 0,
+														"FrameLength": 20,
+														"TweenTransition": 0,
+														"TweenEasing": 0,
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"HasTween": false,
+														"@meta": {
+															"@id": 2292504176,
+															"@typeid": 210448581
+														}
+													}
+												],
+												"@meta": {
+													"@id": 3878170059,
+													"@typeid": 199425826
+												}
+											},
+											{
+												"Id": "3367630113291401457",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 3295053152
+													}
+												},
+												"ChildLayers": [],
+												"Visible": true,
+												"Locked": false,
+												"ParentLayerId": "0",
+												"Expanded": true,
+												"Guide": false,
+												"pActor": {
+													"Id": "164487334800355289",
+													"DynamicProperties": {},
+													"Owner": {
+														"@meta": {
+															"@ref": 1886806672
+														}
+													},
+													"Name": "grip_normal",
+													"Transform": {
+														"Position": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Scale": {
+															"x": 1.000000,
+															"y": 1.000000,
+															"z": 1.000000
+														},
+														"Rotation": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Shear": {
+															"x": 0.000000,
+															"y": 0.000000
+														},
+														"XZShear": 0.000000,
+														"YZShear": 0.000000,
+														"Tolerance": 0.000001,
+														"AngleTolerance": 0.001091
+													},
+													"Cxform": {
+														"Mode": 4,
+														"R": 255.000000,
+														"G": 0.000000,
+														"B": 0.000000,
+														"Ao": 0.000000,
+														"Ro": 255.000000,
+														"Go": 255.000000,
+														"Bo": 255.000000,
+														"Am": 0.800000,
+														"Rm": 1.000000,
+														"Gm": 1.000000,
+														"Bm": 1.000000,
+														"Alpha": 0.000000,
+														"Brightness": 0.500000,
+														"Tint": 0.500000
+													},
+													"Components": [
+														{
+															"Id": "11549611632495826577",
+															"DynamicProperties": {},
+															"Owner": {
+																"@meta": {
+																	"@ref": 3389080153
+																}
+															},
+															"Name": "Shape",
+															"Enabled": true,
+															"SVG": "common/assets/Slider_Handle.svg",
+															"Bitmaps": [],
+															"@meta": {
+																"@id": 2514735525,
+																"@typeid": 40850532
+															}
+														}
+													],
+													"Pivot": {
+														"x": 0.000000,
+														"y": 0.000000,
+														"z": 0.000000
+													},
+													"BlendMode": 0,
+													"Scale9Enabled": false,
+													"Scale9Grid": {
+														"x1": 0.000000,
+														"y1": 0.000000,
+														"x2": 0.000000,
+														"y2": 0.000000
+													},
+													"Filters": [],
+													"Visible": true,
+													"@meta": {
+														"@id": 3389080153,
+														"@typeid": 150545074
+													}
+												},
+												"Masking": false,
+												"MaskDisabled": false,
+												"KeyFrames": [
+													{
+														"Id": "4604050707839905549",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 1886806672
+															}
+														},
+														"Transform": {
+															"Position": {
+																"x": 15.499969,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Scale": {
+																"x": 1.000000,
+																"y": 1.000000,
+																"z": 1.000000
+															},
+															"Rotation": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Pivot": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Shear": {
+																"x": 0.000000,
+																"y": 0.000000
+															},
+															"XZShear": 0.000000,
+															"YZShear": 0.000000,
+															"Tolerance": 0.000001,
+															"AngleTolerance": 0.001091
+														},
+														"Cxform": {
+															"Mode": 4,
+															"R": 255.000000,
+															"G": 0.000000,
+															"B": 0.000000,
+															"Ao": 0.000000,
+															"Ro": 255.000000,
+															"Go": 255.000000,
+															"Bo": 255.000000,
+															"Am": 0.800000,
+															"Rm": 1.000000,
+															"Gm": 1.000000,
+															"Bm": 1.000000,
+															"Alpha": 0.000000,
+															"Brightness": 0.500000,
+															"Tint": 0.500000
+														},
+														"FrameStart": 0,
+														"FrameLength": 20,
+														"TweenTransition": 0,
+														"TweenEasing": 0,
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"HasTween": false,
+														"@meta": {
+															"@id": 1856695540,
+															"@typeid": 210448581
+														}
+													}
+												],
+												"@meta": {
+													"@id": 1886806672,
+													"@typeid": 199425826
+												}
+											}
+										],
+										"ActionData": [
+											{
+												"Id": "17105547341362927061",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 3295053152
+													}
+												},
+												"Frame": 0,
+												"Label": "normal",
+												"Trigger": "",
+												"PlayheadCmds": [],
+												"@meta": {
+													"@id": 3323392450,
+													"@typeid": 184889937
+												}
+											},
+											{
+												"Id": "1299533646839420909",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 3295053152
+													}
+												},
+												"Frame": 9,
+												"Label": "",
+												"Trigger": "",
+												"PlayheadCmds": [
+													{
+														"Id": "12781980073219607533",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 2711564291
+															}
+														},
+														"PlayheadAction": 2,
+														"TargetFrameLabel": "",
+														"TargetFrameIndex": -1082130432,
+														"TargetFramePath": "",
+														"@meta": {
+															"@id": 979286851,
+															"@typeid": 81700260
+														}
+													}
+												],
+												"@meta": {
+													"@id": 2711564291,
+													"@typeid": 184889937
+												}
+											},
+											{
+												"Id": "3940264026021268037",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 3295053152
+													}
+												},
+												"Frame": 10,
+												"Label": "disabled",
+												"Trigger": "",
+												"PlayheadCmds": [],
+												"@meta": {
+													"@id": 4031278532,
+													"@typeid": 184889937
+												}
+											},
+											{
+												"Id": "10202406531441705529",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 3295053152
+													}
+												},
+												"Frame": 19,
+												"Label": "",
+												"Trigger": "",
+												"PlayheadCmds": [
+													{
+														"Id": "16743075641975584881",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 1667853636
+															}
+														},
+														"PlayheadAction": 2,
+														"TargetFrameLabel": "",
+														"TargetFrameIndex": 117,
+														"TargetFramePath": "",
+														"@meta": {
+															"@id": 1687172933,
+															"@typeid": 81700260
+														}
+													}
+												],
+												"@meta": {
+													"@id": 1667853636,
+													"@typeid": 184889937
+												}
+											}
+										],
+										"CurrentFrame": 0,
+										"@meta": {
+											"@id": 3295053152,
+											"@typeid": 18887732
+										}
+									},
+									{
+										"Id": "8676348832206942261",
+										"DynamicProperties": {},
+										"Owner": {
+											"@meta": {
+												"@ref": 2512215329
+											}
+										},
+										"Name": "WidgetBase",
+										"Enabled": true,
+										"Script": "common/scripts/slider_widget.lua",
+										"@meta": {
+											"@id": 331001318,
+											"@typeid": 13313492
+										}
+									},
+									{
+										"Id": "9996714021803375629",
+										"DynamicProperties": {},
+										"Owner": {
+											"@meta": {
+												"@ref": 2512215329
+											}
+										},
+										"Name": "WidgetHandler",
+										"Enabled": true,
+										"Script": "common/scripts/slider_handler.lua",
+										"@meta": {
+											"@id": 1650715559,
+											"@typeid": 13313492
+										}
+									}
+								],
+								"Pivot": {
+									"x": 0.000000,
+									"y": -0.000030,
+									"z": 0.000000
+								},
+								"BlendMode": 0,
+								"Scale9Enabled": false,
+								"Scale9Grid": {
+									"x1": 0.000000,
+									"y1": 0.000000,
+									"x2": 0.000000,
+									"y2": 0.000000
+								},
+								"Filters": [],
+								"Visible": true,
+								"@meta": {
+									"@id": 2512215329,
+									"@typeid": 150545074
+								}
+							},
+							"Masking": false,
+							"MaskDisabled": false,
+							"KeyFrames": [
+								{
+									"Id": "4071599172776145733",
+									"DynamicProperties": {},
+									"Owner": {
+										"@meta": {
+											"@ref": 3871101981
+										}
+									},
+									"Transform": {
+										"Position": {
+											"x": 390.000031,
+											"y": 643.500030,
+											"z": 0.000000
+										},
+										"Scale": {
+											"x": 1.000000,
+											"y": 1.000000,
+											"z": 1.000000
+										},
+										"Rotation": {
+											"x": 0.000000,
+											"y": 0.000000,
+											"z": 0.000000
+										},
+										"Pivot": {
+											"x": 0.000000,
+											"y": 0.000000,
+											"z": 0.000000
+										},
+										"Shear": {
+											"x": 0.000000,
+											"y": 0.000000
+										},
+										"XZShear": 0.000000,
+										"YZShear": 0.000000,
+										"Tolerance": 0.000001,
+										"AngleTolerance": 0.001091
+									},
+									"Cxform": {
+										"Mode": 0,
+										"R": 255.000000,
+										"G": 0.000000,
+										"B": 0.000000,
+										"Ao": 0.000000,
+										"Ro": 0.000000,
+										"Go": 0.000000,
+										"Bo": 0.000000,
+										"Am": 1.000000,
+										"Rm": 1.000000,
+										"Gm": 1.000000,
+										"Bm": 1.000000,
+										"Alpha": 0.500000,
+										"Brightness": -0.500000,
+										"Tint": 0.500000
+									},
+									"FrameStart": 0,
+									"FrameLength": 1,
+									"TweenTransition": 0,
+									"TweenEasing": 0,
+									"Pivot": {
+										"x": 0.000000,
+										"y": -0.000030,
+										"z": 0.000000
+									},
+									"HasTween": false,
+									"@meta": {
+										"@id": 872805872,
+										"@typeid": 210448581
+									}
+								}
+							],
+							"@meta": {
+								"@id": 3871101981,
+								"@typeid": 199425826
+							}
+						},
+						{
+							"Id": "10890001744760859653",
+							"DynamicProperties": {},
+							"Owner": {
+								"@meta": {
+									"@ref": 928390354
+								}
+							},
+							"ChildLayers": [],
+							"Visible": true,
+							"Locked": false,
+							"ParentLayerId": "0",
+							"Expanded": true,
+							"Guide": false,
+							"pActor": {
+								"Id": "1304561059073773981",
+								"DynamicProperties": {
+									"Event": {
+										"Type": 4096,
+										"Value": "Back"
+									}
+								},
+								"Owner": {
+									"@meta": {
+										"@ref": 4190410581
+									}
+								},
+								"Name": "BackButton",
+								"Transform": {
+									"Position": {
+										"x": 95.752441,
+										"y": 75.227234,
+										"z": 0.000000
+									},
+									"Scale": {
+										"x": 1.000000,
+										"y": 1.000000,
+										"z": 1.000000
+									},
+									"Rotation": {
+										"x": 0.000000,
+										"y": 0.000000,
+										"z": 0.000000
+									},
+									"Pivot": {
+										"x": 0.000000,
+										"y": 0.000000,
+										"z": 0.000000
+									},
+									"Shear": {
+										"x": 0.000000,
+										"y": 0.000000
+									},
+									"XZShear": 0.000000,
+									"YZShear": 0.000000,
+									"Tolerance": 0.000001,
+									"AngleTolerance": 0.001091
+								},
+								"Cxform": {
+									"Mode": 3,
+									"R": 255.000000,
+									"G": 255.000000,
+									"B": 255.000000,
+									"Ao": 0.000000,
+									"Ro": 255.000000,
+									"Go": 255.000000,
+									"Bo": 255.000000,
+									"Am": 1.000000,
+									"Rm": 1.000000,
+									"Gm": 1.000000,
+									"Bm": 1.000000,
+									"Alpha": 0.500000,
+									"Brightness": -0.500000,
+									"Tint": 1.000000
+								},
+								"Components": [
+									{
+										"Id": "907908254735714769",
+										"DynamicProperties": {},
+										"Owner": {
+											"@meta": {
+												"@ref": 1969381849
+											}
+										},
+										"Name": "Shape",
+										"Enabled": true,
+										"SVG": "common/assets/BackButton.svg",
+										"Bitmaps": [],
+										"@meta": {
+											"@id": 3438804206,
+											"@typeid": 40850532
+										}
+									},
+									{
+										"Id": "9789293175936299721",
+										"DynamicProperties": {},
+										"Owner": {
+											"@meta": {
+												"@ref": 1969381849
+											}
+										},
+										"Name": "Script",
+										"Enabled": true,
+										"Script": "common/scripts/button_send_message.lua",
+										"@meta": {
+											"@id": 2358601641,
+											"@typeid": 13313492
+										}
+									}
+								],
+								"Pivot": {
+									"x": 12.675000,
+									"y": 12.675000,
+									"z": 0.000000
+								},
+								"BlendMode": 0,
+								"Scale9Enabled": false,
+								"Scale9Grid": {
+									"x1": 0.000000,
+									"y1": 0.000000,
+									"x2": 0.000000,
+									"y2": 0.000000
+								},
+								"Filters": [],
+								"Visible": true,
+								"@meta": {
+									"@id": 1969381849,
+									"@typeid": 150545074
+								}
+							},
+							"Masking": false,
+							"MaskDisabled": false,
+							"KeyFrames": [
+								{
+									"Id": "3601601099174556821",
+									"DynamicProperties": {},
+									"Owner": {
+										"@meta": {
+											"@ref": 4190410581
+										}
+									},
+									"Transform": {
+										"Position": {
+											"x": 23.463335,
+											"y": 15.267198,
+											"z": 0.000000
+										},
+										"Scale": {
+											"x": 3.020408,
+											"y": 3.020408,
+											"z": 1.000000
+										},
+										"Rotation": {
+											"x": 0.000000,
+											"y": 0.000000,
+											"z": 0.000000
+										},
+										"Pivot": {
+											"x": 0.000000,
+											"y": 0.000000,
+											"z": 0.000000
+										},
+										"Shear": {
+											"x": 0.000000,
+											"y": 0.000000
+										},
+										"XZShear": 0.000000,
+										"YZShear": 0.000000,
+										"Tolerance": 0.000001,
+										"AngleTolerance": 0.001091
+									},
+									"Cxform": {
+										"Mode": 3,
+										"R": 255.000000,
+										"G": 255.000000,
+										"B": 255.000000,
+										"Ao": 0.000000,
+										"Ro": 255.000000,
+										"Go": 255.000000,
+										"Bo": 255.000000,
+										"Am": 1.000000,
+										"Rm": 1.000000,
+										"Gm": 1.000000,
+										"Bm": 1.000000,
+										"Alpha": 0.500000,
+										"Brightness": -0.500000,
+										"Tint": 1.000000
+									},
+									"FrameStart": 0,
+									"FrameLength": 1,
+									"TweenTransition": 0,
+									"TweenEasing": 0,
+									"Pivot": {
+										"x": 12.675000,
+										"y": 12.675000,
+										"z": 0.000000
+									},
+									"HasTween": false,
+									"@meta": {
+										"@id": 3730138672,
+										"@typeid": 210448581
+									}
+								}
+							],
+							"@meta": {
+								"@id": 4190410581,
+								"@typeid": 199425826
+							}
+						},
+						{
+							"Id": "1812964934031053929",
+							"DynamicProperties": {},
+							"Owner": {
+								"@meta": {
+									"@ref": 928390354
+								}
+							},
+							"ChildLayers": [],
+							"Visible": true,
+							"Locked": false,
+							"ParentLayerId": "0",
+							"Expanded": true,
+							"Guide": false,
+							"pActor": {
+								"Id": "17408441964703435505",
+								"DynamicProperties": {},
+								"Owner": {
+									"@meta": {
+										"@ref": 585675628
+									}
+								},
+								"Name": "Card1",
+								"Transform": {
+									"Position": {
+										"x": -163.696777,
+										"y": -213.457520,
+										"z": 0.000000
+									},
+									"Scale": {
+										"x": 1.000000,
+										"y": 1.000000,
+										"z": 1.000000
+									},
+									"Rotation": {
+										"x": 0.000000,
+										"y": 0.000000,
+										"z": 0.000000
+									},
+									"Pivot": {
+										"x": 0.000000,
+										"y": 0.000000,
+										"z": 0.000000
+									},
+									"Shear": {
+										"x": 0.000000,
+										"y": 0.000000
+									},
+									"XZShear": 0.000000,
+									"YZShear": 0.000000,
+									"Tolerance": 0.000001,
+									"AngleTolerance": 0.001091
+								},
+								"Cxform": {
+									"Mode": 0,
+									"R": 255.000000,
+									"G": 0.000000,
+									"B": 0.000000,
+									"Ao": 0.000000,
+									"Ro": 0.000000,
+									"Go": 0.000000,
+									"Bo": 0.000000,
+									"Am": 1.000000,
+									"Rm": 1.000000,
+									"Gm": 1.000000,
+									"Bm": 1.000000,
+									"Alpha": 0.500000,
+									"Brightness": -0.500000,
+									"Tint": 0.500000
+								},
+								"Components": [
+									{
+										"Id": "5123814382870194969",
+										"DynamicProperties": {},
+										"Owner": {
+											"@meta": {
+												"@ref": 531747353
+											}
+										},
+										"Name": "Animation",
+										"Enabled": true,
+										"Layers": [
+											{
+												"Id": "159248810225829005",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 2057293590
+													}
+												},
+												"ChildLayers": [],
+												"Visible": true,
+												"Locked": false,
+												"ParentLayerId": "0",
+												"Expanded": true,
+												"Guide": false,
+												"pActor": {
+													"Id": "17655417194806623541",
+													"DynamicProperties": {},
+													"Owner": {
+														"@meta": {
+															"@ref": 897916150
+														}
+													},
+													"Name": "Infocard",
+													"Transform": {
+														"Position": {
+															"x": 254.283783,
+															"y": 430.504456,
+															"z": 0.000000
+														},
+														"Scale": {
+															"x": 1.000000,
+															"y": 1.000000,
+															"z": 1.000000
+														},
+														"Rotation": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Shear": {
+															"x": 0.000000,
+															"y": 0.000000
+														},
+														"XZShear": 0.000000,
+														"YZShear": 0.000000,
+														"Tolerance": 0.000001,
+														"AngleTolerance": 0.001091
+													},
+													"Cxform": {
+														"Mode": 1,
+														"R": 255.000000,
+														"G": 0.000000,
+														"B": 0.000000,
+														"Ao": 0.000000,
+														"Ro": 0.000000,
+														"Go": 0.000000,
+														"Bo": 0.000000,
+														"Am": 1.000000,
+														"Rm": 1.000000,
+														"Gm": 1.000000,
+														"Bm": 1.000000,
+														"Alpha": 0.750000,
+														"Brightness": -0.500000,
+														"Tint": 0.500000
+													},
+													"Components": [
+														{
+															"Id": "7984450489659415977",
+															"DynamicProperties": {},
+															"Owner": {
+																"@meta": {
+																	"@ref": 2064365058
+																}
+															},
+															"Name": "Shape",
+															"Enabled": true,
+															"SVG": "common/assets/Infocard.svg",
+															"Bitmaps": [],
+															"@meta": {
+																"@id": 1633987250,
+																"@typeid": 40850532
+															}
+														}
+													],
+													"Pivot": {
+														"x": 160.100754,
+														"y": 165.000000,
+														"z": 0.000000
+													},
+													"BlendMode": 0,
+													"Scale9Enabled": false,
+													"Scale9Grid": {
+														"x1": 0.000000,
+														"y1": 0.000000,
+														"x2": 0.000000,
+														"y2": 0.000000
+													},
+													"Filters": [],
+													"Visible": true,
+													"@meta": {
+														"@id": 2064365058,
+														"@typeid": 150545074
+													}
+												},
+												"Masking": false,
+												"MaskDisabled": false,
+												"KeyFrames": [
+													{
+														"Id": "13957145529457413825",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 897916150
+															}
+														},
+														"Transform": {
+															"Position": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Scale": {
+																"x": 1.000000,
+																"y": 1.000000,
+																"z": 1.000000
+															},
+															"Rotation": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Pivot": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Shear": {
+																"x": 0.000000,
+																"y": 0.000000
+															},
+															"XZShear": 0.000000,
+															"YZShear": 0.000000,
+															"Tolerance": 0.000001,
+															"AngleTolerance": 0.001091
+														},
+														"Cxform": {
+															"Mode": 1,
+															"R": 255.000000,
+															"G": 0.000000,
+															"B": 0.000000,
+															"Ao": 0.000000,
+															"Ro": 0.000000,
+															"Go": 0.000000,
+															"Bo": 0.000000,
+															"Am": 1.000000,
+															"Rm": 1.000000,
+															"Gm": 1.000000,
+															"Bm": 1.000000,
+															"Alpha": 0.750000,
+															"Brightness": -0.500000,
+															"Tint": 0.500000
+														},
+														"FrameStart": 0,
+														"FrameLength": 1,
+														"TweenTransition": 0,
+														"TweenEasing": 0,
+														"Pivot": {
+															"x": 160.100754,
+															"y": 165.000000,
+															"z": 0.000000
+														},
+														"HasTween": false,
+														"@meta": {
+															"@id": 3294977041,
+															"@typeid": 210448581
+														}
+													}
+												],
+												"@meta": {
+													"@id": 897916150,
+													"@typeid": 199425826
+												}
+											},
+											{
+												"Id": "13201903016404287945",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 2057293590
+													}
+												},
+												"ChildLayers": [],
+												"Visible": true,
+												"Locked": false,
+												"ParentLayerId": "0",
+												"Expanded": true,
+												"Guide": false,
+												"pActor": {
+													"Id": "17591532188122148825",
+													"DynamicProperties": {},
+													"Owner": {
+														"@meta": {
+															"@ref": 3443008428
+														}
+													},
+													"Name": "content",
+													"Transform": {
+														"Position": {
+															"x": 465.940247,
+															"y": 144.610748,
+															"z": 0.000000
+														},
+														"Scale": {
+															"x": 1.000000,
+															"y": 1.000000,
+															"z": 1.000000
+														},
+														"Rotation": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Shear": {
+															"x": 0.000000,
+															"y": 0.000000
+														},
+														"XZShear": 0.000000,
+														"YZShear": 0.000000,
+														"Tolerance": 0.000001,
+														"AngleTolerance": 0.001091
+													},
+													"Cxform": {
+														"Mode": 0,
+														"R": 255.000000,
+														"G": 0.000000,
+														"B": 0.000000,
+														"Ao": 0.000000,
+														"Ro": 0.000000,
+														"Go": 0.000000,
+														"Bo": 0.000000,
+														"Am": 1.000000,
+														"Rm": 1.000000,
+														"Gm": 1.000000,
+														"Bm": 1.000000,
+														"Alpha": 0.500000,
+														"Brightness": -0.500000,
+														"Tint": 0.500000
+													},
+													"Components": [
+														{
+															"Id": "16697156944807193573",
+															"DynamicProperties": {},
+															"Owner": {
+																"@meta": {
+																	"@ref": 96585722
+																}
+															},
+															"Name": "Text",
+															"Enabled": true,
+															"Text": "- Population: 9.440\n- Property value: $3.5 billion\n- Homes: 3.095\n- 14 hazardous waste sites",
+															"Font": "Normal",
+															"SystemFont": false,
+															"Html": false,
+															"FontSize": 18.000000,
+															"Width": 296.000000,
+															"Height": 280.000000,
+															"TextColor": 4294967295,
+															"BackgroundColor": 0,
+															"Editable": false,
+															"Multiline": true,
+															"WordWrap": true,
+															"Bold": false,
+															"Italic": false,
+															"Kerning": false,
+															"WordWrap": true,
+															"Multiline": true,
+															"LetterSpacing": 0.000000,
+															"Leading": 0,
+															"LeftMargin": 0.000000,
+															"RightMargin": 0.000000,
+															"Align": 0,
+															"AutoSize": false,
+															"Selectable": false,
+															"VAlign": 1,
+															"ActiveSelectionTextColor": 4294967295,
+															"ActiveSelectionBackgroundColor": 4278742484,
+															"InactiveSelectionTextColor": 4294967295,
+															"InactiveSelectionBackgroundColor": 0,
+															"@meta": {
+																"@id": 4281040803,
+																"@typeid": 3283604
+															}
+														}
+													],
+													"Pivot": {
+														"x": 0.000000,
+														"y": 0.000000,
+														"z": 0.000000
+													},
+													"BlendMode": 0,
+													"Scale9Enabled": false,
+													"Scale9Grid": {
+														"x1": 0.000000,
+														"y1": 0.000000,
+														"x2": 0.000000,
+														"y2": 0.000000
+													},
+													"Filters": [],
+													"Visible": true,
+													"@meta": {
+														"@id": 96585722,
+														"@typeid": 150545074
+													}
+												},
+												"Masking": false,
+												"MaskDisabled": false,
+												"KeyFrames": [
+													{
+														"Id": "4894451871019381109",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 3443008428
+															}
+														},
+														"Transform": {
+															"Position": {
+																"x": 17.375549,
+																"y": 45.000000,
+																"z": 0.000000
+															},
+															"Scale": {
+																"x": 1.000000,
+																"y": 1.000000,
+																"z": 1.000000
+															},
+															"Rotation": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Pivot": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Shear": {
+																"x": 0.000000,
+																"y": 0.000000
+															},
+															"XZShear": 0.000000,
+															"YZShear": 0.000000,
+															"Tolerance": 0.000001,
+															"AngleTolerance": 0.001091
+														},
+														"Cxform": {
+															"Mode": 0,
+															"R": 255.000000,
+															"G": 0.000000,
+															"B": 0.000000,
+															"Ao": 0.000000,
+															"Ro": 0.000000,
+															"Go": 0.000000,
+															"Bo": 0.000000,
+															"Am": 1.000000,
+															"Rm": 1.000000,
+															"Gm": 1.000000,
+															"Bm": 1.000000,
+															"Alpha": 0.500000,
+															"Brightness": -0.500000,
+															"Tint": 0.500000
+														},
+														"FrameStart": 0,
+														"FrameLength": 1,
+														"TweenTransition": 0,
+														"TweenEasing": 0,
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"HasTween": false,
+														"@meta": {
+															"@id": 702716661,
+															"@typeid": 210448581
+														}
+													}
+												],
+												"@meta": {
+													"@id": 3443008428,
+													"@typeid": 199425826
+												}
+											},
+											{
+												"Id": "17197120957046869269",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 2057293590
+													}
+												},
+												"ChildLayers": [],
+												"Visible": true,
+												"Locked": false,
+												"ParentLayerId": "0",
+												"Expanded": true,
+												"Guide": false,
+												"pActor": {
+													"Id": "15964480840030812621",
+													"DynamicProperties": {},
+													"Owner": {
+														"@meta": {
+															"@ref": 2435534709
+														}
+													},
+													"Name": "Text",
+													"Transform": {
+														"Position": {
+															"x": 59.638565,
+															"y": -37.484161,
+															"z": 0.000000
+														},
+														"Scale": {
+															"x": 1.000000,
+															"y": 1.000000,
+															"z": 1.000000
+														},
+														"Rotation": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Shear": {
+															"x": 0.000000,
+															"y": 0.000000
+														},
+														"XZShear": 0.000000,
+														"YZShear": 0.000000,
+														"Tolerance": 0.000001,
+														"AngleTolerance": 0.001091
+													},
+													"Cxform": {
+														"Mode": 0,
+														"R": 255.000000,
+														"G": 0.000000,
+														"B": 0.000000,
+														"Ao": 0.000000,
+														"Ro": 0.000000,
+														"Go": 0.000000,
+														"Bo": 0.000000,
+														"Am": 1.000000,
+														"Rm": 1.000000,
+														"Gm": 1.000000,
+														"Bm": 1.000000,
+														"Alpha": 0.500000,
+														"Brightness": -0.500000,
+														"Tint": 0.500000
+													},
+													"Components": [
+														{
+															"Id": "14543035894313653625",
+															"DynamicProperties": {},
+															"Owner": {
+																"@meta": {
+																	"@ref": 1799292638
+																}
+															},
+															"Name": "Text",
+															"Enabled": true,
+															"Text": "Data for this region",
+															"Font": "Normal",
+															"SystemFont": false,
+															"Html": false,
+															"FontSize": 30.000000,
+															"Width": 301.410278,
+															"Height": 128.508270,
+															"TextColor": 4294967295,
+															"BackgroundColor": 0,
+															"Editable": false,
+															"Multiline": true,
+															"WordWrap": true,
+															"Bold": false,
+															"Italic": false,
+															"Kerning": false,
+															"WordWrap": true,
+															"Multiline": true,
+															"LetterSpacing": 0.000000,
+															"Leading": 0,
+															"LeftMargin": 0.000000,
+															"RightMargin": 0.000000,
+															"Align": 0,
+															"AutoSize": false,
+															"Selectable": false,
+															"VAlign": 1,
+															"ActiveSelectionTextColor": 4294967295,
+															"ActiveSelectionBackgroundColor": 4278742484,
+															"InactiveSelectionTextColor": 4294967295,
+															"InactiveSelectionBackgroundColor": 0,
+															"@meta": {
+																"@id": 3273567084,
+																"@typeid": 3283604
+															}
+														}
+													],
+													"Pivot": {
+														"x": 0.000000,
+														"y": 0.000000,
+														"z": 0.000000
+													},
+													"BlendMode": 0,
+													"Scale9Enabled": false,
+													"Scale9Grid": {
+														"x1": 0.000000,
+														"y1": 0.000000,
+														"x2": 0.000000,
+														"y2": 0.000000
+													},
+													"Filters": [],
+													"Visible": true,
+													"@meta": {
+														"@id": 1799292638,
+														"@typeid": 150545074
+													}
+												},
+												"Masking": false,
+												"MaskDisabled": false,
+												"KeyFrames": [
+													{
+														"Id": "10210035138934953553",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 2435534709
+															}
+														},
+														"Transform": {
+															"Position": {
+																"x": 8.235275,
+																"y": -4.772949,
+																"z": 0.000000
+															},
+															"Scale": {
+																"x": 1.000000,
+																"y": 1.000000,
+																"z": 1.000000
+															},
+															"Rotation": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Pivot": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Shear": {
+																"x": 0.000000,
+																"y": 0.000000
+															},
+															"XZShear": 0.000000,
+															"YZShear": 0.000000,
+															"Tolerance": 0.000001,
+															"AngleTolerance": 0.001091
+														},
+														"Cxform": {
+															"Mode": 0,
+															"R": 255.000000,
+															"G": 0.000000,
+															"B": 0.000000,
+															"Ao": 0.000000,
+															"Ro": 0.000000,
+															"Go": 0.000000,
+															"Bo": 0.000000,
+															"Am": 1.000000,
+															"Rm": 1.000000,
+															"Gm": 1.000000,
+															"Bm": 1.000000,
+															"Alpha": 0.500000,
+															"Brightness": -0.500000,
+															"Tint": 0.500000
+														},
+														"FrameStart": 0,
+														"FrameLength": 1,
+														"TweenTransition": 0,
+														"TweenEasing": 0,
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"HasTween": false,
+														"@meta": {
+															"@id": 3029904621,
+															"@typeid": 210448581
+														}
+													}
+												],
+												"@meta": {
+													"@id": 2435534709,
+													"@typeid": 199425826
+												}
+											}
+										],
+										"ActionData": [],
+										"CurrentFrame": 0,
+										"@meta": {
+											"@id": 2057293590,
+											"@typeid": 18887732
+										}
+									},
+									{
+										"Id": "4240360075719991173",
+										"DynamicProperties": {},
+										"Owner": {
+											"@meta": {
+												"@ref": 531747353
+											}
+										},
+										"Name": "Script",
+										"Enabled": true,
+										"Script": "common/scripts/card.lua",
+										"@meta": {
+											"@id": 3469216753,
+											"@typeid": 13313492
+										}
+									}
+								],
+								"Pivot": {
+									"x": 163.696777,
+									"y": 213.457520,
+									"z": 0.000000
+								},
+								"BlendMode": 0,
+								"Scale9Enabled": false,
+								"Scale9Grid": {
+									"x1": 0.000000,
+									"y1": 0.000000,
+									"x2": 0.000000,
+									"y2": 0.000000
+								},
+								"Filters": [],
+								"Visible": true,
+								"@meta": {
+									"@id": 531747353,
+									"@typeid": 150545074
+								}
+							},
+							"Masking": false,
+							"MaskDisabled": false,
+							"KeyFrames": [
+								{
+									"Id": "16894034920035304709",
+									"DynamicProperties": {},
+									"Owner": {
+										"@meta": {
+											"@ref": 585675628
+										}
+									},
+									"Transform": {
+										"Position": {
+											"x": 51.705368,
+											"y": 280.796387,
+											"z": 0.000000
+										},
+										"Scale": {
+											"x": 1.000000,
+											"y": 1.000000,
+											"z": 1.000000
+										},
+										"Rotation": {
+											"x": 0.000000,
+											"y": 0.000000,
+											"z": 0.000000
+										},
+										"Pivot": {
+											"x": 0.000000,
+											"y": 0.000000,
+											"z": 0.000000
+										},
+										"Shear": {
+											"x": 0.000000,
+											"y": 0.000000
+										},
+										"XZShear": 0.000000,
+										"YZShear": 0.000000,
+										"Tolerance": 0.000001,
+										"AngleTolerance": 0.001091
+									},
+									"Cxform": {
+										"Mode": 0,
+										"R": 255.000000,
+										"G": 0.000000,
+										"B": 0.000000,
+										"Ao": 0.000000,
+										"Ro": 0.000000,
+										"Go": 0.000000,
+										"Bo": 0.000000,
+										"Am": 1.000000,
+										"Rm": 1.000000,
+										"Gm": 1.000000,
+										"Bm": 1.000000,
+										"Alpha": 0.500000,
+										"Brightness": -0.500000,
+										"Tint": 0.500000
+									},
+									"FrameStart": 0,
+									"FrameLength": 1,
+									"TweenTransition": 0,
+									"TweenEasing": 0,
+									"Pivot": {
+										"x": 160.100754,
+										"y": 165.000000,
+										"z": 0.000000
+									},
+									"HasTween": false,
+									"@meta": {
+										"@id": 3995211092,
+										"@typeid": 210448581
+									}
+								}
+							],
+							"@meta": {
+								"@id": 585675628,
+								"@typeid": 199425826
+							}
+						},
+						{
+							"Id": "4970077934438408321",
+							"DynamicProperties": {},
+							"Owner": {
+								"@meta": {
+									"@ref": 928390354
+								}
+							},
+							"ChildLayers": [],
+							"Visible": false,
+							"Locked": false,
+							"ParentLayerId": "0",
+							"Expanded": true,
+							"Guide": false,
+							"pActor": {
+								"Id": "10559557748060070137",
+								"DynamicProperties": {},
+								"Owner": {
+									"@meta": {
+										"@ref": 685012686
+									}
+								},
+								"Name": "Card2",
+								"Transform": {
+									"Position": {
+										"x": -163.696777,
+										"y": -213.457520,
+										"z": 0.000000
+									},
+									"Scale": {
+										"x": 1.000000,
+										"y": 1.000000,
+										"z": 1.000000
+									},
+									"Rotation": {
+										"x": 0.000000,
+										"y": 0.000000,
+										"z": 0.000000
+									},
+									"Pivot": {
+										"x": 0.000000,
+										"y": 0.000000,
+										"z": 0.000000
+									},
+									"Shear": {
+										"x": 0.000000,
+										"y": 0.000000
+									},
+									"XZShear": 0.000000,
+									"YZShear": 0.000000,
+									"Tolerance": 0.000001,
+									"AngleTolerance": 0.001091
+								},
+								"Cxform": {
+									"Mode": 0,
+									"R": 255.000000,
+									"G": 0.000000,
+									"B": 0.000000,
+									"Ao": 0.000000,
+									"Ro": 0.000000,
+									"Go": 0.000000,
+									"Bo": 0.000000,
+									"Am": 1.000000,
+									"Rm": 1.000000,
+									"Gm": 1.000000,
+									"Bm": 1.000000,
+									"Alpha": 0.500000,
+									"Brightness": -0.500000,
+									"Tint": 0.500000
+								},
+								"Components": [
+									{
+										"Id": "768824341067030789",
+										"DynamicProperties": {},
+										"Owner": {
+											"@meta": {
+												"@ref": 796819773
+											}
+										},
+										"Name": "Animation",
+										"Enabled": true,
+										"Layers": [
+											{
+												"Id": "3688078278745601213",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 655312077
+													}
+												},
+												"ChildLayers": [],
+												"Visible": true,
+												"Locked": false,
+												"ParentLayerId": "0",
+												"Expanded": true,
+												"Guide": false,
+												"pActor": {
+													"Id": "5739272031977162697",
+													"DynamicProperties": {},
+													"Owner": {
+														"@meta": {
+															"@ref": 3455077360
+														}
+													},
+													"Name": "Infocard",
+													"Transform": {
+														"Position": {
+															"x": 254.283783,
+															"y": 430.504456,
+															"z": 0.000000
+														},
+														"Scale": {
+															"x": 1.000000,
+															"y": 1.000000,
+															"z": 1.000000
+														},
+														"Rotation": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Shear": {
+															"x": 0.000000,
+															"y": 0.000000
+														},
+														"XZShear": 0.000000,
+														"YZShear": 0.000000,
+														"Tolerance": 0.000001,
+														"AngleTolerance": 0.001091
+													},
+													"Cxform": {
+														"Mode": 1,
+														"R": 255.000000,
+														"G": 0.000000,
+														"B": 0.000000,
+														"Ao": 0.000000,
+														"Ro": 0.000000,
+														"Go": 0.000000,
+														"Bo": 0.000000,
+														"Am": 1.000000,
+														"Rm": 1.000000,
+														"Gm": 1.000000,
+														"Bm": 1.000000,
+														"Alpha": 0.750000,
+														"Brightness": -0.500000,
+														"Tint": 0.500000
+													},
+													"Components": [
+														{
+															"Id": "3601364359121395681",
+															"DynamicProperties": {},
+															"Owner": {
+																"@meta": {
+																	"@ref": 4107897401
+																}
+															},
+															"Name": "Shape",
+															"Enabled": true,
+															"SVG": "common/assets/Infocard.svg",
+															"Bitmaps": [],
+															"@meta": {
+																"@id": 1261925741,
+																"@typeid": 40850532
+															}
+														}
+													],
+													"Pivot": {
+														"x": 160.100754,
+														"y": 165.000000,
+														"z": 0.000000
+													},
+													"BlendMode": 0,
+													"Scale9Enabled": false,
+													"Scale9Grid": {
+														"x1": 0.000000,
+														"y1": 0.000000,
+														"x2": 0.000000,
+														"y2": 0.000000
+													},
+													"Filters": [],
+													"Visible": true,
+													"@meta": {
+														"@id": 4107897401,
+														"@typeid": 150545074
+													}
+												},
+												"Masking": false,
+												"MaskDisabled": false,
+												"KeyFrames": [
+													{
+														"Id": "622545183654860773",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 3455077360
+															}
+														},
+														"Transform": {
+															"Position": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Scale": {
+																"x": 1.000000,
+																"y": 1.000000,
+																"z": 1.000000
+															},
+															"Rotation": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Pivot": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Shear": {
+																"x": 0.000000,
+																"y": 0.000000
+															},
+															"XZShear": 0.000000,
+															"YZShear": 0.000000,
+															"Tolerance": 0.000001,
+															"AngleTolerance": 0.001091
+														},
+														"Cxform": {
+															"Mode": 1,
+															"R": 255.000000,
+															"G": 0.000000,
+															"B": 0.000000,
+															"Ao": 0.000000,
+															"Ro": 0.000000,
+															"Go": 0.000000,
+															"Bo": 0.000000,
+															"Am": 1.000000,
+															"Rm": 1.000000,
+															"Gm": 1.000000,
+															"Bm": 1.000000,
+															"Alpha": 0.750000,
+															"Brightness": -0.500000,
+															"Tint": 0.500000
+														},
+														"FrameStart": 0,
+														"FrameLength": 1,
+														"TweenTransition": 0,
+														"TweenEasing": 0,
+														"Pivot": {
+															"x": 160.100754,
+															"y": 165.000000,
+															"z": 0.000000
+														},
+														"HasTween": false,
+														"@meta": {
+															"@id": 267555030,
+															"@typeid": 210448581
+														}
+													}
+												],
+												"@meta": {
+													"@id": 3455077360,
+													"@typeid": 199425826
+												}
+											},
+											{
+												"Id": "2706222421428423101",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 655312077
+													}
+												},
+												"ChildLayers": [],
+												"Visible": true,
+												"Locked": false,
+												"ParentLayerId": "0",
+												"Expanded": true,
+												"Guide": false,
+												"pActor": {
+													"Id": "4457275405778423173",
+													"DynamicProperties": {},
+													"Owner": {
+														"@meta": {
+															"@ref": 1072786814
+														}
+													},
+													"Name": "Text",
+													"Transform": {
+														"Position": {
+															"x": 414.967041,
+															"y": -96.662643,
+															"z": 0.000000
+														},
+														"Scale": {
+															"x": 1.000000,
+															"y": 1.000000,
+															"z": 1.000000
+														},
+														"Rotation": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Shear": {
+															"x": 0.000000,
+															"y": 0.000000
+														},
+														"XZShear": 0.000000,
+														"YZShear": 0.000000,
+														"Tolerance": 0.000001,
+														"AngleTolerance": 0.001091
+													},
+													"Cxform": {
+														"Mode": 0,
+														"R": 255.000000,
+														"G": 0.000000,
+														"B": 0.000000,
+														"Ao": 0.000000,
+														"Ro": 0.000000,
+														"Go": 0.000000,
+														"Bo": 0.000000,
+														"Am": 1.000000,
+														"Rm": 1.000000,
+														"Gm": 1.000000,
+														"Bm": 1.000000,
+														"Alpha": 0.500000,
+														"Brightness": -0.500000,
+														"Tint": 0.500000
+													},
+													"Components": [
+														{
+															"Id": "10609673910166860785",
+															"DynamicProperties": {},
+															"Owner": {
+																"@meta": {
+																	"@ref": 1364131007
+																}
+															},
+															"Name": "Text",
+															"Enabled": true,
+															"Text": "On land below 2 ft",
+															"Font": "Normal",
+															"SystemFont": false,
+															"Html": false,
+															"FontSize": 30.000000,
+															"Width": 297.000000,
+															"Height": 40.000000,
+															"TextColor": 4294967295,
+															"BackgroundColor": 0,
+															"Editable": false,
+															"Multiline": true,
+															"WordWrap": true,
+															"Bold": false,
+															"Italic": false,
+															"Kerning": false,
+															"WordWrap": true,
+															"Multiline": true,
+															"LetterSpacing": 0.000000,
+															"Leading": 0,
+															"LeftMargin": 0.000000,
+															"RightMargin": 0.000000,
+															"Align": 0,
+															"AutoSize": false,
+															"Selectable": false,
+															"VAlign": 1,
+															"ActiveSelectionTextColor": 4294967295,
+															"ActiveSelectionBackgroundColor": 4278742484,
+															"InactiveSelectionTextColor": 4294967295,
+															"InactiveSelectionBackgroundColor": 0,
+															"@meta": {
+																"@id": 614688999,
+																"@typeid": 3283604
+															}
+														}
+													],
+													"Pivot": {
+														"x": 0.000000,
+														"y": 0.000000,
+														"z": 0.000000
+													},
+													"BlendMode": 0,
+													"Scale9Enabled": false,
+													"Scale9Grid": {
+														"x1": 0.000000,
+														"y1": 0.000000,
+														"x2": 0.000000,
+														"y2": 0.000000
+													},
+													"Filters": [],
+													"Visible": true,
+													"@meta": {
+														"@id": 1364131007,
+														"@typeid": 150545074
+													}
+												},
+												"Masking": false,
+												"MaskDisabled": false,
+												"KeyFrames": [
+													{
+														"Id": "2661771081618257629",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 1072786814
+															}
+														},
+														"Transform": {
+															"Position": {
+																"x": 8.470000,
+																"y": -4.910000,
+																"z": 0.000000
+															},
+															"Scale": {
+																"x": 1.000000,
+																"y": 1.000000,
+																"z": 1.000000
+															},
+															"Rotation": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Pivot": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Shear": {
+																"x": 0.000000,
+																"y": 0.000000
+															},
+															"XZShear": 0.000000,
+															"YZShear": 0.000000,
+															"Tolerance": 0.000001,
+															"AngleTolerance": 0.001091
+														},
+														"Cxform": {
+															"Mode": 0,
+															"R": 255.000000,
+															"G": 0.000000,
+															"B": 0.000000,
+															"Ao": 0.000000,
+															"Ro": 0.000000,
+															"Go": 0.000000,
+															"Bo": 0.000000,
+															"Am": 1.000000,
+															"Rm": 1.000000,
+															"Gm": 1.000000,
+															"Bm": 1.000000,
+															"Alpha": 0.500000,
+															"Brightness": -0.500000,
+															"Tint": 0.500000
+														},
+														"FrameStart": 0,
+														"FrameLength": 1,
+														"TweenTransition": 0,
+														"TweenEasing": 0,
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"HasTween": false,
+														"@meta": {
+															"@id": 2594742990,
+															"@typeid": 210448581
+														}
+													}
+												],
+												"@meta": {
+													"@id": 1072786814,
+													"@typeid": 199425826
+												}
+											},
+											{
+												"Id": "13184843658791174349",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 655312077
+													}
+												},
+												"ChildLayers": [],
+												"Visible": true,
+												"Locked": false,
+												"ParentLayerId": "0",
+												"Expanded": true,
+												"Guide": false,
+												"pActor": {
+													"Id": "13739325573405676361",
+													"DynamicProperties": {},
+													"Owner": {
+														"@meta": {
+															"@ref": 3246920113
+														}
+													},
+													"Name": "content",
+													"Transform": {
+														"Position": {
+															"x": 465.940247,
+															"y": 144.610748,
+															"z": 0.000000
+														},
+														"Scale": {
+															"x": 1.000000,
+															"y": 1.000000,
+															"z": 1.000000
+														},
+														"Rotation": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Shear": {
+															"x": 0.000000,
+															"y": 0.000000
+														},
+														"XZShear": 0.000000,
+														"YZShear": 0.000000,
+														"Tolerance": 0.000001,
+														"AngleTolerance": 0.001091
+													},
+													"Cxform": {
+														"Mode": 0,
+														"R": 255.000000,
+														"G": 0.000000,
+														"B": 0.000000,
+														"Ao": 0.000000,
+														"Ro": 0.000000,
+														"Go": 0.000000,
+														"Bo": 0.000000,
+														"Am": 1.000000,
+														"Rm": 1.000000,
+														"Gm": 1.000000,
+														"Bm": 1.000000,
+														"Alpha": 0.500000,
+														"Brightness": -0.500000,
+														"Tint": 0.500000
+													},
+													"Components": [
+														{
+															"Id": "9884378372933901805",
+															"DynamicProperties": {},
+															"Owner": {
+																"@meta": {
+																	"@ref": 1363484002
+																}
+															},
+															"Name": "Text",
+															"Enabled": true,
+															"Text": "- 4,336 people \n- $1,782,000 property value \n- 1, 451 homes \n- 4 schools and libraries \n- 2 medical and fire/EMS stations \n- 11 hazardous waste sites",
+															"Font": "Normal",
+															"SystemFont": false,
+															"Html": false,
+															"FontSize": 18.000000,
+															"Width": 296.000000,
+															"Height": 280.000000,
+															"TextColor": 4294967295,
+															"BackgroundColor": 0,
+															"Editable": false,
+															"Multiline": true,
+															"WordWrap": true,
+															"Bold": false,
+															"Italic": false,
+															"Kerning": false,
+															"WordWrap": true,
+															"Multiline": true,
+															"LetterSpacing": 0.000000,
+															"Leading": 0,
+															"LeftMargin": 0.000000,
+															"RightMargin": 0.000000,
+															"Align": 0,
+															"AutoSize": false,
+															"Selectable": false,
+															"VAlign": 1,
+															"ActiveSelectionTextColor": 4294967295,
+															"ActiveSelectionBackgroundColor": 4278742484,
+															"InactiveSelectionTextColor": 4294967295,
+															"InactiveSelectionBackgroundColor": 0,
+															"@meta": {
+																"@id": 773874860,
+																"@typeid": 3283604
+															}
+														}
+													],
+													"Pivot": {
+														"x": 0.000000,
+														"y": 0.000000,
+														"z": 0.000000
+													},
+													"BlendMode": 0,
+													"Scale9Enabled": false,
+													"Scale9Grid": {
+														"x1": 0.000000,
+														"y1": 0.000000,
+														"x2": 0.000000,
+														"y2": 0.000000
+													},
+													"Filters": [],
+													"Visible": true,
+													"@meta": {
+														"@id": 1363484002,
+														"@typeid": 150545074
+													}
+												},
+												"Masking": false,
+												"MaskDisabled": false,
+												"KeyFrames": [
+													{
+														"Id": "1038965770180289277",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 3246920113
+															}
+														},
+														"Transform": {
+															"Position": {
+																"x": 17.375549,
+																"y": 45.000000,
+																"z": 0.000000
+															},
+															"Scale": {
+																"x": 1.000000,
+																"y": 1.000000,
+																"z": 1.000000
+															},
+															"Rotation": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Pivot": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Shear": {
+																"x": 0.000000,
+																"y": 0.000000
+															},
+															"XZShear": 0.000000,
+															"YZShear": 0.000000,
+															"Tolerance": 0.000001,
+															"AngleTolerance": 0.001091
+														},
+														"Cxform": {
+															"Mode": 0,
+															"R": 255.000000,
+															"G": 0.000000,
+															"B": 0.000000,
+															"Ao": 0.000000,
+															"Ro": 0.000000,
+															"Go": 0.000000,
+															"Bo": 0.000000,
+															"Am": 1.000000,
+															"Rm": 1.000000,
+															"Gm": 1.000000,
+															"Bm": 1.000000,
+															"Alpha": 0.500000,
+															"Brightness": -0.500000,
+															"Tint": 0.500000
+														},
+														"FrameStart": 0,
+														"FrameLength": 1,
+														"TweenTransition": 0,
+														"TweenEasing": 0,
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"HasTween": false,
+														"@meta": {
+															"@id": 2594095985,
+															"@typeid": 210448581
+														}
+													}
+												],
+												"@meta": {
+													"@id": 3246920113,
+													"@typeid": 199425826
+												}
+											}
+										],
+										"ActionData": [],
+										"CurrentFrame": 0,
+										"@meta": {
+											"@id": 655312077,
+											"@typeid": 18887732
+										}
+									},
+									{
+										"Id": "16823183736188041001",
+										"DynamicProperties": {},
+										"Owner": {
+											"@meta": {
+												"@ref": 796819773
+											}
+										},
+										"Name": "Script",
+										"Enabled": true,
+										"Script": "common/scripts/card.lua",
+										"@meta": {
+											"@id": 3432979817,
+											"@typeid": 13313492
+										}
+									}
+								],
+								"Pivot": {
+									"x": 163.696777,
+									"y": 213.457520,
+									"z": 0.000000
+								},
+								"BlendMode": 0,
+								"Scale9Enabled": false,
+								"Scale9Grid": {
+									"x1": 0.000000,
+									"y1": 0.000000,
+									"x2": 0.000000,
+									"y2": 0.000000
+								},
+								"Filters": [],
+								"Visible": true,
+								"@meta": {
+									"@id": 796819773,
+									"@typeid": 150545074
+								}
+							},
+							"Masking": false,
+							"MaskDisabled": false,
+							"KeyFrames": [
+								{
+									"Id": "2699011458897418077",
+									"DynamicProperties": {},
+									"Owner": {
+										"@meta": {
+											"@ref": 685012686
+										}
+									},
+									"Transform": {
+										"Position": {
+											"x": 51.710000,
+											"y": 280.800000,
+											"z": 0.000000
+										},
+										"Scale": {
+											"x": 1.000000,
+											"y": 1.000000,
+											"z": 1.000000
+										},
+										"Rotation": {
+											"x": 0.000000,
+											"y": 0.000000,
+											"z": 0.000000
+										},
+										"Pivot": {
+											"x": 0.000000,
+											"y": 0.000000,
+											"z": 0.000000
+										},
+										"Shear": {
+											"x": 0.000000,
+											"y": 0.000000
+										},
+										"XZShear": 0.000000,
+										"YZShear": 0.000000,
+										"Tolerance": 0.000001,
+										"AngleTolerance": 0.001091
+									},
+									"Cxform": {
+										"Mode": 0,
+										"R": 255.000000,
+										"G": 0.000000,
+										"B": 0.000000,
+										"Ao": 0.000000,
+										"Ro": 0.000000,
+										"Go": 0.000000,
+										"Bo": 0.000000,
+										"Am": 1.000000,
+										"Rm": 1.000000,
+										"Gm": 1.000000,
+										"Bm": 1.000000,
+										"Alpha": 0.500000,
+										"Brightness": -0.500000,
+										"Tint": 0.500000
+									},
+									"FrameStart": 0,
+									"FrameLength": 1,
+									"TweenTransition": 0,
+									"TweenEasing": 0,
+									"Pivot": {
+										"x": 160.100754,
+										"y": 165.000000,
+										"z": 0.000000
+									},
+									"HasTween": false,
+									"@meta": {
+										"@id": 1610206317,
+										"@typeid": 210448581
+									}
+								}
+							],
+							"@meta": {
+								"@id": 685012686,
+								"@typeid": 199425826
+							}
+						},
+						{
+							"Id": "4551853416750285553",
+							"DynamicProperties": {},
+							"Owner": {
+								"@meta": {
+									"@ref": 928390354
+								}
+							},
+							"ChildLayers": [],
+							"Visible": false,
+							"Locked": false,
+							"ParentLayerId": "0",
+							"Expanded": true,
+							"Guide": false,
+							"pActor": {
+								"Id": "7951660916640435001",
+								"DynamicProperties": {},
+								"Owner": {
+									"@meta": {
+										"@ref": 919834463
+									}
+								},
+								"Name": "Card3",
+								"Transform": {
+									"Position": {
+										"x": -163.696777,
+										"y": -213.457520,
+										"z": 0.000000
+									},
+									"Scale": {
+										"x": 1.000000,
+										"y": 1.000000,
+										"z": 1.000000
+									},
+									"Rotation": {
+										"x": 0.000000,
+										"y": 0.000000,
+										"z": 0.000000
+									},
+									"Pivot": {
+										"x": 0.000000,
+										"y": 0.000000,
+										"z": 0.000000
+									},
+									"Shear": {
+										"x": 0.000000,
+										"y": 0.000000
+									},
+									"XZShear": 0.000000,
+									"YZShear": 0.000000,
+									"Tolerance": 0.000001,
+									"AngleTolerance": 0.001091
+								},
+								"Cxform": {
+									"Mode": 0,
+									"R": 255.000000,
+									"G": 0.000000,
+									"B": 0.000000,
+									"Ao": 0.000000,
+									"Ro": 0.000000,
+									"Go": 0.000000,
+									"Bo": 0.000000,
+									"Am": 1.000000,
+									"Rm": 1.000000,
+									"Gm": 1.000000,
+									"Bm": 1.000000,
+									"Alpha": 0.500000,
+									"Brightness": -0.500000,
+									"Tint": 0.500000
+								},
+								"Components": [
+									{
+										"Id": "14495387728892284961",
+										"DynamicProperties": {},
+										"Owner": {
+											"@meta": {
+												"@ref": 4220816802
+											}
+										},
+										"Name": "Animation",
+										"Enabled": true,
+										"Layers": [
+											{
+												"Id": "288265829100958209",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 3063101571
+													}
+												},
+												"ChildLayers": [],
+												"Visible": true,
+												"Locked": false,
+												"ParentLayerId": "0",
+												"Expanded": true,
+												"Guide": false,
+												"pActor": {
+													"Id": "16865776399519556993",
+													"DynamicProperties": {},
+													"Owner": {
+														"@meta": {
+															"@ref": 2575373277
+														}
+													},
+													"Name": "Infocard",
+													"Transform": {
+														"Position": {
+															"x": 254.283783,
+															"y": 430.504456,
+															"z": 0.000000
+														},
+														"Scale": {
+															"x": 1.000000,
+															"y": 1.000000,
+															"z": 1.000000
+														},
+														"Rotation": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Shear": {
+															"x": 0.000000,
+															"y": 0.000000
+														},
+														"XZShear": 0.000000,
+														"YZShear": 0.000000,
+														"Tolerance": 0.000001,
+														"AngleTolerance": 0.001091
+													},
+													"Cxform": {
+														"Mode": 1,
+														"R": 255.000000,
+														"G": 0.000000,
+														"B": 0.000000,
+														"Ao": 0.000000,
+														"Ro": 0.000000,
+														"Go": 0.000000,
+														"Bo": 0.000000,
+														"Am": 1.000000,
+														"Rm": 1.000000,
+														"Gm": 1.000000,
+														"Bm": 1.000000,
+														"Alpha": 0.750000,
+														"Brightness": -0.500000,
+														"Tint": 0.500000
+													},
+													"Components": [
+														{
+															"Id": "12431342865443081441",
+															"DynamicProperties": {},
+															"Owner": {
+																"@meta": {
+																	"@ref": 3236927134
+																}
+															},
+															"Name": "Shape",
+															"Enabled": true,
+															"SVG": "common/assets/Infocard.svg",
+															"Bitmaps": [],
+															"@meta": {
+																"@id": 3414270334,
+																"@typeid": 40850532
+															}
+														}
+													],
+													"Pivot": {
+														"x": 160.100754,
+														"y": 165.000000,
+														"z": 0.000000
+													},
+													"BlendMode": 0,
+													"Scale9Enabled": false,
+													"Scale9Grid": {
+														"x1": 0.000000,
+														"y1": 0.000000,
+														"x2": 0.000000,
+														"y2": 0.000000
+													},
+													"Filters": [],
+													"Visible": true,
+													"@meta": {
+														"@id": 3236927134,
+														"@typeid": 150545074
+													}
+												},
+												"Masking": false,
+												"MaskDisabled": false,
+												"KeyFrames": [
+													{
+														"Id": "15709019860057309977",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 2575373277
+															}
+														},
+														"Transform": {
+															"Position": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Scale": {
+																"x": 1.000000,
+																"y": 1.000000,
+																"z": 1.000000
+															},
+															"Rotation": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Pivot": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Shear": {
+																"x": 0.000000,
+																"y": 0.000000
+															},
+															"XZShear": 0.000000,
+															"YZShear": 0.000000,
+															"Tolerance": 0.000001,
+															"AngleTolerance": 0.001091
+														},
+														"Cxform": {
+															"Mode": 1,
+															"R": 255.000000,
+															"G": 0.000000,
+															"B": 0.000000,
+															"Ao": 0.000000,
+															"Ro": 0.000000,
+															"Go": 0.000000,
+															"Bo": 0.000000,
+															"Am": 1.000000,
+															"Rm": 1.000000,
+															"Gm": 1.000000,
+															"Bm": 1.000000,
+															"Alpha": 0.750000,
+															"Brightness": -0.500000,
+															"Tint": 0.500000
+														},
+														"FrameStart": 0,
+														"FrameLength": 1,
+														"TweenTransition": 0,
+														"TweenEasing": 0,
+														"Pivot": {
+															"x": 160.100754,
+															"y": 165.000000,
+															"z": 0.000000
+														},
+														"HasTween": false,
+														"@meta": {
+															"@id": 172571821,
+															"@typeid": 210448581
+														}
+													}
+												],
+												"@meta": {
+													"@id": 2575373277,
+													"@typeid": 199425826
+												}
+											},
+											{
+												"Id": "11870237673476544609",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 3063101571
+													}
+												},
+												"ChildLayers": [],
+												"Visible": true,
+												"Locked": false,
+												"ParentLayerId": "0",
+												"Expanded": true,
+												"Guide": false,
+												"pActor": {
+													"Id": "5058101560039835317",
+													"DynamicProperties": {},
+													"Owner": {
+														"@meta": {
+															"@ref": 1656932092
+														}
+													},
+													"Name": "Text",
+													"Transform": {
+														"Position": {
+															"x": 414.967041,
+															"y": -96.662643,
+															"z": 0.000000
+														},
+														"Scale": {
+															"x": 1.000000,
+															"y": 1.000000,
+															"z": 1.000000
+														},
+														"Rotation": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Shear": {
+															"x": 0.000000,
+															"y": 0.000000
+														},
+														"XZShear": 0.000000,
+														"YZShear": 0.000000,
+														"Tolerance": 0.000001,
+														"AngleTolerance": 0.001091
+													},
+													"Cxform": {
+														"Mode": 0,
+														"R": 255.000000,
+														"G": 0.000000,
+														"B": 0.000000,
+														"Ao": 0.000000,
+														"Ro": 0.000000,
+														"Go": 0.000000,
+														"Bo": 0.000000,
+														"Am": 1.000000,
+														"Rm": 1.000000,
+														"Gm": 1.000000,
+														"Bm": 1.000000,
+														"Alpha": 0.500000,
+														"Brightness": -0.500000,
+														"Tint": 0.500000
+													},
+													"Components": [
+														{
+															"Id": "12530867956398077865",
+															"DynamicProperties": {},
+															"Owner": {
+																"@meta": {
+																	"@ref": 209505123
+																}
+															},
+															"Name": "Text",
+															"Enabled": true,
+															"Text": "On land below 3 ft",
+															"Font": "Normal",
+															"SystemFont": false,
+															"Html": false,
+															"FontSize": 30.000000,
+															"Width": 297.000000,
+															"Height": 40.000000,
+															"TextColor": 4294967295,
+															"BackgroundColor": 0,
+															"Editable": false,
+															"Multiline": true,
+															"WordWrap": true,
+															"Bold": false,
+															"Italic": false,
+															"Kerning": false,
+															"WordWrap": true,
+															"Multiline": true,
+															"LetterSpacing": 0.000000,
+															"Leading": 0,
+															"LeftMargin": 0.000000,
+															"RightMargin": 0.000000,
+															"Align": 0,
+															"AutoSize": false,
+															"Selectable": false,
+															"VAlign": 1,
+															"ActiveSelectionTextColor": 4294967295,
+															"ActiveSelectionBackgroundColor": 4278742484,
+															"InactiveSelectionTextColor": 4294967295,
+															"InactiveSelectionBackgroundColor": 0,
+															"@meta": {
+																"@id": 3166613613,
+																"@typeid": 3283604
+															}
+														}
+													],
+													"Pivot": {
+														"x": 0.000000,
+														"y": 0.000000,
+														"z": 0.000000
+													},
+													"BlendMode": 0,
+													"Scale9Enabled": false,
+													"Scale9Grid": {
+														"x1": 0.000000,
+														"y1": 0.000000,
+														"x2": 0.000000,
+														"y2": 0.000000
+													},
+													"Filters": [],
+													"Visible": true,
+													"@meta": {
+														"@id": 209505123,
+														"@typeid": 150545074
+													}
+												},
+												"Masking": false,
+												"MaskDisabled": false,
+												"KeyFrames": [
+													{
+														"Id": "4883152044751828249",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 1656932092
+															}
+														},
+														"Transform": {
+															"Position": {
+																"x": 8.470000,
+																"y": -4.910000,
+																"z": 0.000000
+															},
+															"Scale": {
+																"x": 1.000000,
+																"y": 1.000000,
+																"z": 1.000000
+															},
+															"Rotation": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Pivot": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Shear": {
+																"x": 0.000000,
+																"y": 0.000000
+															},
+															"XZShear": 0.000000,
+															"YZShear": 0.000000,
+															"Tolerance": 0.000001,
+															"AngleTolerance": 0.001091
+														},
+														"Cxform": {
+															"Mode": 0,
+															"R": 255.000000,
+															"G": 0.000000,
+															"B": 0.000000,
+															"Ao": 0.000000,
+															"Ro": 0.000000,
+															"Go": 0.000000,
+															"Bo": 0.000000,
+															"Am": 1.000000,
+															"Rm": 1.000000,
+															"Gm": 1.000000,
+															"Bm": 1.000000,
+															"Alpha": 0.500000,
+															"Brightness": -0.500000,
+															"Tint": 0.500000
+														},
+														"FrameStart": 0,
+														"FrameLength": 1,
+														"TweenTransition": 0,
+														"TweenEasing": 0,
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"HasTween": false,
+														"@meta": {
+															"@id": 1440117106,
+															"@typeid": 210448581
+														}
+													}
+												],
+												"@meta": {
+													"@id": 1656932092,
+													"@typeid": 199425826
+												}
+											},
+											{
+												"Id": "13230096996214287925",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 3063101571
+													}
+												},
+												"ChildLayers": [],
+												"Visible": true,
+												"Locked": false,
+												"ParentLayerId": "0",
+												"Expanded": true,
+												"Guide": false,
+												"pActor": {
+													"Id": "10039372699171362713",
+													"DynamicProperties": {},
+													"Owner": {
+														"@meta": {
+															"@ref": 3312470906
+														}
+													},
+													"Name": "content",
+													"Transform": {
+														"Position": {
+															"x": 465.940247,
+															"y": 144.610748,
+															"z": 0.000000
+														},
+														"Scale": {
+															"x": 1.000000,
+															"y": 1.000000,
+															"z": 1.000000
+														},
+														"Rotation": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Shear": {
+															"x": 0.000000,
+															"y": 0.000000
+														},
+														"XZShear": 0.000000,
+														"YZShear": 0.000000,
+														"Tolerance": 0.000001,
+														"AngleTolerance": 0.001091
+													},
+													"Cxform": {
+														"Mode": 0,
+														"R": 255.000000,
+														"G": 0.000000,
+														"B": 0.000000,
+														"Ao": 0.000000,
+														"Ro": 0.000000,
+														"Go": 0.000000,
+														"Bo": 0.000000,
+														"Am": 1.000000,
+														"Rm": 1.000000,
+														"Gm": 1.000000,
+														"Bm": 1.000000,
+														"Alpha": 0.500000,
+														"Brightness": -0.500000,
+														"Tint": 0.500000
+													},
+													"Components": [
+														{
+															"Id": "4007172647483090829",
+															"DynamicProperties": {},
+															"Owner": {
+																"@meta": {
+																	"@ref": 2536693083
+																}
+															},
+															"Name": "Text",
+															"Enabled": true,
+															"Text": "- 4,896 people \n- $2,137,000 property value \n- 1, 825 homes \n- 13 hazardous waste sites \n- 26 miles of roads",
+															"Font": "Normal",
+															"SystemFont": false,
+															"Html": false,
+															"FontSize": 18.000000,
+															"Width": 296.000000,
+															"Height": 280.000000,
+															"TextColor": 4294967295,
+															"BackgroundColor": 0,
+															"Editable": false,
+															"Multiline": true,
+															"WordWrap": true,
+															"Bold": false,
+															"Italic": false,
+															"Kerning": false,
+															"WordWrap": true,
+															"Multiline": true,
+															"LetterSpacing": 0.000000,
+															"Leading": 0,
+															"LeftMargin": 0.000000,
+															"RightMargin": 0.000000,
+															"Align": 0,
+															"AutoSize": false,
+															"Selectable": false,
+															"VAlign": 1,
+															"ActiveSelectionTextColor": 4294967295,
+															"ActiveSelectionBackgroundColor": 4278742484,
+															"InactiveSelectionTextColor": 4294967295,
+															"InactiveSelectionBackgroundColor": 0,
+															"@meta": {
+																"@id": 527185131,
+																"@typeid": 3283604
+															}
+														}
+													],
+													"Pivot": {
+														"x": 0.000000,
+														"y": 0.000000,
+														"z": 0.000000
+													},
+													"BlendMode": 0,
+													"Scale9Enabled": false,
+													"Scale9Grid": {
+														"x1": 0.000000,
+														"y1": 0.000000,
+														"x2": 0.000000,
+														"y2": 0.000000
+													},
+													"Filters": [],
+													"Visible": true,
+													"@meta": {
+														"@id": 2536693083,
+														"@typeid": 150545074
+													}
+												},
+												"Masking": false,
+												"MaskDisabled": false,
+												"KeyFrames": [
+													{
+														"Id": "16125440463783058677",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 3312470906
+															}
+														},
+														"Transform": {
+															"Position": {
+																"x": 17.375549,
+																"y": 45.000000,
+																"z": 0.000000
+															},
+															"Scale": {
+																"x": 1.000000,
+																"y": 1.000000,
+																"z": 1.000000
+															},
+															"Rotation": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Pivot": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Shear": {
+																"x": 0.000000,
+																"y": 0.000000
+															},
+															"XZShear": 0.000000,
+															"YZShear": 0.000000,
+															"Tolerance": 0.000001,
+															"AngleTolerance": 0.001091
+														},
+														"Cxform": {
+															"Mode": 0,
+															"R": 255.000000,
+															"G": 0.000000,
+															"B": 0.000000,
+															"Ao": 0.000000,
+															"Ro": 0.000000,
+															"Go": 0.000000,
+															"Bo": 0.000000,
+															"Am": 1.000000,
+															"Rm": 1.000000,
+															"Gm": 1.000000,
+															"Bm": 1.000000,
+															"Alpha": 0.500000,
+															"Brightness": -0.500000,
+															"Tint": 0.500000
+														},
+														"FrameStart": 0,
+														"FrameLength": 1,
+														"TweenTransition": 0,
+														"TweenEasing": 0,
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"HasTween": false,
+														"@meta": {
+															"@id": 1421533909,
+															"@typeid": 210448581
+														}
+													}
+												],
+												"@meta": {
+													"@id": 3312470906,
+													"@typeid": 199425826
+												}
+											}
+										],
+										"ActionData": [],
+										"CurrentFrame": 0,
+										"@meta": {
+											"@id": 3063101571,
+											"@typeid": 18887732
+										}
+									},
+									{
+										"Id": "8567138258515607033",
+										"DynamicProperties": {},
+										"Owner": {
+											"@meta": {
+												"@ref": 4220816802
+											}
+										},
+										"Name": "Script",
+										"Enabled": true,
+										"Script": "common/scripts/card.lua",
+										"@meta": {
+											"@id": 1290357114,
+											"@typeid": 13313492
+										}
+									}
+								],
+								"Pivot": {
+									"x": 163.696777,
+									"y": 213.457520,
+									"z": 0.000000
+								},
+								"BlendMode": 0,
+								"Scale9Enabled": false,
+								"Scale9Grid": {
+									"x1": 0.000000,
+									"y1": 0.000000,
+									"x2": 0.000000,
+									"y2": 0.000000
+								},
+								"Filters": [],
+								"Visible": true,
+								"@meta": {
+									"@id": 4220816802,
+									"@typeid": 150545074
+								}
+							},
+							"Masking": false,
+							"MaskDisabled": false,
+							"KeyFrames": [
+								{
+									"Id": "11864155275739024121",
+									"DynamicProperties": {},
+									"Owner": {
+										"@meta": {
+											"@ref": 919834463
+										}
+									},
+									"Transform": {
+										"Position": {
+											"x": 51.710000,
+											"y": 280.800000,
+											"z": 0.000000
+										},
+										"Scale": {
+											"x": 1.000000,
+											"y": 1.000000,
+											"z": 1.000000
+										},
+										"Rotation": {
+											"x": 0.000000,
+											"y": 0.000000,
+											"z": 0.000000
+										},
+										"Pivot": {
+											"x": 0.000000,
+											"y": 0.000000,
+											"z": 0.000000
+										},
+										"Shear": {
+											"x": 0.000000,
+											"y": 0.000000
+										},
+										"XZShear": 0.000000,
+										"YZShear": 0.000000,
+										"Tolerance": 0.000001,
+										"AngleTolerance": 0.001091
+									},
+									"Cxform": {
+										"Mode": 0,
+										"R": 255.000000,
+										"G": 0.000000,
+										"B": 0.000000,
+										"Ao": 0.000000,
+										"Ro": 0.000000,
+										"Go": 0.000000,
+										"Bo": 0.000000,
+										"Am": 1.000000,
+										"Rm": 1.000000,
+										"Gm": 1.000000,
+										"Bm": 1.000000,
+										"Alpha": 0.500000,
+										"Brightness": -0.500000,
+										"Tint": 0.500000
+									},
+									"FrameStart": 0,
+									"FrameLength": 1,
+									"TweenTransition": 0,
+									"TweenEasing": 0,
+									"Pivot": {
+										"x": 160.100754,
+										"y": 165.000000,
+										"z": 0.000000
+									},
+									"HasTween": false,
+									"@meta": {
+										"@id": 437644241,
+										"@typeid": 210448581
+									}
+								}
+							],
+							"@meta": {
+								"@id": 919834463,
+								"@typeid": 199425826
+							}
+						},
+						{
+							"Id": "17648904792875000809",
+							"DynamicProperties": {},
+							"Owner": {
+								"@meta": {
+									"@ref": 928390354
+								}
+							},
+							"ChildLayers": [],
+							"Visible": false,
+							"Locked": false,
+							"ParentLayerId": "0",
+							"Expanded": true,
+							"Guide": false,
+							"pActor": {
+								"Id": "4791643545061178697",
+								"DynamicProperties": {},
+								"Owner": {
+									"@meta": {
+										"@ref": 673042424
+									}
+								},
+								"Name": "Card4",
+								"Transform": {
+									"Position": {
+										"x": -163.696777,
+										"y": -213.457520,
+										"z": 0.000000
+									},
+									"Scale": {
+										"x": 1.000000,
+										"y": 1.000000,
+										"z": 1.000000
+									},
+									"Rotation": {
+										"x": 0.000000,
+										"y": 0.000000,
+										"z": 0.000000
+									},
+									"Pivot": {
+										"x": 0.000000,
+										"y": 0.000000,
+										"z": 0.000000
+									},
+									"Shear": {
+										"x": 0.000000,
+										"y": 0.000000
+									},
+									"XZShear": 0.000000,
+									"YZShear": 0.000000,
+									"Tolerance": 0.000001,
+									"AngleTolerance": 0.001091
+								},
+								"Cxform": {
+									"Mode": 0,
+									"R": 255.000000,
+									"G": 0.000000,
+									"B": 0.000000,
+									"Ao": 0.000000,
+									"Ro": 0.000000,
+									"Go": 0.000000,
+									"Bo": 0.000000,
+									"Am": 1.000000,
+									"Rm": 1.000000,
+									"Gm": 1.000000,
+									"Bm": 1.000000,
+									"Alpha": 0.500000,
+									"Brightness": -0.500000,
+									"Tint": 0.500000
+								},
+								"Components": [
+									{
+										"Id": "3564096567894188265",
+										"DynamicProperties": {},
+										"Owner": {
+											"@meta": {
+												"@ref": 1534220218
+											}
+										},
+										"Name": "Animation",
+										"Enabled": true,
+										"Layers": [
+											{
+												"Id": "11425130868043918801",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 2816309532
+													}
+												},
+												"ChildLayers": [],
+												"Visible": true,
+												"Locked": false,
+												"ParentLayerId": "0",
+												"Expanded": true,
+												"Guide": false,
+												"pActor": {
+													"Id": "16674930853851202613",
+													"DynamicProperties": {},
+													"Owner": {
+														"@meta": {
+															"@ref": 2328581238
+														}
+													},
+													"Name": "Infocard",
+													"Transform": {
+														"Position": {
+															"x": 254.283783,
+															"y": 430.504456,
+															"z": 0.000000
+														},
+														"Scale": {
+															"x": 1.000000,
+															"y": 1.000000,
+															"z": 1.000000
+														},
+														"Rotation": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Shear": {
+															"x": 0.000000,
+															"y": 0.000000
+														},
+														"XZShear": 0.000000,
+														"YZShear": 0.000000,
+														"Tolerance": 0.000001,
+														"AngleTolerance": 0.001091
+													},
+													"Cxform": {
+														"Mode": 1,
+														"R": 255.000000,
+														"G": 0.000000,
+														"B": 0.000000,
+														"Ao": 0.000000,
+														"Ro": 0.000000,
+														"Go": 0.000000,
+														"Bo": 0.000000,
+														"Am": 1.000000,
+														"Rm": 1.000000,
+														"Gm": 1.000000,
+														"Bm": 1.000000,
+														"Alpha": 0.750000,
+														"Brightness": -0.500000,
+														"Tint": 0.500000
+													},
+													"Components": [
+														{
+															"Id": "14654043175291277213",
+															"DynamicProperties": {},
+															"Owner": {
+																"@meta": {
+																	"@ref": 2365956867
+																}
+															},
+															"Name": "Shape",
+															"Enabled": true,
+															"SVG": "common/assets/Infocard.svg",
+															"Bitmaps": [],
+															"@meta": {
+																"@id": 163013693,
+																"@typeid": 40850532
+															}
+														}
+													],
+													"Pivot": {
+														"x": 160.100754,
+														"y": 165.000000,
+														"z": 0.000000
+													},
+													"BlendMode": 0,
+													"Scale9Enabled": false,
+													"Scale9Grid": {
+														"x1": 0.000000,
+														"y1": 0.000000,
+														"x2": 0.000000,
+														"y2": 0.000000
+													},
+													"Filters": [],
+													"Visible": true,
+													"@meta": {
+														"@id": 2365956867,
+														"@typeid": 150545074
+													}
+												},
+												"Masking": false,
+												"MaskDisabled": false,
+												"KeyFrames": [
+													{
+														"Id": "6616426689700173949",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 2328581238
+															}
+														},
+														"Transform": {
+															"Position": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Scale": {
+																"x": 1.000000,
+																"y": 1.000000,
+																"z": 1.000000
+															},
+															"Rotation": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Pivot": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Shear": {
+																"x": 0.000000,
+																"y": 0.000000
+															},
+															"XZShear": 0.000000,
+															"YZShear": 0.000000,
+															"Tolerance": 0.000001,
+															"AngleTolerance": 0.001091
+														},
+														"Cxform": {
+															"Mode": 1,
+															"R": 255.000000,
+															"G": 0.000000,
+															"B": 0.000000,
+															"Ao": 0.000000,
+															"Ro": 0.000000,
+															"Go": 0.000000,
+															"Bo": 0.000000,
+															"Am": 1.000000,
+															"Rm": 1.000000,
+															"Gm": 1.000000,
+															"Bm": 1.000000,
+															"Alpha": 0.750000,
+															"Brightness": -0.500000,
+															"Tint": 0.500000
+														},
+														"FrameStart": 0,
+														"FrameLength": 1,
+														"TweenTransition": 0,
+														"TweenEasing": 0,
+														"Pivot": {
+															"x": 160.100754,
+															"y": 165.000000,
+															"z": 0.000000
+														},
+														"HasTween": false,
+														"@meta": {
+															"@id": 3596568850,
+															"@typeid": 210448581
+														}
+													}
+												],
+												"@meta": {
+													"@id": 2328581238,
+													"@typeid": 199425826
+												}
+											},
+											{
+												"Id": "5201356943216772733",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 2816309532
+													}
+												},
+												"ChildLayers": [],
+												"Visible": true,
+												"Locked": false,
+												"ParentLayerId": "0",
+												"Expanded": true,
+												"Guide": false,
+												"pActor": {
+													"Id": "2011760935512145533",
+													"DynamicProperties": {},
+													"Owner": {
+														"@meta": {
+															"@ref": 1008866997
+														}
+													},
+													"Name": "Text",
+													"Transform": {
+														"Position": {
+															"x": 414.967041,
+															"y": -96.662643,
+															"z": 0.000000
+														},
+														"Scale": {
+															"x": 1.000000,
+															"y": 1.000000,
+															"z": 1.000000
+														},
+														"Rotation": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Shear": {
+															"x": 0.000000,
+															"y": 0.000000
+														},
+														"XZShear": 0.000000,
+														"YZShear": 0.000000,
+														"Tolerance": 0.000001,
+														"AngleTolerance": 0.001091
+													},
+													"Cxform": {
+														"Mode": 0,
+														"R": 255.000000,
+														"G": 0.000000,
+														"B": 0.000000,
+														"Ao": 0.000000,
+														"Ro": 0.000000,
+														"Go": 0.000000,
+														"Bo": 0.000000,
+														"Am": 1.000000,
+														"Rm": 1.000000,
+														"Gm": 1.000000,
+														"Bm": 1.000000,
+														"Alpha": 0.500000,
+														"Brightness": -0.500000,
+														"Tint": 0.500000
+													},
+													"Components": [
+														{
+															"Id": "16726223604834134985",
+															"DynamicProperties": {},
+															"Owner": {
+																"@meta": {
+																	"@ref": 398177531
+																}
+															},
+															"Name": "Text",
+															"Enabled": true,
+															"Text": "On land below 4 ft",
+															"Font": "Normal",
+															"SystemFont": false,
+															"Html": false,
+															"FontSize": 30.000000,
+															"Width": 297.000000,
+															"Height": 40.000000,
+															"TextColor": 4294967295,
+															"BackgroundColor": 0,
+															"Editable": false,
+															"Multiline": true,
+															"WordWrap": true,
+															"Bold": false,
+															"Italic": false,
+															"Kerning": false,
+															"WordWrap": true,
+															"Multiline": true,
+															"LetterSpacing": 0.000000,
+															"Leading": 0,
+															"LeftMargin": 0.000000,
+															"RightMargin": 0.000000,
+															"Align": 0,
+															"AutoSize": false,
+															"Selectable": false,
+															"VAlign": 1,
+															"ActiveSelectionTextColor": 4294967295,
+															"ActiveSelectionBackgroundColor": 4278742484,
+															"InactiveSelectionTextColor": 4294967295,
+															"InactiveSelectionBackgroundColor": 0,
+															"@meta": {
+																"@id": 2518548518,
+																"@typeid": 3283604
+															}
+														}
+													],
+													"Pivot": {
+														"x": 0.000000,
+														"y": 0.000000,
+														"z": 0.000000
+													},
+													"BlendMode": 0,
+													"Scale9Enabled": false,
+													"Scale9Grid": {
+														"x1": 0.000000,
+														"y1": 0.000000,
+														"x2": 0.000000,
+														"y2": 0.000000
+													},
+													"Filters": [],
+													"Visible": true,
+													"@meta": {
+														"@id": 398177531,
+														"@typeid": 150545074
+													}
+												},
+												"Masking": false,
+												"MaskDisabled": false,
+												"KeyFrames": [
+													{
+														"Id": "16321334648032664441",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 1008866997
+															}
+														},
+														"Transform": {
+															"Position": {
+																"x": 8.465576,
+																"y": -4.910000,
+																"z": 0.000000
+															},
+															"Scale": {
+																"x": 1.000000,
+																"y": 1.000000,
+																"z": 1.000000
+															},
+															"Rotation": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Pivot": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Shear": {
+																"x": 0.000000,
+																"y": 0.000000
+															},
+															"XZShear": 0.000000,
+															"YZShear": 0.000000,
+															"Tolerance": 0.000001,
+															"AngleTolerance": 0.001091
+														},
+														"Cxform": {
+															"Mode": 0,
+															"R": 255.000000,
+															"G": 0.000000,
+															"B": 0.000000,
+															"Ao": 0.000000,
+															"Ro": 0.000000,
+															"Go": 0.000000,
+															"Bo": 0.000000,
+															"Am": 1.000000,
+															"Rm": 1.000000,
+															"Gm": 1.000000,
+															"Bm": 1.000000,
+															"Alpha": 0.500000,
+															"Brightness": -0.500000,
+															"Tint": 0.500000
+														},
+														"FrameStart": 0,
+														"FrameLength": 1,
+														"TweenTransition": 0,
+														"TweenEasing": 0,
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"HasTween": false,
+														"@meta": {
+															"@id": 1004308470,
+															"@typeid": 210448581
+														}
+													}
+												],
+												"@meta": {
+													"@id": 1008866997,
+													"@typeid": 199425826
+												}
+											},
+											{
+												"Id": "8521454207491383345",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 2816309532
+													}
+												},
+												"ChildLayers": [],
+												"Visible": true,
+												"Locked": false,
+												"ParentLayerId": "0",
+												"Expanded": true,
+												"Guide": false,
+												"pActor": {
+													"Id": "8952145048911260945",
+													"DynamicProperties": {},
+													"Owner": {
+														"@meta": {
+															"@ref": 2664405811
+														}
+													},
+													"Name": "content",
+													"Transform": {
+														"Position": {
+															"x": 465.940247,
+															"y": 144.610748,
+															"z": 0.000000
+														},
+														"Scale": {
+															"x": 1.000000,
+															"y": 1.000000,
+															"z": 1.000000
+														},
+														"Rotation": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Shear": {
+															"x": 0.000000,
+															"y": 0.000000
+														},
+														"XZShear": 0.000000,
+														"YZShear": 0.000000,
+														"Tolerance": 0.000001,
+														"AngleTolerance": 0.001091
+													},
+													"Cxform": {
+														"Mode": 0,
+														"R": 255.000000,
+														"G": 0.000000,
+														"B": 0.000000,
+														"Ao": 0.000000,
+														"Ro": 0.000000,
+														"Go": 0.000000,
+														"Bo": 0.000000,
+														"Am": 1.000000,
+														"Rm": 1.000000,
+														"Gm": 1.000000,
+														"Bm": 1.000000,
+														"Alpha": 0.500000,
+														"Brightness": -0.500000,
+														"Tint": 0.500000
+													},
+													"Components": [
+														{
+															"Id": "5220988921631224445",
+															"DynamicProperties": {},
+															"Owner": {
+																"@meta": {
+																	"@ref": 2100884447
+																}
+															},
+															"Name": "Text",
+															"Enabled": true,
+															"Text": "- 6,612 people \n- $2,703,000 property value \n- 2,343 homes \n- 31 miles of roads \n- 3 rail stations",
+															"Font": "Normal",
+															"SystemFont": false,
+															"Html": false,
+															"FontSize": 18.000000,
+															"Width": 296.000000,
+															"Height": 280.000000,
+															"TextColor": 4294967295,
+															"BackgroundColor": 0,
+															"Editable": false,
+															"Multiline": true,
+															"WordWrap": true,
+															"Bold": false,
+															"Italic": false,
+															"Kerning": false,
+															"WordWrap": true,
+															"Multiline": true,
+															"LetterSpacing": 0.000000,
+															"Leading": 0,
+															"LeftMargin": 0.000000,
+															"RightMargin": 0.000000,
+															"Align": 0,
+															"AutoSize": false,
+															"Selectable": false,
+															"VAlign": 1,
+															"ActiveSelectionTextColor": 4294967295,
+															"ActiveSelectionBackgroundColor": 4278742484,
+															"InactiveSelectionTextColor": 4294967295,
+															"InactiveSelectionBackgroundColor": 0,
+															"@meta": {
+																"@id": 4174087332,
+																"@typeid": 3283604
+															}
+														}
+													],
+													"Pivot": {
+														"x": 0.000000,
+														"y": 0.000000,
+														"z": 0.000000
+													},
+													"BlendMode": 0,
+													"Scale9Enabled": false,
+													"Scale9Grid": {
+														"x1": 0.000000,
+														"y1": 0.000000,
+														"x2": 0.000000,
+														"y2": 0.000000
+													},
+													"Filters": [],
+													"Visible": true,
+													"@meta": {
+														"@id": 2100884447,
+														"@typeid": 150545074
+													}
+												},
+												"Masking": false,
+												"MaskDisabled": false,
+												"KeyFrames": [
+													{
+														"Id": "9757874320098466217",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 2664405811
+															}
+														},
+														"Transform": {
+															"Position": {
+																"x": 17.375549,
+																"y": 45.000000,
+																"z": 0.000000
+															},
+															"Scale": {
+																"x": 1.000000,
+																"y": 1.000000,
+																"z": 1.000000
+															},
+															"Rotation": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Pivot": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Shear": {
+																"x": 0.000000,
+																"y": 0.000000
+															},
+															"XZShear": 0.000000,
+															"YZShear": 0.000000,
+															"Tolerance": 0.000001,
+															"AngleTolerance": 0.001091
+														},
+														"Cxform": {
+															"Mode": 0,
+															"R": 255.000000,
+															"G": 0.000000,
+															"B": 0.000000,
+															"Ao": 0.000000,
+															"Ro": 0.000000,
+															"Go": 0.000000,
+															"Bo": 0.000000,
+															"Am": 1.000000,
+															"Rm": 1.000000,
+															"Gm": 1.000000,
+															"Bm": 1.000000,
+															"Alpha": 0.500000,
+															"Brightness": -0.500000,
+															"Tint": 0.500000
+														},
+														"FrameStart": 0,
+														"FrameLength": 1,
+														"TweenTransition": 0,
+														"TweenEasing": 0,
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"HasTween": false,
+														"@meta": {
+															"@id": 3331496430,
+															"@typeid": 210448581
+														}
+													}
+												],
+												"@meta": {
+													"@id": 2664405811,
+													"@typeid": 199425826
+												}
+											}
+										],
+										"ActionData": [],
+										"CurrentFrame": 0,
+										"@meta": {
+											"@id": 2816309532,
+											"@typeid": 18887732
+										}
+									},
+									{
+										"Id": "4149482533774732273",
+										"DynamicProperties": {},
+										"Owner": {
+											"@meta": {
+												"@ref": 1534220218
+											}
+										},
+										"Name": "Script",
+										"Enabled": true,
+										"Script": "common/scripts/card.lua",
+										"@meta": {
+											"@id": 2334067769,
+											"@typeid": 13313492
+										}
+									}
+								],
+								"Pivot": {
+									"x": 163.696777,
+									"y": 213.457520,
+									"z": 0.000000
+								},
+								"BlendMode": 0,
+								"Scale9Enabled": false,
+								"Scale9Grid": {
+									"x1": 0.000000,
+									"y1": 0.000000,
+									"x2": 0.000000,
+									"y2": 0.000000
+								},
+								"Filters": [],
+								"Visible": true,
+								"@meta": {
+									"@id": 1534220218,
+									"@typeid": 150545074
+								}
+							},
+							"Masking": false,
+							"MaskDisabled": false,
+							"KeyFrames": [
+								{
+									"Id": "11419051121103998797",
+									"DynamicProperties": {},
+									"Owner": {
+										"@meta": {
+											"@ref": 673042424
+										}
+									},
+									"Transform": {
+										"Position": {
+											"x": 51.710000,
+											"y": 280.800000,
+											"z": 0.000000
+										},
+										"Scale": {
+											"x": 1.000000,
+											"y": 1.000000,
+											"z": 1.000000
+										},
+										"Rotation": {
+											"x": 0.000000,
+											"y": 0.000000,
+											"z": 0.000000
+										},
+										"Pivot": {
+											"x": 0.000000,
+											"y": 0.000000,
+											"z": 0.000000
+										},
+										"Shear": {
+											"x": 0.000000,
+											"y": 0.000000
+										},
+										"XZShear": 0.000000,
+										"YZShear": 0.000000,
+										"Tolerance": 0.000001,
+										"AngleTolerance": 0.001091
+									},
+									"Cxform": {
+										"Mode": 0,
+										"R": 255.000000,
+										"G": 0.000000,
+										"B": 0.000000,
+										"Ao": 0.000000,
+										"Ro": 0.000000,
+										"Go": 0.000000,
+										"Bo": 0.000000,
+										"Am": 1.000000,
+										"Rm": 1.000000,
+										"Gm": 1.000000,
+										"Bm": 1.000000,
+										"Alpha": 0.500000,
+										"Brightness": -0.500000,
+										"Tint": 0.500000
+									},
+									"FrameStart": 0,
+									"FrameLength": 1,
+									"TweenTransition": 0,
+									"TweenEasing": 0,
+									"Pivot": {
+										"x": 160.100754,
+										"y": 165.000000,
+										"z": 0.000000
+									},
+									"HasTween": false,
+									"@meta": {
+										"@id": 4145296887,
+										"@typeid": 210448581
+									}
+								}
+							],
+							"@meta": {
+								"@id": 673042424,
+								"@typeid": 199425826
+							}
+						},
+						{
+							"Id": "16943897192770816313",
+							"DynamicProperties": {},
+							"Owner": {
+								"@meta": {
+									"@ref": 928390354
+								}
+							},
+							"ChildLayers": [],
+							"Visible": true,
+							"Locked": false,
+							"ParentLayerId": "0",
+							"Expanded": true,
+							"Guide": false,
+							"pActor": {
+								"Id": "17500981024635418201",
+								"DynamicProperties": {},
+								"Owner": {
+									"@meta": {
+										"@ref": 24977329
+									}
+								},
+								"Name": "CallToAction",
+								"Transform": {
+									"Position": {
+										"x": 0.000000,
+										"y": 0.000000,
+										"z": 0.000000
+									},
+									"Scale": {
+										"x": 1.000000,
+										"y": 1.000000,
+										"z": 1.000000
+									},
+									"Rotation": {
+										"x": 0.000000,
+										"y": 0.000000,
+										"z": 0.000000
+									},
+									"Pivot": {
+										"x": 0.000000,
+										"y": 0.000000,
+										"z": 0.000000
+									},
+									"Shear": {
+										"x": 0.000000,
+										"y": 0.000000
+									},
+									"XZShear": 0.000000,
+									"YZShear": 0.000000,
+									"Tolerance": 0.000001,
+									"AngleTolerance": 0.001091
+								},
+								"Cxform": {
+									"Mode": 0,
+									"R": 255.000000,
+									"G": 0.000000,
+									"B": 0.000000,
+									"Ao": 0.000000,
+									"Ro": 0.000000,
+									"Go": 0.000000,
+									"Bo": 0.000000,
+									"Am": 1.000000,
+									"Rm": 1.000000,
+									"Gm": 1.000000,
+									"Bm": 1.000000,
+									"Alpha": 0.500000,
+									"Brightness": -0.500000,
+									"Tint": 0.500000
+								},
+								"Components": [
+									{
+										"Id": "16855927302518796029",
+										"DynamicProperties": {},
+										"Owner": {
+											"@meta": {
+												"@ref": 946905568
+											}
+										},
+										"Name": "Animation",
+										"Enabled": true,
+										"Layers": [
+											{
+												"Id": "14983426785571495449",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 2168244437
+													}
+												},
+												"ChildLayers": [],
+												"Visible": true,
+												"Locked": false,
+												"ParentLayerId": "0",
+												"Expanded": true,
+												"Guide": false,
+												"pActor": {
+													"Id": "9919572813803468813",
+													"DynamicProperties": {},
+													"Owner": {
+														"@meta": {
+															"@ref": 1680516143
+														}
+													},
+													"Name": "background",
+													"Transform": {
+														"Position": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Scale": {
+															"x": 1.000000,
+															"y": 1.000000,
+															"z": 1.000000
+														},
+														"Rotation": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Shear": {
+															"x": 0.000000,
+															"y": 0.000000
+														},
+														"XZShear": 0.000000,
+														"YZShear": 0.000000,
+														"Tolerance": 0.000001,
+														"AngleTolerance": 0.001091
+													},
+													"Cxform": {
+														"Mode": 0,
+														"R": 255.000000,
+														"G": 0.000000,
+														"B": 0.000000,
+														"Ao": 0.000000,
+														"Ro": 0.000000,
+														"Go": 0.000000,
+														"Bo": 0.000000,
+														"Am": 1.000000,
+														"Rm": 1.000000,
+														"Gm": 1.000000,
+														"Bm": 1.000000,
+														"Alpha": 0.500000,
+														"Brightness": -0.500000,
+														"Tint": 0.500000
+													},
+													"Components": [
+														{
+															"Id": "17303719105559157005",
+															"DynamicProperties": {},
+															"Owner": {
+																"@meta": {
+																	"@ref": 4257983196
+																}
+															},
+															"Name": "Bitmap",
+															"Enabled": true,
+															"Bitmap": "ButtonWidgets/widget_default_button_normal.png",
+															"ResourcePersistent": true,
+															"@meta": {
+																"@id": 2910236621,
+																"@typeid": 110556596
+															}
+														}
+													],
+													"Pivot": {
+														"x": 0.000000,
+														"y": 0.000000,
+														"z": 0.000000
+													},
+													"BlendMode": 0,
+													"Scale9Enabled": false,
+													"Scale9Grid": {
+														"x1": 0.000000,
+														"y1": 0.000000,
+														"x2": 0.000000,
+														"y2": 0.000000
+													},
+													"Filters": [],
+													"Visible": true,
+													"@meta": {
+														"@id": 4257983196,
+														"@typeid": 150545074
+													}
+												},
+												"Masking": false,
+												"MaskDisabled": false,
+												"KeyFrames": [
+													{
+														"Id": "12537206713726171345",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 1680516143
+															}
+														},
+														"Transform": {
+															"Position": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Scale": {
+																"x": 1.000000,
+																"y": 1.000000,
+																"z": 1.000000
+															},
+															"Rotation": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Pivot": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Shear": {
+																"x": 0.000000,
+																"y": 0.000000
+															},
+															"XZShear": 0.000000,
+															"YZShear": 0.000000,
+															"Tolerance": 0.000001,
+															"AngleTolerance": 0.001091
+														},
+														"Cxform": {
+															"Mode": 0,
+															"R": 255.000000,
+															"G": 0.000000,
+															"B": 0.000000,
+															"Ao": 0.000000,
+															"Ro": 0.000000,
+															"Go": 0.000000,
+															"Bo": 0.000000,
+															"Am": 1.000000,
+															"Rm": 1.000000,
+															"Gm": 1.000000,
+															"Bm": 1.000000,
+															"Alpha": 0.500000,
+															"Brightness": -0.500000,
+															"Tint": 0.500000
+														},
+														"FrameStart": 0,
+														"FrameLength": 10,
+														"TweenTransition": 0,
+														"TweenEasing": 0,
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"HasTween": false,
+														"@meta": {
+															"@id": 1988845143,
+															"@typeid": 210448581
+														}
+													},
+													{
+														"Id": "9299228374369844829",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 1680516143
+															}
+														},
+														"Transform": {
+															"Position": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Scale": {
+																"x": 1.000000,
+																"y": 1.000000,
+																"z": 1.000000
+															},
+															"Rotation": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Pivot": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Shear": {
+																"x": 0.000000,
+																"y": 0.000000
+															},
+															"XZShear": 0.000000,
+															"YZShear": 0.000000,
+															"Tolerance": 0.000001,
+															"AngleTolerance": 0.001091
+														},
+														"Cxform": {
+															"Mode": 3,
+															"R": 0.000000,
+															"G": 213.000000,
+															"B": 255.000000,
+															"Ao": 0.000000,
+															"Ro": 0.000000,
+															"Go": 0.000000,
+															"Bo": 0.000000,
+															"Am": 1.000000,
+															"Rm": 1.000000,
+															"Gm": 1.000000,
+															"Bm": 1.000000,
+															"Alpha": 0.500000,
+															"Brightness": -0.500000,
+															"Tint": 0.250000
+														},
+														"FrameStart": 10,
+														"FrameLength": 10,
+														"TweenTransition": 0,
+														"TweenEasing": 0,
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"HasTween": false,
+														"@meta": {
+															"@id": 1004955475,
+															"@typeid": 210448581
+														}
+													},
+													{
+														"Id": "14098546948762140417",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 1680516143
+															}
+														},
+														"Transform": {
+															"Position": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Scale": {
+																"x": 1.000000,
+																"y": 1.000000,
+																"z": 1.000000
+															},
+															"Rotation": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Pivot": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Shear": {
+																"x": 0.000000,
+																"y": 0.000000
+															},
+															"XZShear": 0.000000,
+															"YZShear": 0.000000,
+															"Tolerance": 0.000001,
+															"AngleTolerance": 0.001091
+														},
+														"Cxform": {
+															"Mode": 3,
+															"R": 0.000000,
+															"G": 213.000000,
+															"B": 255.000000,
+															"Ao": 0.000000,
+															"Ro": 0.000000,
+															"Go": 0.000000,
+															"Bo": 0.000000,
+															"Am": 1.000000,
+															"Rm": 1.000000,
+															"Gm": 1.000000,
+															"Bm": 1.000000,
+															"Alpha": 0.500000,
+															"Brightness": -0.500000,
+															"Tint": 0.500000
+														},
+														"FrameStart": 20,
+														"FrameLength": 10,
+														"TweenTransition": 0,
+														"TweenEasing": 0,
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"HasTween": false,
+														"@meta": {
+															"@id": 21065807,
+															"@typeid": 210448581
+														}
+													},
+													{
+														"Id": "10520885184057521989",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 1680516143
+															}
+														},
+														"Transform": {
+															"Position": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Scale": {
+																"x": 1.000000,
+																"y": 1.000000,
+																"z": 1.000000
+															},
+															"Rotation": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Pivot": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Shear": {
+																"x": 0.000000,
+																"y": 0.000000
+															},
+															"XZShear": 0.000000,
+															"YZShear": 0.000000,
+															"Tolerance": 0.000001,
+															"AngleTolerance": 0.001091
+														},
+														"Cxform": {
+															"Mode": 0,
+															"R": 255.000000,
+															"G": 0.000000,
+															"B": 0.000000,
+															"Ao": 0.000000,
+															"Ro": 0.000000,
+															"Go": 0.000000,
+															"Bo": 0.000000,
+															"Am": 1.000000,
+															"Rm": 1.000000,
+															"Gm": 1.000000,
+															"Bm": 1.000000,
+															"Alpha": 0.500000,
+															"Brightness": -0.500000,
+															"Tint": 0.500000
+														},
+														"FrameStart": 30,
+														"FrameLength": 10,
+														"TweenTransition": 0,
+														"TweenEasing": 0,
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"HasTween": false,
+														"@meta": {
+															"@id": 3142824022,
+															"@typeid": 210448581
+														}
+													}
+												],
+												"@meta": {
+													"@id": 1680516143,
+													"@typeid": 199425826
+												}
+											},
+											{
+												"Id": "1440091429892598221",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 2168244437
+													}
+												},
+												"ChildLayers": [],
+												"Visible": true,
+												"Locked": false,
+												"ParentLayerId": "0",
+												"Expanded": true,
+												"Guide": false,
+												"pActor": {
+													"Id": "237700259720901265",
+													"DynamicProperties": {},
+													"Owner": {
+														"@meta": {
+															"@ref": 360801902
+														}
+													},
+													"Name": "label",
+													"Transform": {
+														"Position": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Scale": {
+															"x": 1.000000,
+															"y": 1.000000,
+															"z": 1.000000
+														},
+														"Rotation": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"Shear": {
+															"x": 0.000000,
+															"y": 0.000000
+														},
+														"XZShear": 0.000000,
+														"YZShear": 0.000000,
+														"Tolerance": 0.000001,
+														"AngleTolerance": 0.001091
+													},
+													"Cxform": {
+														"Mode": 3,
+														"R": 35.000000,
+														"G": 35.000000,
+														"B": 35.000000,
+														"Ao": 0.000000,
+														"Ro": 0.000000,
+														"Go": 0.000000,
+														"Bo": 0.000000,
+														"Am": 1.000000,
+														"Rm": 1.000000,
+														"Gm": 1.000000,
+														"Bm": 1.000000,
+														"Alpha": 0.500000,
+														"Brightness": -0.500000,
+														"Tint": 1.000000
+													},
+													"Components": [
+														{
+															"Id": "17912117205478375941",
+															"DynamicProperties": {},
+															"Owner": {
+																"@meta": {
+																	"@ref": 4239399999
+																}
+															},
+															"Name": "Text",
+															"Enabled": true,
+															"Text": "Learn More!",
+															"Font": "Normal",
+															"SystemFont": false,
+															"Html": false,
+															"FontSize": 14.000000,
+															"Width": 93.599998,
+															"Height": 28.799999,
+															"TextColor": 4281742902,
+															"BackgroundColor": 0,
+															"Editable": false,
+															"Multiline": true,
+															"WordWrap": true,
+															"Bold": false,
+															"Italic": false,
+															"Kerning": false,
+															"WordWrap": true,
+															"Multiline": true,
+															"LetterSpacing": 0.000000,
+															"Leading": 0,
+															"LeftMargin": 0.000000,
+															"RightMargin": 0.000000,
+															"Align": 3,
+															"AutoSize": false,
+															"Selectable": false,
+															"VAlign": 3,
+															"ActiveSelectionTextColor": 4294967295,
+															"ActiveSelectionBackgroundColor": 4278742484,
+															"InactiveSelectionTextColor": 4294967295,
+															"InactiveSelectionBackgroundColor": 0,
+															"@meta": {
+																"@id": 1211769615,
+																"@typeid": 3283604
+															}
+														}
+													],
+													"Pivot": {
+														"x": 0.000000,
+														"y": 0.000000,
+														"z": 0.000000
+													},
+													"BlendMode": 0,
+													"Scale9Enabled": false,
+													"Scale9Grid": {
+														"x1": 0.000000,
+														"y1": 0.000000,
+														"x2": 0.000000,
+														"y2": 0.000000
+													},
+													"Filters": [],
+													"Visible": true,
+													"@meta": {
+														"@id": 4239399999,
+														"@typeid": 150545074
+													}
+												},
+												"Masking": false,
+												"MaskDisabled": false,
+												"KeyFrames": [
+													{
+														"Id": "17674742572393250393",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 360801902
+															}
+														},
+														"Transform": {
+															"Position": {
+																"x": 5.200000,
+																"y": 3.600000,
+																"z": 0.000000
+															},
+															"Scale": {
+																"x": 1.000000,
+																"y": 1.000000,
+																"z": 1.000000
+															},
+															"Rotation": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Pivot": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Shear": {
+																"x": 0.000000,
+																"y": 0.000000
+															},
+															"XZShear": 0.000000,
+															"YZShear": 0.000000,
+															"Tolerance": 0.000001,
+															"AngleTolerance": 0.001091
+														},
+														"Cxform": {
+															"Mode": 3,
+															"R": 35.000000,
+															"G": 35.000000,
+															"B": 35.000000,
+															"Ao": 0.000000,
+															"Ro": 0.000000,
+															"Go": 0.000000,
+															"Bo": 0.000000,
+															"Am": 1.000000,
+															"Rm": 1.000000,
+															"Gm": 1.000000,
+															"Bm": 1.000000,
+															"Alpha": 0.500000,
+															"Brightness": -0.500000,
+															"Tint": 1.000000
+														},
+														"FrameStart": 0,
+														"FrameLength": 10,
+														"TweenTransition": 0,
+														"TweenEasing": 0,
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"HasTween": false,
+														"@meta": {
+															"@id": 1175044686,
+															"@typeid": 210448581
+														}
+													},
+													{
+														"Id": "2705774743739227409",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 360801902
+															}
+														},
+														"Transform": {
+															"Position": {
+																"x": 5.200000,
+																"y": 3.600000,
+																"z": 0.000000
+															},
+															"Scale": {
+																"x": 1.000000,
+																"y": 1.000000,
+																"z": 1.000000
+															},
+															"Rotation": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Pivot": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Shear": {
+																"x": 0.000000,
+																"y": 0.000000
+															},
+															"XZShear": 0.000000,
+															"YZShear": 0.000000,
+															"Tolerance": 0.000001,
+															"AngleTolerance": 0.001091
+														},
+														"Cxform": {
+															"Mode": 3,
+															"R": 128.000000,
+															"G": 128.000000,
+															"B": 128.000000,
+															"Ao": 0.000000,
+															"Ro": 0.000000,
+															"Go": 0.000000,
+															"Bo": 0.000000,
+															"Am": 1.000000,
+															"Rm": 1.000000,
+															"Gm": 1.000000,
+															"Bm": 1.000000,
+															"Alpha": 0.500000,
+															"Brightness": -0.500000,
+															"Tint": 1.000000
+														},
+														"FrameStart": 10,
+														"FrameLength": 10,
+														"TweenTransition": 0,
+														"TweenEasing": 0,
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"HasTween": false,
+														"@meta": {
+															"@id": 3710135256,
+															"@typeid": 210448581
+														}
+													},
+													{
+														"Id": "902090196025173473",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 360801902
+															}
+														},
+														"Transform": {
+															"Position": {
+																"x": 5.200000,
+																"y": 3.600000,
+																"z": 0.000000
+															},
+															"Scale": {
+																"x": 1.000000,
+																"y": 1.000000,
+																"z": 1.000000
+															},
+															"Rotation": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Pivot": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Shear": {
+																"x": 0.000000,
+																"y": 0.000000
+															},
+															"XZShear": 0.000000,
+															"YZShear": 0.000000,
+															"Tolerance": 0.000001,
+															"AngleTolerance": 0.001091
+														},
+														"Cxform": {
+															"Mode": 3,
+															"R": 255.000000,
+															"G": 255.000000,
+															"B": 255.000000,
+															"Ao": 0.000000,
+															"Ro": 0.000000,
+															"Go": 0.000000,
+															"Bo": 0.000000,
+															"Am": 1.000000,
+															"Rm": 1.000000,
+															"Gm": 1.000000,
+															"Bm": 1.000000,
+															"Alpha": 0.500000,
+															"Brightness": -0.500000,
+															"Tint": 1.000000
+														},
+														"FrameStart": 20,
+														"FrameLength": 10,
+														"TweenTransition": 0,
+														"TweenEasing": 0,
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"HasTween": false,
+														"@meta": {
+															"@id": 2726245588,
+															"@typeid": 210448581
+														}
+													},
+													{
+														"Id": "3285256074779374349",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 360801902
+															}
+														},
+														"Transform": {
+															"Position": {
+																"x": 5.200000,
+																"y": 3.600000,
+																"z": 0.000000
+															},
+															"Scale": {
+																"x": 1.000000,
+																"y": 1.000000,
+																"z": 1.000000
+															},
+															"Rotation": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Pivot": {
+																"x": 0.000000,
+																"y": 0.000000,
+																"z": 0.000000
+															},
+															"Shear": {
+																"x": 0.000000,
+																"y": 0.000000
+															},
+															"XZShear": 0.000000,
+															"YZShear": 0.000000,
+															"Tolerance": 0.000001,
+															"AngleTolerance": 0.001091
+														},
+														"Cxform": {
+															"Mode": 3,
+															"R": 128.000000,
+															"G": 128.000000,
+															"B": 128.000000,
+															"Ao": 0.000000,
+															"Ro": 0.000000,
+															"Go": 0.000000,
+															"Bo": 0.000000,
+															"Am": 1.000000,
+															"Rm": 1.000000,
+															"Gm": 1.000000,
+															"Bm": 1.000000,
+															"Alpha": 0.500000,
+															"Brightness": -0.500000,
+															"Tint": 1.000000
+														},
+														"FrameStart": 30,
+														"FrameLength": 10,
+														"TweenTransition": 0,
+														"TweenEasing": 0,
+														"Pivot": {
+															"x": 0.000000,
+															"y": 0.000000,
+															"z": 0.000000
+														},
+														"HasTween": false,
+														"@meta": {
+															"@id": 1742355920,
+															"@typeid": 210448581
+														}
+													}
+												],
+												"@meta": {
+													"@id": 360801902,
+													"@typeid": 199425826
+												}
+											}
+										],
+										"ActionData": [
+											{
+												"Id": "10101431267726552953",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 2168244437
+													}
+												},
+												"Frame": 0,
+												"Label": "normal",
+												"Trigger": "",
+												"PlayheadCmds": [],
+												"@meta": {
+													"@id": 3670920087,
+													"@typeid": 184889937
+												}
+											},
+											{
+												"Id": "5639165868320799609",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 2168244437
+													}
+												},
+												"Frame": 9,
+												"Label": "",
+												"Trigger": "",
+												"PlayheadCmds": [
+													{
+														"Id": "7013479962276106897",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 4282748246
+															}
+														},
+														"PlayheadAction": 2,
+														"TargetFrameLabel": "",
+														"TargetFrameIndex": -1082130432,
+														"TargetFramePath": "",
+														"@meta": {
+															"@id": 2982353302,
+															"@typeid": 81700260
+														}
+													}
+												],
+												"@meta": {
+													"@id": 4282748246,
+													"@typeid": 184889937
+												}
+											},
+											{
+												"Id": "8206438555255681197",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 2168244437
+													}
+												},
+												"Frame": 10,
+												"Label": "over",
+												"Trigger": "",
+												"PlayheadCmds": [],
+												"@meta": {
+													"@id": 2963034005,
+													"@typeid": 184889937
+												}
+											},
+											{
+												"Id": "11980147846929145037",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 2168244437
+													}
+												},
+												"Frame": 19,
+												"Label": "",
+												"Trigger": "",
+												"PlayheadCmds": [
+													{
+														"Id": "5771954245871254497",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 1031491605
+															}
+														},
+														"PlayheadAction": 2,
+														"TargetFrameLabel": "",
+														"TargetFrameIndex": -1082130432,
+														"TargetFramePath": "",
+														"@meta": {
+															"@id": 2274467220,
+															"@typeid": 81700260
+														}
+													}
+												],
+												"@meta": {
+													"@id": 1031491605,
+													"@typeid": 184889937
+												}
+											},
+											{
+												"Id": "4665043059127809113",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 2168244437
+													}
+												},
+												"Frame": 20,
+												"Label": "press",
+												"Trigger": "",
+												"PlayheadCmds": [],
+												"@meta": {
+													"@id": 4006744660,
+													"@typeid": 184889937
+												}
+											},
+											{
+												"Id": "7484040933832350673",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 2168244437
+													}
+												},
+												"Frame": 29,
+												"Label": "",
+												"Trigger": "",
+												"PlayheadCmds": [
+													{
+														"Id": "595303290769382657",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 323605523
+															}
+														},
+														"PlayheadAction": 2,
+														"TargetFrameLabel": "",
+														"TargetFrameIndex": 64,
+														"TargetFramePath": "",
+														"@meta": {
+															"@id": 3318177875,
+															"@typeid": 81700260
+														}
+													}
+												],
+												"@meta": {
+													"@id": 323605523,
+													"@typeid": 184889937
+												}
+											},
+											{
+												"Id": "10692311925268279209",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 2168244437
+													}
+												},
+												"Frame": 30,
+												"Label": "disabled",
+												"Trigger": "",
+												"PlayheadCmds": [],
+												"@meta": {
+													"@id": 3298858578,
+													"@typeid": 184889937
+												}
+											},
+											{
+												"Id": "7337125549329498129",
+												"DynamicProperties": {},
+												"Owner": {
+													"@meta": {
+														"@ref": 2168244437
+													}
+												},
+												"Frame": 39,
+												"Label": "",
+												"Trigger": "",
+												"PlayheadCmds": [
+													{
+														"Id": "3769662327457915961",
+														"DynamicProperties": {},
+														"Owner": {
+															"@meta": {
+																"@ref": 1367316178
+															}
+														},
+														"PlayheadAction": 2,
+														"TargetFrameLabel": "",
+														"TargetFrameIndex": 0,
+														"TargetFramePath": "",
+														"@meta": {
+															"@id": 2610291793,
+															"@typeid": 81700260
+														}
+													}
+												],
+												"@meta": {
+													"@id": 1367316178,
+													"@typeid": 184889937
+												}
+											}
+										],
+										"CurrentFrame": 0,
+										"@meta": {
+											"@id": 2168244437,
+											"@typeid": 18887732
+										}
+									},
+									{
+										"Id": "2289618767708635721",
+										"DynamicProperties": {},
+										"Owner": {
+											"@meta": {
+												"@ref": 946905568
+											}
+										},
+										"Name": "WidgetBase",
+										"Enabled": true,
+										"Script": "ButtonWidgets/button_widget.lua",
+										"@meta": {
+											"@id": 1686002674,
+											"@typeid": 13313492
+										}
+									},
+									{
+										"Id": "15780098382582733041",
+										"DynamicProperties": {},
+										"Owner": {
+											"@meta": {
+												"@ref": 946905568
+											}
+										},
+										"Name": "WidgetHandler",
+										"Enabled": true,
+										"Script": "ButtonWidgets/Button_handler.lua",
+										"@meta": {
+											"@id": 2297830833,
+											"@typeid": 13313492
+										}
+									}
+								],
+								"Pivot": {
+									"x": 0.000000,
+									"y": 0.000000,
+									"z": 0.000000
+								},
+								"BlendMode": 0,
+								"Scale9Enabled": true,
+								"Scale9Grid": {
+									"x1": 12.000000,
+									"y1": 10.000000,
+									"x2": 92.000000,
+									"y2": 25.000000
+								},
+								"Filters": [],
+								"Visible": true,
+								"@meta": {
+									"@id": 946905568,
+									"@typeid": 150545074
+								}
+							},
+							"Masking": false,
+							"MaskDisabled": false,
+							"KeyFrames": [
+								{
+									"Id": "1979010917427618365",
+									"DynamicProperties": {},
+									"Owner": {
+										"@meta": {
+											"@ref": 24977329
+										}
+									},
+									"Transform": {
+										"Position": {
+											"x": 1071.000000,
+											"y": 644.000000,
+											"z": 0.000000
+										},
+										"Scale": {
+											"x": 2.000000,
+											"y": 2.000000,
+											"z": 1.000000
+										},
+										"Rotation": {
+											"x": 0.000000,
+											"y": 0.000000,
+											"z": 0.000000
+										},
+										"Pivot": {
+											"x": 0.000000,
+											"y": 0.000000,
+											"z": 0.000000
+										},
+										"Shear": {
+											"x": 0.000000,
+											"y": 0.000000
+										},
+										"XZShear": 0.000000,
+										"YZShear": 0.000000,
+										"Tolerance": 0.000001,
+										"AngleTolerance": 0.001091
+									},
+									"Cxform": {
+										"Mode": 0,
+										"R": 255.000000,
+										"G": 0.000000,
+										"B": 0.000000,
+										"Ao": 0.000000,
+										"Ro": 0.000000,
+										"Go": 0.000000,
+										"Bo": 0.000000,
+										"Am": 1.000000,
+										"Rm": 1.000000,
+										"Gm": 1.000000,
+										"Bm": 1.000000,
+										"Alpha": 0.500000,
+										"Brightness": -0.500000,
+										"Tint": 0.500000
+									},
+									"FrameStart": 0,
+									"FrameLength": 1,
+									"TweenTransition": 0,
+									"TweenEasing": 0,
+									"Pivot": {
+										"x": 0.000000,
+										"y": 0.000000,
+										"z": 0.000000
+									},
+									"HasTween": false,
+									"@meta": {
+										"@id": 2707662391,
+										"@typeid": 210448581
+									}
+								}
+							],
+							"@meta": {
+								"@id": 24977329,
+								"@typeid": 199425826
+							}
+						}
+					],
+					"ActionData": [],
+					"CurrentFrame": 0,
+					"@meta": {
+						"@id": 928390354,
+						"@typeid": 18887732
+					}
+				}
+			],
+			"Pivot": {
+				"x": 0.000000,
+				"y": 0.000000,
+				"z": 0.000000
+			},
+			"BlendMode": 0,
+			"Scale9Enabled": false,
+			"Scale9Grid": {
+				"x1": 0.000000,
+				"y1": 0.000000,
+				"x2": 0.000000,
+				"y2": 0.000000
+			},
+			"Filters": [],
+			"Visible": true,
+			"@meta": {
+				"@id": 2986227066,
+				"@typeid": 149361045
+			}
+		}
+	],
+	"@meta": {
+		"@archive": "Serialization::Archive",
+		"@version": 1,
+		"@meta": {
+			"Scaleform::VGx::Data::Object": {
+				"@typename": "Scaleform::VGx::Data::Object",
+				"@typeid": 11646516,
+				"@version": 4
+			},
+			"Scaleform::VGx::Data::Actor": {
+				"@typename": "Scaleform::VGx::Data::Actor",
+				"@typeid": 150545074,
+				"@version": 8
+			},
+			"Scaleform::VGx::Data::Scene": {
+				"@typename": "Scaleform::VGx::Data::Scene",
+				"@typeid": 149361045,
+				"@version": 1
+			},
+			"Scaleform::VGx::Data::DisplayTransform": {
+				"@typename": "Scaleform::VGx::Data::DisplayTransform",
+				"@typeid": 218006813,
+				"@version": 3
+			},
+			"Scaleform::Render::Point3<double>": {
+				"@typename": "Scaleform::Render::Point3<double>",
+				"@typeid": 247406526,
+				"@version": 1
+			},
+			"Scaleform::Render::Point<double>": {
+				"@typename": "Scaleform::Render::Point<double>",
+				"@typeid": 202824462,
+				"@version": 1
+			},
+			"Scaleform::VGx::Data::DisplayColorTransform": {
+				"@typename": "Scaleform::VGx::Data::DisplayColorTransform",
+				"@typeid": 61199661,
+				"@version": 3
+			},
+			"Scaleform::VGx::Data::Component": {
+				"@typename": "Scaleform::VGx::Data::Component",
+				"@typeid": 265204916,
+				"@version": 2
+			},
+			"Scaleform::VGx::Data::ContainerComponent": {
+				"@typename": "Scaleform::VGx::Data::ContainerComponent",
+				"@typeid": 95995364,
+				"@version": 4
+			},
+			"Scaleform::VGx::Data::AnimationComponent": {
+				"@typename": "Scaleform::VGx::Data::AnimationComponent",
+				"@typeid": 18887732,
+				"@version": 3
+			},
+			"Scaleform::VGx::Data::DisplayLayer": {
+				"@typename": "Scaleform::VGx::Data::DisplayLayer",
+				"@typeid": 127570786,
+				"@version": 3
+			},
+			"Scaleform::VGx::Data::ActorLayer": {
+				"@typename": "Scaleform::VGx::Data::ActorLayer",
+				"@typeid": 201137634,
+				"@version": 3
+			},
+			"Scaleform::VGx::Data::AnimatedObjectLayer": {
+				"@typename": "Scaleform::VGx::Data::AnimatedObjectLayer",
+				"@typeid": 199425826,
+				"@version": 5
+			},
+			"Scaleform::VGx::Data::ShapeComponent": {
+				"@typename": "Scaleform::VGx::Data::ShapeComponent",
+				"@typeid": 40850532,
+				"@version": 3
+			},
+			"Scaleform::Render::Rect<float>": {
+				"@typename": "Scaleform::Render::Rect<float>",
+				"@typeid": 226345230,
+				"@version": 1
+			},
+			"Scaleform::VGx::Data::AnimationKeyFrame": {
+				"@typename": "Scaleform::VGx::Data::AnimationKeyFrame",
+				"@typeid": 210448581,
+				"@version": 4
+			},
+			"Scaleform::VGx::Data::AnimationActionData": {
+				"@typename": "Scaleform::VGx::Data::AnimationActionData",
+				"@typeid": 184889937,
+				"@version": 3
+			},
+			"Scaleform::VGx::Data::AnimationPlayheadCmd": {
+				"@typename": "Scaleform::VGx::Data::AnimationPlayheadCmd",
+				"@typeid": 81700260,
+				"@version": 1
+			},
+			"Scaleform::VGx::Data::ScriptComponent": {
+				"@typename": "Scaleform::VGx::Data::ScriptComponent",
+				"@typeid": 13313492,
+				"@version": 2
+			},
+			"Scaleform::Serialization::Reflection::Value": {
+				"@typename": "Scaleform::Serialization::Reflection::Value",
+				"@typeid": 142824917,
+				"@version": 1
+			},
+			"Scaleform::VGx::Data::TextComponent": {
+				"@typename": "Scaleform::VGx::Data::TextComponent",
+				"@typeid": 3283604,
+				"@version": 8
+			},
+			"Scaleform::VGx::Data::BitmapComponent": {
+				"@typename": "Scaleform::VGx::Data::BitmapComponent",
+				"@typeid": 110556596,
+				"@version": 3
+			}
+		}
+	}
+}

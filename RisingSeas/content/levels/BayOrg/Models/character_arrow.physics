@@ -1,0 +1,18 @@
+
+actors = [
+	{
+		enabled = true
+		mass = 0
+		name = "Hitbox"
+		node = "StingrayEntityRoot"
+		shapes = [
+			{
+				material = "default"
+				shape = "Hitbox"
+				template = "default"
+				type = "mesh"
+			}
+		]
+		template = "static"
+	}
+]

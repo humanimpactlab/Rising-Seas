@@ -1,0 +1,35 @@
+
+parent_material = "core/stingray_renderer/shader_import/standard"
+textures = {
+	color_map = "content/levels/BayOrg/buildings/materials/textures/wooden_planks_new_texture_03_by_goodtextures"
+}
+variables = {
+	base_color = {
+		type = "vector3"
+		value = [
+			0.588
+			0.588
+			0.588
+		]
+	}
+	emissive = {
+		type = "vector3"
+		value = [
+			0
+			0
+			0
+		]
+	}
+	emissive_intensity = {
+		type = "scalar"
+		value = 0
+	}
+	roughness = {
+		type = "scalar"
+		value = 0.6599988
+	}
+	use_color_map = {
+		type = "scalar"
+		value = 1
+	}
+}

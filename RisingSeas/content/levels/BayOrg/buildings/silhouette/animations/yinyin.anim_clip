@@ -1,0 +1,48 @@
+
+_data_root_version = 3
+_id = "4b66320a-7c76-41ee-b7eb-5b10ffacc598"
+_name = "content/levels/BayOrg/buildings/silhouette/animations/yinyin"
+additive_offset_computation_mode = "First Frame"
+anim_skeleton_ref = {
+	_id = "d41bbb86-22f2-48eb-ae99-459cea07656c"
+	ref_filename = "content/levels/BayOrg/buildings/silhouette/live_model.anim_skeleton"
+	ref_id = null
+}
+autostep = {
+	_id = "8c41646f-65a2-4b20-823d-a822e1332ec1"
+	autostep = false
+	rotation = 0.174532925199433
+	translation = 1
+}
+base_offset_preview_animation_clip_ref = {
+	_id = "afc2cfa1-332a-498a-b229-40d889162ccd"
+	ref_filename = null
+	ref_id = null
+}
+beats = [
+]
+custom_compression_settings = [
+]
+dcc_asset_ref = {
+	_id = "29dab48c-56bd-4306-b990-aad24d5d9076"
+	ref_filename = "content/levels/BayOrg/buildings/silhouette/yinyin.dcc_asset"
+	ref_id = null
+}
+flow_events = [
+]
+global_compression_settings = {
+	_id = "4b03a15a-e9f1-43f6-9a0b-e6d26ce8b47f"
+	do_pack_positions = true
+	do_pack_rotations = true
+	do_pack_scales = true
+	position_tolerance = 0.001
+	rotation_tolerance = 0.001
+	scale_tolerance = 0.001
+}
+offset_animation = false
+offset_pose_animation_clip_ref = {
+	_id = "b5d670cd-6127-474e-8a86-dac10b70e955"
+	ref_filename = null
+	ref_id = null
+}
+take_name = "Take 001"
